@@ -1,0 +1,100 @@
+<meta name="title" content="{{ hero.hosts[currentRouteParams][0]?.title }}" />
+<meta name="description" content="{{ hero.hosts[currentRouteParams][0]?.description }}" />
+<main>
+    <div class="banner-div" [ngStyle]="{
+          background: currentSelectedBanner[0]?.img
+            ? 'linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url(' +
+              currentSelectedBanner[0]?.img +
+              ')'
+            : 'linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url(' +
+              hero.hosts[currentRouteParams][0].bgImage +
+              ')'
+        }">
+        <div>
+            <h1>
+                {{
+                currentSelectedBanner[0]?.title ||
+                hero.hosts[currentRouteParams][0]?.name
+                }}
+            </h1>
+        </div>
+    </div>
+    <div class="about-us" *ngFor="let services of hero.hosts[currentRouteParams]; let i = index">
+        <h1>{{ services.name }}</h1>
+        <div class="main-div" [ngStyle]="{ 'flex-direction': i % 2 !== 0 ? 'row-reverse' : 'row' }">
+            <div class="left">
+                <ng-image-slider [images]="services.slider" [infinite]="true" [autoSlide]="1" [imagePopup]="false"
+                    [imageSize]="{ width: '100%', height: '100%' }" slideImage="" #nav [animationSpeed]="50">
+                </ng-image-slider>
+            </div>
+            <div class="right">
+                <span>
+                    <h2 class="price">
+                        Price: {{ services.price }}, Duration: {{ services.duration }}
+                    </h2>
+                </span>
+                <h2 class="price">Service Description:</h2>
+                <p *ngFor="let item of services.para.slice(0, 2)">{{ item }}</p>
+                <a href="{{ social.hrefPhone }}"><button>Schedule an Appoinment</button></a>
+            </div>
+        </div>
+
+        <div class="benefits">
+            <h2>Benefits:</h2>
+            <ul>
+                <li *ngFor="let benefit of services.benefits">
+                    <b>&#10003; {{ benefit.title }}</b><span *ngIf="benefit.showDesc">: {{ benefit.desc }}</span>
+                </li>
+            </ul>
+        </div>
+
+        <p class="para" *ngFor="let item of services.para.slice(2)">
+            {{ item }}
+        </p>
+
+        <div class="benefits" *ngIf="services.postCareContent1">
+            <h3>{{ services.postCareHeading1 }}</h3>
+            <p class="para" *ngFor="let item of services.postCareContent1">
+                {{ item }}
+            </p>
+        </div>
+
+        <div class="benefits" *ngIf="services.postCareContent2">
+            <h3>{{ services.postCareHeading2 }}</h3>
+            <p class="para" *ngFor="let item of services.postCareContent2">
+                {{ item }}
+            </p>
+        </div>
+
+        <a href="{{ services.callLink }}"><button>{{ services.callButton }}</button></a>
+        <div class="faq-section">
+            <h3>Frequently Asked Questions</h3>
+
+            <div class="faq" *ngFor="let faq of services.faq; let i = index">
+                <div class="faq-question" (click)="toggleContent2(currentRouteParams, i)">
+                    {{ faq.question }}
+                    <span class="material-symbols-outlined arrow-icon" [class.rotate]="faq.open">
+                        expand_more
+                    </span>
+                </div>
+                <div class="faq-answer" [class.collapse]="!faq.open" [class.expand]="faq.open">
+                    {{ faq.answer }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services">
+        <div class="content">
+            <h2>Our Services</h2>
+        </div>
+        <div class="press">
+            <div *ngFor="let i of artIBrowService">
+                <div class="text">
+                    <h4>{{ i.title }}</h4>
+                    <a [routerLink]="i.link" (click)="scrollToTop()"><button>Learn More</button></a>
+                </div>
+                <img src="{{ i.img }}" alt="{{ i.title }}" />
+            </div>
+        </div>
+    </div>
+</main>

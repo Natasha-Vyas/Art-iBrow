@@ -1,0 +1,74 @@
+<div class="seal">
+    <script type="text/javascript"
+        src="https://www.rapidscansecure.com/siteseal/siteseal.js?code=64,BA813700E0ED8297781076AC01F939D228A524E4"></script>
+</div>
+<div class="contact-top">
+    <a [href]="social.hrefPhone">Moreno Valley<span> : {{ contact }}</span></a>
+    <a [href]="social.hrefPhone2">
+        Riverside<span> : {{ social.contact }}</span></a>
+</div>
+<div class="heading" [style]="css.navbarBg">
+    <div class="wrapper">
+        <div class="logo">
+            <img routerLink="/" [src]="logo" [style]="css.logoSize" />
+        </div>
+    </div>
+
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <!-- Mobile toggle button - only visible on mobile -->
+        <div class="navbar-header mobile-only">
+            <button *ngIf="close" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" (click)="change(!close)">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="toggleMenu-btn icon-bar"></span>
+                <span class="toggleMenu-btn icon-bar"></span>
+                <span class="toggleMenu-btn icon-bar"></span>
+            </button>
+
+            <button *ngIf="!close" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" (click)="change(!close)">
+                <span class="sr-only">Toggle navigation</span>
+                <span [style]="css.icon" class="material-symbols-outlined">
+                    close
+                </span>
+            </button>
+        </div>
+
+        <!-- Navigation menu -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" [class.in]="!close">
+            <ul class="nav navbar-nav">
+                <li *ngFor="let link of links">
+                    <a *ngIf="link.type === 'internal'" queryParamsHandling="merge" routerLinkActive="active"
+                        class="nav-link" [routerLink]="link.link">{{ link.text }}</a>
+
+                    <a *ngIf="link.type === 'external' && link.options.length" class="nav-link dropdown-toggle"
+                        id="navbarDropdown" role="button" aria-haspopup="true">
+                        {{ link.text }}
+                        <span class="material-symbols-outlined expand-icon">expand_more</span>
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-values" *ngFor="let option of link.options">
+                            <a (click)="toggleSubCategories(option)" class="dropdown-item">{{ option.name }}
+                                <span class="material-symbols-outlined"> expand_more </span>
+                            </a>
+                            <ul *ngIf="
+                      option.options &&
+                      selectedNavCategory &&
+                      option.name === selectedNavCategory?.name
+                    " class="sub-categories">
+                                <li *ngFor="let op of selectedNavCategory.options">
+                                    <a [routerLink]="op.link" (click)="closeDropdown()">{{
+                                        op.name
+                                        }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div *ngIf="isDropdownOpen" class="dropdown-overlay" (click)="closeDropdown()"></div>
+        </div>
+    </nav>
+</div>

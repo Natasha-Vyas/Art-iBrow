@@ -1,0 +1,114 @@
+<main>
+    <div class="label">
+        <div>
+            <h3>Contact Us</h3>
+        </div>
+    </div>
+
+    <div class="location">
+        <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <p>
+                We pay attention to every little detail to make your visit
+                comfortable, so please get in touch to book the services that feel
+                right for you.
+            </p>
+            <div>
+                <div class="social-divs">
+                    <h2>Contact Us:</h2>
+                    <div class="locations-div">
+                        <div>
+                            <a target="_blank" [href]="social.map">
+                                <img src="../../assets/pics/social/map-filled-black.png" />
+                                <p>{{ address }}</p>
+                            </a>
+                            <a [href]="social.hrefPhone"><img src="../../assets/pics/social/phone-filled-black.png" />
+                                <p>{{ contact }}</p>
+                            </a>
+                            <a [href]="social.hrefEmail"><img src="../../assets/pics/social/email-filled-black.png" />
+                                <p>{{ email }}</p>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a target="_blank" href="https://maps.app.goo.gl/z1FsczEuqhHWdvkH9">
+                                <img src="../../assets/pics/social/map-filled-black.png" />
+                                <p>
+                                    1201 University Avenue, Suite 104A, Riverside CA 92507
+                                </p>
+                            </a>
+                            <a [href]="social.hrefPhone"><img src="../../assets/pics/social/phone-filled-black.png" />
+                                <p>{{ social.contact2 }}</p>
+                            </a>
+                            <a [href]="social.hrefEmail"><img src="../../assets/pics/social/email-filled-black.png" />
+                                <p>{{ email }}</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-div">
+            <div class="form">
+                <h2>Send Us A Message</h2>
+                <form [formGroup]="ibrowDetails" *ngIf="!success">
+                    <input type="text" name="fullName" placeholder="Full Name" formControlName="fullName" required />
+                    <input type="email" name="email" placeholder="Email" formControlName="email" required />
+                    <input type="tel" name="phone" placeholder="Phone Number" formControlName="phone" required
+                        (keypress)="validateNumberInput($event)" />
+
+                    <select name="service" formControlName="service" placeholder="Select Service">
+                        <option value="Select Service" disabled>Select Service</option>
+                        <option *ngFor="let opt of hero.options" value="{{ opt }}">
+                            {{ opt }}
+                        </option>
+                    </select>
+                    <input type="text" name="OtherService" placeholder="Other Service(Optional)"
+                        formControlName="otherService" />
+                    <textarea col="30" row="10" type="text" name="message" placeholder="Message"
+                        formControlName="message"></textarea>
+                    <div>
+                        <button type="submit" [disabled]="ibrowDetails.invalid" (click)="ibrowDetailsSubmitForm()">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+                <div class="success" *ngIf="success">
+                    <span class="material-icons-outlined"> check_circle </span>
+                    <a href="/"><button>Home</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="joinTeam">
+        <h2>Join Our Team</h2>
+        <p>
+            Passionate about beauty and delivering exceptional service? Join our
+            team at Art iBrow Threading Salon! We’re looking for talented
+            professionals to grow with us in a supportive and dynamic environment.
+            Apply now and take your beauty career to the next level!
+        </p>
+        <button routerLink="/form">Join Our Team</button>
+    </div>
+
+    <div class="map-section">
+        <div>
+            <h2>Moreno Valley</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.1966296678565!2d-117.26649062448863!3d33.93607047320098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dca601c5614c11%3A0x822b27597f0c5619!2s12625%20Frederick%20St%20F13%2C%20Moreno%20Valley%2C%20CA%2092553%2C%20USA!5e0!3m2!1sen!2sin!4v1708343112341!5m2!1sen!2sin"
+                width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div>
+            <h2>Riverside</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.612486391244!2d-117.3378498!3d33.9767984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcae3f62609bed%3A0x6de9c929960d4879!2s988a%2C%201201%20University%20Ave%20%23104a%2C%20Riverside%2C%20CA%2092507%2C%20USA!5e0!3m2!1sen!2sin!4v1713186558586!5m2!1sen!2sin"
+                width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+</main>

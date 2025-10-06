@@ -1,0 +1,303 @@
+main {
+    overflow: hidden;
+    font-family: "Dancing Script", cursive;
+    padding-top: 205px;
+
+    .label {
+        background: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url('https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/753444dc-11b0-4f95-95cf-6f1b670c76ab_Dermaplanning.jpg');
+        align-items: flex-start;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        padding: 16vh 0 28vh;
+
+        div {
+            display: grid;
+            justify-content: center;
+            width: 100%;
+            margin: 0px 40px;
+
+            h1 {
+                color: #fff;
+                font-family: Oswald, "Oswald Fallback";
+                text-transform: uppercase;
+                font-size: 46px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .mainMenu {
+        padding-top: 0px;
+        display: flex;
+        width: 100%;
+
+        .title {
+            font-size: 40px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .options-tab {
+            flex-wrap: wrap;
+            width: 30%;
+            border: 1px solid rgba(9, 12, 15, 0.1);
+            padding: 30px 60px;
+            background-color: #f8f8f8;
+
+            .highlighted {
+                background-color: #91271a !important;
+                color: white !important;
+            }
+
+            h2 {
+                font-size: 24px;
+                font-weight: 600;
+                text-transform: capitalize;
+                text-align: center;
+                color: #c0302c;
+            }
+
+            .category-section {
+                align-items: center;
+                display: flex;
+                margin-top: 20px;
+                grid-gap: 10px;
+                gap: 10px;
+                justify-content: center;
+
+                button {
+                    border: none;
+                    background-color: transparent;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                button {
+                    padding: 8px;
+                    background-color: transparent;
+                    width: 100%;
+                    border: 1px solid #000;
+                    border-radius: 5px;
+                    color: #000;
+                    margin: 5px;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    h4 {
+                        font-family: "Dancing Script", cursive;
+                        font-size: 18px;
+                        font-weight: 600;
+                        text-transform: capitalize;
+                        cursor: pointer;
+                        text-align: center;
+                        margin: 10px;
+                    }
+                }
+
+                button:hover {
+                    background-color: #fff;
+                    color: #5a452b;
+                }
+            }
+
+            .dropdown-container {
+                display: none;
+            }
+        }
+
+        .exp {
+            background-size: cover;
+            background-position: center;
+            width: 70%;
+
+            .category-tab {
+                div {
+                    h2 {
+                        color: #000;
+                        font-size: 60px;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .main-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-left: 50px;
+                margin-right: 50px;
+                gap: 20px;
+
+                .inner-container {
+                    width: 31%;
+                    background-color: #ffffff8a;
+
+                    .Main1 {
+                        .content-container {
+                            margin: 0;
+                            padding: 2%;
+
+                            .heading3 {
+                                color: rgb(76, 31, 0);
+                                justify-items: center;
+
+                                div {
+                                    text-align: center;
+
+                                    img {
+                                        width: 250px;
+                                        height: 250px;
+                                        object-fit: cover;
+                                        border: 1px solid #00000030;
+                                        cursor: pointer;
+                                    }
+
+                                    h3 {
+                                        font-size: 20px;
+                                        text-align: center;
+                                        text-transform: capitalize;
+                                        font-weight: 800;
+                                        margin: 10px 0px;
+                                    }
+
+                                    p {
+                                        font-weight: 500;
+                                        text-align: center;
+                                        margin-top: 18px;
+                                        font-size: 15px;
+                                        color: #696969;
+                                    }
+
+                                    span {
+                                        text-align: center;
+                                        text-transform: capitalize;
+                                        margin-top: 10px;
+                                        font-size: 16px;
+                                        font-weight: 400;
+                                        line-height: 0px;
+                                        color: #000;
+                                    }
+
+                                    video {
+                                        width: 100%;
+                                        height: 250px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Mobile
+@media only screen and (max-device-width: 480px) {
+    main {
+        padding-top: 170px;
+
+        .label {
+            padding: 60px;
+
+            div {
+                margin: 0px;
+
+                h1 {
+                    font-size: 26px;
+                }
+            }
+        }
+
+        .mainMenu {
+            display: grid;
+            width: 100%;
+
+            .options-tab {
+                width: 100%;
+                padding: 20px;
+
+                .category-section {
+                    display: none;
+                }
+
+                .dropdown-container {
+                    margin: 10px;
+                    display: flex;
+                    justify-content: center;
+
+                    .category-dropdown {
+                        padding: 10px 20px;
+                        font-size: 22px;
+                        font-weight: 500;
+                        text-transform: capitalize;
+                        font-family: monospace;
+                        border: none;
+                        outline: none;
+                        appearance: none;
+                        cursor: pointer;
+                        width: 100%;
+                        position: relative;
+                        background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23fff' d='M12 6l-4 4-4-4z'/%3E%3C/svg%3E");
+                        background-repeat: no-repeat;
+                        background-position: right 10px center;
+                        background-size: 22px;
+                        background-color: #91271a !important;
+                        color: #fff !important;
+
+                        option {
+                            cursor: pointer;
+                        }
+                    }
+
+                    select.category-dropdown:focus {
+                        border-color: #000;
+                        width: 100%;
+                    }
+                }
+            }
+
+            .exp {
+                width: 100%;
+
+                .category-tab {
+                    div {
+                        h2 {
+                            font-size: 50px;
+                        }
+                    }
+                }
+
+                .main-container {
+                    margin: 0px;
+                    display: grid;
+                    justify-content: center;
+
+                    .inner-container {
+                        width: 100%;
+                        padding: 10px;
+
+                        .Main1 {
+                            .content-container {
+                                .heading3 {
+                                    div {
+                                        img {
+                                            width: 100%;
+                                            height: auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

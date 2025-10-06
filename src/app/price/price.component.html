@@ -1,0 +1,70 @@
+<main>
+    <div class="main-section">
+        <div class="inner-div">
+            <div class="options-tab">
+                <h2 class="title-category">Categories</h2>
+                <div class="category-section" *ngFor="let item of categories; let i = index"
+                    [routerLink]="['/price/' + host]" fragment="{{ item.routeName }}">
+                    <button class="abc" [ngClass]="{ highlighted: selectedCategory == i }" (click)="getDiv(i, item)">
+                        <h2 [style]="css.menuBtn">{{ item.categoryName }}</h2>
+                    </button>
+                </div>
+
+                <div class="dropdown-container">
+                    <select class="category-dropdown" [(ngModel)]="selectedCategory"
+                        (change)="onCategoryChange(selectedCategory)">
+                        <option *ngFor="let item of categories; let i = index" [value]="i" (click)="getDiv(i, item)">
+                            {{ item.categoryName }}
+                        </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="searchbar">
+            <input type="text" placeholder="Search.." name="search" [(ngModel)]="searchText" (keydown)="erase()"
+                (keyup.enter)="searchItems()" />
+            <button type="submit" (click)="searchItems()">
+                <i class="material-icons">search</i>
+            </button>
+        </div>
+
+        <div class="items" *ngIf="product && !showDiv" id="{{ product.routeName }}">
+            <div class="category-title">
+                <h1>{{ product.categoryName }}</h1>
+            </div>
+            <div class="inner-container">
+                <div class="item" *ngFor="let item of product.items">
+                    <div routerLink="{{ item.link }}">
+                        <img [src]="
+                    findMenuItem(item.itemName) ? menuItemImage : item.icon
+                  " />
+                    </div>
+
+                    <div>
+                        <h5>{{ item.itemName }}</h5>
+                        <span> {{ item.itemPrice }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="items" *ngIf="searchText && searchedObj && showDiv">
+            <div class="category-title" *ngIf="!showDiv">
+                <h3>{{ product.categoryName }}</h3>
+            </div>
+            <div class="inner-container">
+                <div class="item" *ngFor="let item of newItemsArr">
+                    <div routerLink="{{ item.link }}">
+                        <img [src]="
+                    findMenuItem(item.itemName) ? menuItemImage : item.icon
+                  " />
+                        <h5>{{ item.itemName }}</h5>
+                        <p>{{ item.itemDescription }}</p>
+                        <span>{{ item.itemPrice }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

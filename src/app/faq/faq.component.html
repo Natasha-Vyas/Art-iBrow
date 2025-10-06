@@ -1,0 +1,27 @@
+<main>
+    <div class="label">
+        <div>
+            <h3>
+                FAQ'S
+            </h3>
+        </div>
+    </div>
+
+    <div class="faq-section">
+        <h1>Frequently Asked Questions</h1>
+        <p>Your Guide to Beauty Solutions offers comprehensive answers to common questions, empowering you to navigate
+            your beauty journey with confidence and ease.</p>
+        <div class="faq" *ngFor="let faq of faqs; let i = index" (click)="toggleFaq(i)">
+            <h3 class="faq-question">
+                {{ faq.question }}
+            </h3>
+            <p class="faq-answer" [class.collapse]="!faq.open" [class.expand]="faq.open" (click)="toggleFaq(i)">
+                {{ faq.answer }}
+            </p>
+            <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/90d3e168-11f8-4c0f-994a-1c9a14f9aeab.png"
+                class="arrow-icon" [class.collapse]="faq.open" [class.expand]="!faq.open" (click)="toggleFaq(i)" />
+            <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/539ed68e-6dca-41d0-bdb6-0dd810e0435f.jpg"
+                class="arrow-icon" [class.collapse]="!faq.open" [class.expand]="faq.open" (click)="toggleFaq(i)" />
+        </div>
+    </div>
+</main>

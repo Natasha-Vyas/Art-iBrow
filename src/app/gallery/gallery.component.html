@@ -1,0 +1,52 @@
+<main>
+    <div class="label">
+        <div>
+            <h1>Our Gallery</h1>
+        </div>
+    </div>
+
+    <div class="mainMenu main-bg">
+        <div class="options-tab">
+            <h2>Categories</h2>
+            <div class="category-section" *ngFor="let item of categories; let i = index" [routerLink]="['/gallery']"
+                fragment="{{ item.routeName }}">
+                <button class="abc" [ngClass]="{ highlighted: selectedCategory == i }" (click)="getDiv(i, item)">
+                    <h4>{{ item.categoryName }}</h4>
+                </button>
+            </div>
+            <div class="dropdown-container">
+                <select class="category-dropdown" [(ngModel)]="selectedCategory"
+                    (change)="onCategoryChange(selectedCategory)">
+                    <option *ngFor="let item of categories; let i = index" [value]="i" (click)="getDiv(i, item)">
+                        {{ item.categoryName }}
+                    </option>
+                </select>
+            </div>
+        </div>
+
+        <div class="exp" *ngIf="product" style="background-image: url({{ product.bgImage }});">
+            <div>
+                <div class="category-tab">
+                    <div>
+                        <h2>Photos & Videos</h2>
+                    </div>
+                </div>
+
+                <div class="main-container">
+                    <div class="inner-container" *ngFor="let p of product.items">
+                        <div class="Main1">
+                            <div class="content-container">
+                                <div class="heading3">
+                                    <div>
+                                        <img routerLink="{{ p.galleryLink }}" src="{{ p.icon }}" alt="{{ p.alt }}" />
+                                        <h3>{{ p.itemName }}</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

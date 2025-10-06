@@ -1,0 +1,31 @@
+<main>
+    <div class="reviews">
+        <div class="customer-reviews">
+            <h2>Customer Reviews on Google & Yelp</h2>
+            <div class="icons">
+                <a target="_blank" *ngFor="let i of hero.icons" href="{{i[1]}}">
+                    <img [style]="i[2]" src="{{i[0]}}">
+                </a>
+            </div>
+        </div>
+        <div class="google-div">
+            <div class="image">
+                <h4>Excellent</h4>
+                <div class="stars">
+                    <span class="material-symbols-outlined" *ngFor="let i of hero.stars">
+                        {{i}}
+                    </span>
+                </div>
+            </div>
+            <div class="scroller">
+                <ng-image-slider [images]="hero.reviewImages" [infinite]="true" [autoSlide]="1" [imagePopup]="false"
+                    [imageSize]="{ width: '95%', height: '40%' }" slideImage="1" #nav [animationSpeed]="3">
+                </ng-image-slider>
+            </div>
+        </div>
+
+        <a target="_blank"
+            href="https://www.google.com/search?q=ART+iBrow+Threading+Salon+12625+Frederick+St+F13%2C+Moreno+Valley%2C+CA+92553%2C+United+States&rlz=1C1CHBF_enIN1083IN1083&oq=ART+iBrow+Threading+Salon%0912625+Frederick+St+F13%2C+Moreno+Valley%2C+CA+92553%2C+United+States&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBBzIwMmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x80dca601c777c585:0x8f595e6a6f7684ab,3,,,,">Write
+            a review</a>
+    </div>
+</main>

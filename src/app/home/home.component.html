@@ -1,0 +1,119 @@
+<main>
+    <div class="slider">
+        <div class="custom-slider" style="width: 100%; height: 500px; position: relative; overflow: hidden;">
+            <div *ngIf="sliderImage && sliderImage.length > 0; else noMainImages"
+                 class="slider-container"
+                 style="display: flex; transition: transform 0.5s ease-in-out; height: 100%;"
+                 [style.transform]="'translateX(-' + (currentMainSlide * 100) + '%)'">
+                <div *ngFor="let image of sliderImage; let i = index"
+                     class="slide"
+                     style="min-width: 100%; height: 100%; background-size: cover; background-position: center;"
+                     [style.background-image]="'url(' + (image.image || image) + ')'">
+                </div>
+            </div>
+            <ng-template #noMainImages>
+                <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center;">
+                    <span style="color: white; font-size: 24px;">ART iBrow Beauty Salon</span>
+                </div>
+            </ng-template>
+            
+            <!-- Navigation buttons -->
+            <button *ngIf="sliderImage && sliderImage.length > 1"
+                    (click)="previousMainSlide()"
+                    style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 15px; cursor: pointer; font-size: 18px;">
+                &#8249;
+            </button>
+            <button *ngIf="sliderImage && sliderImage.length > 1"
+                    (click)="nextMainSlide()"
+                    style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 15px; cursor: pointer; font-size: 18px;">
+                &#8250;
+            </button>
+        </div>
+
+        <div [style]="css.position">
+            <h2>
+                <span>Unveil Your Radiance </span> <br />
+                At Our Beauty Sanctuary!
+            </h2>
+            <button [style]="css.buttonCss" routerLink="/contact-us">
+                Book Now
+            </button>
+        </div>
+    </div>
+
+    <div class="anouncement-bar">
+        <p>
+            <a href="{{ social.hrefPhone }}">Prebook Your Treatment and save. Call For More Details.</a>
+        </p>
+    </div>
+
+    <div class="welcome">
+        <h1>Welcome to ART iBrow</h1>
+        <p><span>ART iBrow</span>{{ hero.welcomeContent }}</p>
+    </div>
+
+    <div class="services">
+        <h2>Our Services</h2>
+        <div class="press">
+            <div *ngFor="let i of hero.services">
+                <div class="text">
+                    <h4>{{ i.title }}</h4>
+                    <button routerLink="{{ i.link }}">Learn More</button>
+                </div>
+                <img src="{{ i.img }}" alt="{{ i.title }}" />
+            </div>
+        </div>
+    </div>
+
+    <div class="about-div">
+        <div class="image-div" [style.backgroundImage]="'url(' + hero.plasmaYoutube + ')'" aria-label="Eyebrows"></div>
+        <div class="content">
+            <h2>Customers Are Our #1 Priority</h2>
+            <p>{{ hero.aboutContent }}</p>
+            <button routerLink="/about-us">Know More</button>
+        </div>
+        <div class="image-div" [style.backgroundImage]="'url(' + hero.eyelashYoutube + ')'"
+            aria-label="artibrow-facial"></div>
+    </div>
+
+    <app-testimonial></app-testimonial>
+
+    <div class="professional-div">
+        <div class="slider-section">
+            <div class="custom-slider" style="width: 100%; height: 300px; position: relative; overflow: hidden;">
+                <div *ngIf="hero.slide && hero.slide.length > 0; else noProfImages"
+                     class="slider-container"
+                     style="display: flex; transition: transform 0.5s ease-in-out; height: 100%;"
+                     [style.transform]="'translateX(-' + (currentProfSlide * 100) + '%)'">
+                    <div *ngFor="let image of hero.slide; let i = index"
+                         class="slide"
+                         style="min-width: 100%; height: 100%; background-size: cover; background-position: center;"
+                         [style.background-image]="'url(' + (image.image || image) + ')'">
+                    </div>
+                </div>
+                <ng-template #noProfImages>
+                    <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: white; font-size: 20px;">Our Professional Team</span>
+                    </div>
+                </ng-template>
+                
+                <!-- Navigation buttons -->
+                <button *ngIf="hero.slide && hero.slide.length > 1"
+                        (click)="previousProfSlide()"
+                        style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 10px; cursor: pointer;">
+                    &#8249;
+                </button>
+                <button *ngIf="hero.slide && hero.slide.length > 1"
+                        (click)="nextProfSlide()"
+                        style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 10px; cursor: pointer;">
+                    &#8250;
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h2>Our Professionals</h2>
+            <p>{{ hero.professionals }}</p>
+            <button routerLink="/form">Join Our Team</button>
+        </div>
+    </div>
+</main>

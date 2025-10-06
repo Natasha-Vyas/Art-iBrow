@@ -1,0 +1,27 @@
+<main>
+
+    <div class="banner-div" [ngStyle]="{
+          background: 'linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url(' +
+          hero.gallery[host][0].bgImg +
+              ')'
+        }">
+        <div>
+            <h1>
+                {{hero.gallery[host][0].name}}
+            </h1>
+        </div>
+    </div>
+    <a routerLink="/gallery" class="back">
+        <span class="material-symbols-outlined">
+            arrow_back_ios
+        </span>
+    </a>
+    <div class="gallery-section">
+        <div *ngFor="let g of hero.gallery[host][0].galImg;">
+            <img src="{{g}}" />
+        </div>
+        <div *ngFor="let v of hero.gallery[host][0].galVideos;">
+            <video controls src="{{v}}"></video>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,173 @@
+<main
+    [ngStyle]="{'background-image': 'url(' + hero.bgImage + ')', 'background-size': 'cover', 'background-position': 'center'}"
+    [style]="css.footerCss">
+
+    <div class="fab-order" *ngIf="floatingBtn" (click)="$event.stopPropagation()">
+        <button class="fab-btn" (click)="toggleOrderMenu()">Order Online</button>
+
+        <div class="fab-menu" *ngIf="orderMenuOpen">
+            <a class="fab-item" target="_blank" [href]="social.doordash">Delivery</a>
+            <a class="fab-item" target="_blank" [href]="social.clover">Pickup</a>
+        </div>
+    </div>
+
+
+    <div *ngIf="hero.scrollToTop" [style]="css.scrollToTopCss" (click)="scrollToTop()" class="scroller">^</div>
+
+    <div class="footer" [style]="css.footerBg">
+        <div class="logo">
+            <img [style]="css.logoSize" [src]="footerlogo" />
+            <p [style]="css.footerText" *ngIf="footerText">
+                {{footerText}}
+            </p>
+            <div>
+                <a target="_blank" [href]="social.oneFixFacebook" *ngIf="social.oneFixFacebook">
+                    <img
+                        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/296bf1da-ebc8-405b-885c-578b1d156fae_facebook.png" /></a>
+                <a target="_blank" [href]="social.oneFixInsta" *ngIf="social.oneFixInsta">
+                    <img
+                        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/71a7f031-b5da-41a7-9c09-137bc300172d_instagram.png" /></a>
+                <a target="_blank" [href]="social.oneFixGoogle" *ngIf="social.oneFixGoogle">
+                    <img src="google-outlined" /></a>
+                <a target="_blank" [href]="social.oneFixYelp" *ngIf="social.oneFixYelp">
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b6108287-f471-41a4-963e-fe96a177bb8c_yelp-outlined.png" /></a>
+                <a target="_blank" [href]="social.fb" *ngIf="social.fb">
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/17c0f2b5-39c5-4398-b105-5975c5277c7f_facebook-colorful.png" /></a>
+                <a target="_blank" [href]="social.insta" *ngIf="social.insta">
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cb295100-3650-43d1-b72e-650ffbd2f3dc_instagram-colorful.png" /></a>
+                <a target="_blank" [href]="social.twitter" *ngIf="social.twitter">
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5c5f4c0d-5d28-4afd-b83f-cde3d749395a_twitter-colorful.png" /></a>
+                <a target="_blank" [href]="social.google" *ngIf="social.google">
+                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/249a122a-6155-4d48-9cec-df28de0faf50_google-colorful.png" /></a>
+                <a target="_blank" [href]="social.yelp" *ngIf="social.yelp">
+                    <img src="../../assets/pics/social/Yelp-Logo.png" /></a>
+                <a target="_blank" [href]="social.whatsapp" *ngIf="social.whatsapp">
+                    <img src="../../assets/pics/social/whatsapp (1).png" /></a>
+                <a target="_blank" [href]="social.tikTok" *ngIf="social.tikTok">
+                    <img
+                        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fb81c62e-31e8-4e5e-8360-63f0021be0e9_tik-tok%201.png" /></a>
+                <a target="_blank" [href]="social.tikTok" *ngIf="social.googleplaystore">
+                    <img
+                        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f5118e36-6141-4453-a6fd-fad37401e19c_googleplay.png" /></a>
+                <a target="_blank" [href]="social.tikTok" *ngIf="social.applestore">
+                    <img
+                        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8c0f53b0-66c4-4ad5-b58c-00da1354388e_appstore.png" /></a>
+            </div>
+        </div>
+
+        <div class="column" [style]="css.columnScss" *ngIf="!hero.internalLinks">
+            <h3 [style]="css.footerHeading">Useful Links</h3>
+            <div class="links" *ngFor=" let link of links">
+                <a [style]="css.footerText" *ngIf="link.type === 'internal'" [routerLink]="link.link">{{link.text}}</a>
+            </div>
+        </div>
+
+        <div class="column" [style]="css.columnScss" *ngIf="hero.internalLinks">
+            <h3 [style]="css.footerHeading">Useful Links</h3>
+
+            <div class="links" *ngFor="let link of hero.links">
+                <a *ngIf="link.type === 'internal'" [style]="css.footerText" [routerLink]="link.link">{{ link.text
+                    }}</a>
+            </div>
+        </div>
+
+        <div class="column" [style]="css.columnScss" *ngIf="hero.servicesLinks">
+            <h3 [style]="css.footerHeading">{{ hero.serviceHeading }}</h3>
+            <div class="links" *ngFor="let link of hero.linksServices">
+                <a [style]="css.footerText" *ngIf="link.type === 'internal'" [routerLink]="link.link">
+                    {{ link.text }}
+                </a>
+            </div>
+        </div>
+
+        <!-- <div class="timing" *ngIf="openingTimes">
+            <h3 [style]="css.footerHeading">{{openingTimes.heading}}</h3>
+            <div>
+                <p [style]="css.timiningSpan" *ngIf="hero.timingPeragraph">Winter Business Hours : <br>Effective from
+                    January 1st 2025 - March 31st 2025</p>
+                <p [style]="css.footerText" *ngFor="let time of openingTimes.times">{{ time }}</p>
+            </div>
+        </div> -->
+
+        <div class="timing" [style]="css.columnScss" *ngIf="openingTimesLocation">
+            <h3 [style]="css.footerHeading">{{ openingTimesLocation.headingMoreno }}</h3>
+            <div>
+                <p [style]="css.footerText" *ngFor="let time of openingTimesLocation.timesMoreno">{{ time }}</p>
+            </div>
+
+            <h3 [style]="css.footerHeading">{{ openingTimesLocation.headingRiverside }}</h3>
+            <div>
+                <p [style]="css.footerText" *ngFor="let time of openingTimesLocation.timesRiverside">{{ time }}</p>
+            </div>
+        </div>
+
+        <div class="contact" *ngIf="!hero.footericon">
+            <h3 [style]="css.footerHeading">Address</h3>
+            <a [style]="css.footerText" *ngIf="address" [href]="social.map">
+                <img [style]="css.socialIcons" src="../../assets/pics/social/Address pin (1).png" /> {{ address }}
+            </a>
+            <a [style]="css.footerText" *ngIf="address2" [href]="social.map">
+                <img [style]="css.socialIcons" src="../../assets/pics/social/Address pin (1).png" /> {{ address2 }}
+            </a>
+            <a [style]="css.footerText" *ngIf="address3" [href]="social.map">
+                <img [style]="css.socialIcons" src="../../assets/pics/social/Address pin (1).png" /> {{ address3 }}
+            </a>
+            <a [style]="css.footerText" *ngIf="contact" [href]="social.hrefPhone">
+                <img [style]="css.socialIcons" src="../../assets/pics/social/call.png" /> {{ contact }}
+            </a>
+            <a [style]="css.footerText" *ngIf="contactNew" [href]="social.hrefPhone">
+                <img [style]="css.socialIcons" src="../../assets/pics/social/call.png" /> {{ contact.phone }}
+            </a>
+            <a [style]="css.footerText" *ngIf="emailid" [href]="social.hrefEmail">
+                <img [style]="css.socialIcons" src="../../assets/pics/social/email.png" /> {{ emailid }}
+            </a>
+        </div>
+
+        <div class="contact" *ngIf="hero.footericon == 'black'">
+            <h3 [style]="css.footerHeading">Address</h3>
+            <a [style]="css.footerText" *ngIf="address" [href]="social.map">
+                <img src="../../assets/pics/social/map-filled-black.png" /> {{ address }}
+            </a>
+            <a [style]="css.footerText" *ngIf="contact" [href]="social.hrefPhone">
+                <img [style]="css.socialIcons"
+                    src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/69ddd9b3-58ae-4d11-a483-208abbf2218d_Call_Black.png" />
+                {{ contact }}
+            </a>
+            <a [style]="css.footerText" *ngIf="emailid" [href]="social.hrefEmail">
+                <img [style]="css.socialIcons" src="../../assets/pics/social/email-filled-black.png" /> {{ emailid }}
+            </a>
+        </div>
+    </div>
+
+    <div class="payment" [style]="css.payments" *ngIf="hero.payments">
+        <p>{{hero.paymentHeading}}</p>
+        <div>
+            <img style="width: 30px"
+                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2e9eb972-8bfb-45df-b3ec-e849c3c275d2.png"
+                alt="" />
+            <img style="width: 30px"
+                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f7179bd7-83d1-42e7-9f50-53030a919956.png"
+                alt="" />
+            <img style="width: 30px"
+                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8133d38f-4224-4e9a-9a9f-7fd7071d42d7.png"
+                alt="" />
+            <img style="width: 30px"
+                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8c378aa3-f190-40e5-93a5-edef3de613cc.png"
+                alt="" />
+            <img style="width: 50px"
+                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2fb6d0ed-2ee4-47b5-8d66-ee92fdf8a420.png"
+                alt="" />
+            <img style="width: 50px"
+                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0f97367d-310e-44db-aea1-ee617eabb328.png"
+                alt="" />
+            <img style="width: 30px"
+                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/06503557-c1f2-4913-a2b6-e305da827f90.png"
+                alt="" />
+        </div>
+    </div>
+
+    <div class="closingLiner" [style]="css.footerClosingLiner">
+        <p [style]="css.footerText">© Copyright 2025 {{ brandName }} All rights reserved.</p>
+        <a [style]="css.footerText" target="_blank" href="https://tryantler.com/home">Powered by Antler Technologies</a>
+    </div>
+</main>

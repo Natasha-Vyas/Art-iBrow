@@ -1,0 +1,90 @@
+<main>
+    <div class="banner-div">
+        <div>
+            <h1>About Us</h1>
+        </div>
+    </div>
+
+    <div class="professional-div">
+        <div class="slider">
+            <div class="custom-slider" style="width: 100%; height: 400px; position: relative; overflow: hidden;">
+                <div *ngIf="hero.aboutUs && hero.aboutUs.length > 0; else noImages"
+                     class="slider-container"
+                     style="display: flex; transition: transform 0.5s ease-in-out; height: 100%;"
+                     [style.transform]="'translateX(-' + (currentSlide * 100) + '%)'">
+                    <div *ngFor="let image of hero.aboutUs; let i = index"
+                         class="slide"
+                         style="min-width: 100%; height: 100%; background-size: cover; background-position: center;"
+                         [style.background-image]="'url(' + (image.image || image) + ')'">
+                    </div>
+                </div>
+                <ng-template #noImages>
+                    <div style="width: 100%; height: 100%; background-color: #f0f0f0; display: flex; align-items: center; justify-content: center;">
+                        <span style="color: #666;">About Us Images</span>
+                    </div>
+                </ng-template>
+                
+                <!-- Navigation buttons -->
+                <button *ngIf="hero.aboutUs && hero.aboutUs.length > 1"
+                        (click)="previousSlide()"
+                        style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 10px; cursor: pointer;">
+                    &#8249;
+                </button>
+                <button *ngIf="hero.aboutUs && hero.aboutUs.length > 1"
+                        (click)="nextSlide()"
+                        style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; padding: 10px; cursor: pointer;">
+                    &#8250;
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h2>About Us</h2>
+            <p *ngFor="let i of hero.aboutText">{{ i }}</p>
+            <p *ngIf="!hero.aboutText || hero.aboutText.length === 0">
+                At ART iBrow Threading Salon, we're the ultimate destination for beauty and confidence.
+                We specialize in precision threading for eyebrows and full faces, premium permanent makeup
+                like lip lining and eyeliner, rejuvenating facials, and fibroblast plasma lift treatments
+                for skin tightening and tag removal.
+            </p>
+        </div>
+    </div>
+
+    <div class="our-story">
+        <div class="image">
+            <img
+                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/78b235be-c71e-4657-a458-ffe90a59050c_WhatsApp%20Image%202024-10-09%20at%2014.jpeg" />
+        </div>
+        <div class="content">
+            <h2>Vision</h2>
+            <p>
+                At ART iBrow Threading Salon, we're the ultimate destination for
+                beauty and confidence. We specialize in precision threading for
+                eyebrows and full faces, premium permanent makeup like lip lining
+                and eyeliner, rejuvenating facials, and fibroblast plasma lift
+                treatments for skin tightening and tag removal. With eyelash
+                extensions, henna tattoos, makeup services from parties to bridal,
+                expert hairstyling, and professional waxing, we ensure everyone
+                leaves feeling empowered and beautiful.
+            </p>
+        </div>
+    </div>
+
+    <div class="our-story">
+        <div class="content">
+            <h2>Mission</h2>
+            <p>
+                At ART iBrow Threading Salon, we're dedicated to enhancing natural
+                beauty and boosting confidence through premium services. Our
+                precision threading, transformative permanent makeup, facials, and
+                innovative treatments prioritize personalized attention and client
+                satisfaction. With a focus on hygiene and professionalism, we create
+                a welcoming environment where everyone feels empowered and radiant.
+            </p>
+        </div>
+
+        <div class="image">
+            <img
+                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cf65b7c0-daa8-4e1d-923b-dc59c16a5a31_WhatsApp%20Image%202024-10-09%20at%2014.jpeg" />
+        </div>
+    </div>
+</main>
