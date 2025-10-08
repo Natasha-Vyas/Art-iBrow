@@ -136,10 +136,35 @@ export class NavbarComponent implements OnInit {
 
   change(value: boolean) {
     this.close = value;
+    // Close any open dropdowns when toggling mobile menu
+    if (!this.close) {
+      this.closeDropdown();
+    }
   }
 
   keepDropdownOpen() {
     // Keep dropdown open when hovering over it
+  }
+
+  // Enhanced dropdown functionality for mobile
+  toggleDropdown(link: any, event?: Event) {
+    if (event) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+    
+    if (this.activeDropdown === link.text) {
+      this.isDropdownOpen = !this.isDropdownOpen;
+    } else {
+      this.isDropdownOpen = true;
+      this.activeDropdown = link.text;
+    }
+  }
+
+  // Close mobile menu when clicking on a link
+  closeMobileMenu() {
+    this.close = true;
+    this.closeDropdown();
   }
 
 }

@@ -33,7 +33,7 @@ main {
             width: 100%;
 
             h1 {
-                font-size: 46px;
+                font-size: 40px;
                 font-weight: 400;
                 font-family: Oswald, "Oswald Fallback";
                 text-transform: uppercase;
@@ -129,14 +129,14 @@ main {
 
 @media only screen and (max-width: 768px) {
     main {
-        padding-top: 170px;
+        padding-top: 150px;
 
         h1 {
             text-align: center !important;
         }
 
         .banner-div {
-            height: 400px;
+            padding: 10vh 0;
 
             img {
                 height: 100%;

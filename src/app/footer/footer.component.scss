@@ -18,7 +18,7 @@ main {
             color: #ffff;
             border: 2px solid #ffff;
             border-radius: 12px;
-            padding: 2rem 5rem;
+            padding: 20px 50px;
             font-weight: 700;
             line-height: 1;
             cursor: pointer;
@@ -326,9 +326,9 @@ main {
         background: #263a00;
 
         .footer {
-            padding: 5rem 2rem;
+            padding: 50px 20px;
             display: grid;
-            gap: 50px;
+            gap: 40px;
             justify-content: center;
 
             .logo {
@@ -345,6 +345,7 @@ main {
 
             .timing {
                 width: 100%;
+                gap: 0;
             }
 
             .contact {

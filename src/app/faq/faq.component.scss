@@ -159,16 +159,19 @@ main {
 
 @media only screen and (max-device-width: 480px) {
     main {
-        padding-top: 170px;
+        padding-top: 150px;
 
         .label {
             height: 30vh;
+            div h3 {
+                font-size: 40px;
+            }
         }
 
         .faq-section {
             padding: 10px;
             margin-top: 30px;
-            width: 100%;
+            width: 95%;
 
             p {
                 width: 100%;

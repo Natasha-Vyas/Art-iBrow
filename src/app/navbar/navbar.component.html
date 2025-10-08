@@ -19,7 +19,7 @@
         <div class="navbar-header mobile-only">
             <button *ngIf="close" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                 data-target="#bs-example-navbar-collapse-1" (click)="change(!close)">
-                <span class="sr-only">Toggle navigation</span>
+                <!-- <span class="sr-only">Toggle navigation</span> -->
                 <span class="toggleMenu-btn icon-bar"></span>
                 <span class="toggleMenu-btn icon-bar"></span>
                 <span class="toggleMenu-btn icon-bar"></span>
@@ -27,7 +27,7 @@
 
             <button *ngIf="!close" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                 data-target="#bs-example-navbar-collapse-1" (click)="change(!close)">
-                <span class="sr-only">Toggle navigation</span>
+                <!-- <span class="sr-only">Toggle navigation</span> -->
                 <span [style]="css.icon" class="material-symbols-outlined">
                     close
                 </span>
@@ -39,18 +39,23 @@
             <ul class="nav navbar-nav">
                 <li *ngFor="let link of links">
                     <a *ngIf="link.type === 'internal'" queryParamsHandling="merge" routerLinkActive="active"
-                        class="nav-link" [routerLink]="link.link">{{ link.text }}</a>
+                        class="nav-link" [routerLink]="link.link" (click)="closeMobileMenu()">{{ link.text }}</a>
 
                     <a *ngIf="link.type === 'external' && link.options.length" class="nav-link dropdown-toggle"
-                        id="navbarDropdown" role="button" aria-haspopup="true">
+                        id="navbarDropdown" role="button" aria-haspopup="true"
+                        (click)="toggleDropdown(link, $event)">
                         {{ link.text }}
-                        <span class="material-symbols-outlined expand-icon">expand_more</span>
+                        <span class="material-symbols-outlined expand-icon"
+                              [class.rotated]="activeDropdown === link.text && isDropdownOpen">expand_more</span>
                     </a>
 
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu"
+                         [class.show]="activeDropdown === link.text && isDropdownOpen"
+                         aria-labelledby="navbarDropdown">
                         <div class="dropdown-values" *ngFor="let option of link.options">
                             <a (click)="toggleSubCategories(option)" class="dropdown-item">{{ option.name }}
-                                <span class="material-symbols-outlined"> expand_more </span>
+                                <span class="material-symbols-outlined"
+                                      [class.rotated]="selectedNavCategory?.name === option.name"> expand_more </span>
                             </a>
                             <ul *ngIf="
                       option.options &&
@@ -58,7 +63,7 @@
                       option.name === selectedNavCategory?.name
                     " class="sub-categories">
                                 <li *ngFor="let op of selectedNavCategory.options">
-                                    <a [routerLink]="op.link" (click)="closeDropdown()">{{
+                                    <a [routerLink]="op.link" (click)="closeMobileMenu()">{{
                                         op.name
                                         }}</a>
                                 </li>
