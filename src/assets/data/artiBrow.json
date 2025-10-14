@@ -264,10 +264,30 @@
             ]
           },
           {
-            "name": "Traditional Waxing",
+            "name": "Waxing",
             "type": "internal",
             "link": "",
             "options": [
+              {
+                "name": "Women's Eyebrow Waxing",
+                "type": "internal",
+                "link": "/service/women-eyebrow-waxing"
+              },
+              {
+                "name": "Brazilian Waxing",
+                "type": "internal",
+                "link": "/service/brazilian-waxing"
+              },
+              {
+                "name": "Men's Eyebrow Waxing",
+                "type": "internal",
+                "link": "/service/menseyebrow-waxing"
+              },
+              {
+                "name": "Men's Cheeks Waxing",
+                "type": "internal",
+                "link": "/service/menscheeking-waxing"
+              },
               {
                 "name": "Full Body Wax",
                 "type": "internal",
@@ -302,33 +322,6 @@
                 "name": "Underarm Wax",
                 "type": "internal",
                 "link": "/service/underarm-waxing"
-              }
-            ]
-          },
-          {
-            "name": "Waxing",
-            "type": "internal",
-            "link": "",
-            "options": [
-              {
-                "name": "Women's Eyebrow Waxing",
-                "type": "internal",
-                "link": "/service/women-eyebrow-waxing"
-              },
-              {
-                "name": "Brazilian Waxing",
-                "type": "internal",
-                "link": "/service/brazilian-waxing"
-              },
-              {
-                "name": "Men's Eyebrow Waxing",
-                "type": "internal",
-                "link": "/service/menseyebrow-waxing"
-              },
-              {
-                "name": "Men's Cheeks Waxing",
-                "type": "internal",
-                "link": "/service/menscheeking-waxing"
               }
             ]
           },
@@ -13533,14 +13526,7 @@
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e999868c-3c78-4330-8c55-8b49973877a1_Cheek%20wax1.png",
                       "link": "/service/menscheeking-waxing",
                       "galleryLink": "/gallery-two/menscheeking-waxing"
-                    }
-                  ]
-                },
-                {
-                  "categoryName": "Traditional Waxing",
-                  "routeName": "Traditional Waxing",
-                  "videos": [],
-                  "items": [
+                    },
                     {
                       "itemName": "Full Body Wax",
                       "alt": "Full Body Wax",

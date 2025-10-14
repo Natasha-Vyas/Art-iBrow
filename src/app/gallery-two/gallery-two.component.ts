@@ -37,6 +37,7 @@ export class GalleryTwoComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.setTitleAndMetaTags();
     this.router.events.subscribe(() => {
       const routeParts = this.router.url.split('/');
       this.currentRoute = routeParts.pop(); // .pop() returns the last item
@@ -62,11 +63,8 @@ export class GalleryTwoComponent implements OnInit {
   }
 
   setTitleAndMetaTags(): void {
-    if (this.brandName == "Latha Collections USA") {
-      this.titleService.setTitle('Wedding Dresses & Lehenga Choli for Women | South Indian Dresses');
-      this.metaService.updateTag({ name: 'description', content: 'Explore Latha Collections for stunning wedding dresses, traditional sarees, lehengas, pastel sarees, and kurtis. Shop party wear sarees and ethnic wear for women online.' });
-    }
-
+    this.titleService.setTitle('Top-Rated Eyebrow Threading & Beauty Services Near You | Gallery');
+    this.metaService.updateTag({ name: 'description', content: 'Explore our gallery showcasing top-rated services, including eyebrow threading, tinting, microblading, facials, permanent makeup, waxing, eyelash extensions, and more.' });
   }
 
   ngOnDestroy(): void {

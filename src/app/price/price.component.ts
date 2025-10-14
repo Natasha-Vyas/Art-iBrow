@@ -156,6 +156,7 @@ export class PriceComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.setTitleAndMetaTags();
     // Auto-select first category like gallery component
     if (this.brandName == 'ART iBrow Threading Salon' && this.categories && this.categories.length > 0) {
       this.getDiv(0, this.categories[0]);
@@ -221,6 +222,14 @@ export class PriceComponent implements OnInit {
     }
 
     return this.menuItemFound;
+  }
+
+  setTitleAndMetaTags(): void {
+    this.titleService.setTitle('Affordable Beauty & Threading Services Pricing | ART iBrow');
+    this.metaService.updateTag({
+      name: 'description',
+      content: 'Discover affordable pricing for beauty services at ART iBrow, including threading, eyebrow tinting, microblading, facials, waxing, permanent makeup, eyelash extensions, and more.'
+    });
   }
 
 }
