@@ -43,7 +43,7 @@ export class ServiceComponent implements OnInit {
   public intervalMissipiId: any;
   public currentSlide = 0;
 
-  constructor(private appService: AppService, private router: Router, private activatedRoute: ActivatedRoute, private meta: Meta, private title: Title, private viewportScroller: ViewportScroller) {
+  constructor(private appService: AppService, private router: Router, private activatedRoute: ActivatedRoute, private metaService: Meta, private titleService: Title, private viewportScroller: ViewportScroller) {
     this.host = window.location.href.split('/');
     this.host = this.host[this.host.length - 1];
     this.menu = this.appService.getContentData('menu')[0];
@@ -59,6 +59,7 @@ export class ServiceComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.setTitleAndMetaTags();
     this.activatedRoute.fragment.subscribe(fragment => {
       if (fragment) {
         setTimeout(() => {
@@ -84,18 +85,6 @@ export class ServiceComponent implements OnInit {
         this.currentSelectedBanner = this.hero && this.hero.allservices2 ? this.hero && this.hero.allservices2?.filter((ele: any) => ele.label === params['name']) : [];
       }
     });
-
-    if (this.brandName == 'Susmitography') {
-      this.routeSubscription = this.activatedRoute.paramMap.subscribe(params => {
-        const urlSegments = this.activatedRoute.snapshot.url;
-        const lastSegment = urlSegments[urlSegments.length - 1].path;
-        this.currentRouteParams = this.hero.services.filter((ele: any) => ele.key == lastSegment)[0];
-      });
-
-      if (this.brandName == 'Patiala Tent House') {
-        this.prepareSlides();
-      };
-    }
   }
 
   ngOnDestroy(): void {
@@ -128,6 +117,11 @@ export class ServiceComponent implements OnInit {
 
   scrollToTop() {
     this.viewportScroller.scrollToPosition([0, 0]);
+  }
+
+  setTitleAndMetaTags(): void {
+      this.titleService.setTitle('Top-Rated Eyebrow Threading & Beauty Services Near You | Gallery');
+      this.metaService.updateTag({ name: 'description', content: 'Explore our gallery showcasing top-rated services, including eyebrow threading, tinting, microblading, facials, permanent makeup, waxing, eyelash extensions, and more.' });
   }
 
 }

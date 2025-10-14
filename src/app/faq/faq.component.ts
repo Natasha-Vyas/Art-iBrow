@@ -92,10 +92,8 @@ export class FaqComponent implements OnInit {
   }
 
   setTitleAndMetaTags(): void {
-    if (this.brandName == "ART iBrow Threading Salon") {
-      this.titleService.setTitle('Best Eyebrow Threading & Beauty Services Near You | Art IBrow FAQs');
-      this.metaService.updateTag({ name: 'description', content: 'Find answers to your questions about eyebrow threading, tinting, microblading, facials, permanent makeup, and more at ART iBrow. Discover the top-rated beauty salon near you.' });
-    }
+    this.titleService.setTitle('Best Eyebrow Threading & Beauty Services Near You | Art IBrow FAQs');
+    this.metaService.updateTag({ name: 'description', content: 'Find answers to your questions about eyebrow threading, tinting, microblading, facials, permanent makeup, and more at ART iBrow. Discover the top-rated beauty salon near you.' });
   }
 
   toggleAnswer(faq: any) {

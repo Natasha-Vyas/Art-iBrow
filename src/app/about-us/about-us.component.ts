@@ -54,6 +54,7 @@ export class AboutUsComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.setTitleAndMetaTags();
     // Auto-slide functionality
     if (this.hero.aboutUs && this.hero.aboutUs.length > 1) {
       setInterval(() => {
@@ -72,6 +73,11 @@ export class AboutUsComponent implements OnInit {
     if (this.hero.aboutUs && this.hero.aboutUs.length > 0) {
       this.currentSlide = this.currentSlide === 0 ? this.hero.aboutUs.length - 1 : this.currentSlide - 1;
     }
+  }
+
+  setTitleAndMetaTags(): void {
+      this.titleService.setTitle('About ART iBrow | Expert Eyebrow Threading & Beauty Services.');
+      this.metaService.updateTag({ name: 'description', content: 'Learn about ART iBrow, your go-to salon for expert threading, eyebrow tinting, microblading, facials, permanent makeup, waxing, eyelash extensions, and more beauty services.' });
   }
 
 }
