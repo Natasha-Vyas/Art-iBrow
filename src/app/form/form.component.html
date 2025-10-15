@@ -1,1 +1,62 @@
-<p>form works!</p>
+<main>
+    <form [formGroup]="artiBrowDetails" *ngIf="!success">
+        <label>Full Name</label>
+        <input name="fullname" formControlName="fullname" placeholder="Full Name">
+
+        <label>Position</label>
+        <select name="position" formControlName="position" placeholder="Position Applying For">
+            <option value="Aesthetician">
+                Aesthetician
+            </option>
+            <option value="Registered Nurse (RN)">
+                Registered Nurse (RN)
+            </option>
+            <option value="Threader">
+                Threader
+            </option>
+            <option value="Office Admin">
+                Office Admin
+            </option>
+            <option value="Office Admin">
+                Cosmotologist
+            </option>
+        </select>
+
+        <div class="outer-div">
+            <div>
+                <label>Email</label>
+                <input name="email" formControlName="email" placeholder="Email">
+            </div>
+
+            <div>
+                <label>Phone Number</label>
+                <input name="phone" formControlName="phone" placeholder="Phone Number">
+            </div>
+        </div>
+
+        <label>Message</label>
+        <textarea name="message" formControlName="message"
+            placeholder="Anything to share that we consider in your application?" cols="30" rows="10"></textarea>
+
+        <label>Attachment [Add your Resume/Cover Letter (PDF Only)]</label>
+        <input type="file" id="myFile" name="file" formControlName="file" (change)="uploadImageArt($event)"
+            accept=".pdf" placeholder="Add your Resume/Cover Letter (PDF Only)" />
+
+        <button *ngIf="!success" [disabled]="!artiBrowDetails.valid" type="submit"
+            (click)="submitartiBrowDetails()">Apply</button>
+
+        <button *ngIf="success" style="background-color: #22bb33;">
+            <span class="material-symbols-outlined"> done </span>
+        </button>
+        <label *ngIf="success">Form Submitted Succesfully!</label>
+    </form>
+
+    <div class="success" *ngIf="success">
+        <span class="material-symbols-outlined">
+            check_circle
+        </span>
+        <a href="/"><button>
+                Home
+            </button></a>
+    </div>
+</main>

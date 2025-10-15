@@ -106,9 +106,9 @@
                             }
                         }
 
-                        &:hover .expand-icon:not(.rotated) {
-                            transform: rotate(180deg);
-                        }
+                        // &:hover .expand-icon:not(.rotated) {
+                        //     transform: rotate(180deg);
+                        // }
                     }
                 }
 
@@ -130,6 +130,8 @@
                     border-radius: 4px;
                     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                     min-width: 200px;
+                    max-height: 400px;
+                    overflow-y: auto;
                     z-index: 1000;
                     display: none;
                     opacity: 0;
@@ -270,7 +272,7 @@
                     left: 0;
                     right: 0;
                     background: #fff;
-                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                     z-index: 1000;
                     border-top: 1px solid #eee;
 
