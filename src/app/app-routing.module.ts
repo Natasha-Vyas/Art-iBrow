@@ -8,6 +8,7 @@ import { FaqComponent } from './faq/faq.component';
 import { PriceComponent } from './price/price.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FormComponent } from './form/form.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'price/:name', component: PriceComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'contact-us', component: ContactUsComponent },
+  { path: 'form', component: FormComponent },
   { path: '**', redirectTo: '/' }
 ];
 

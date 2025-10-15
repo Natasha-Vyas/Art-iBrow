@@ -3,7 +3,7 @@
         <div class="custom-slider" style="width: 100%; height: 500px; position: relative; overflow: hidden;">
             <div *ngIf="sliderImage && sliderImage.length > 0; else noMainImages"
                  class="slider-container"
-                 style="display: flex; transition: transform 0.5s ease-in-out; height: 100%;"
+                 style="display: flex; transition: transform 1s ease-in-out; height: 100%;"
                  [style.transform]="'translateX(-' + (currentMainSlide * 100) + '%)'">
                 <div *ngFor="let image of sliderImage; let i = index"
                      class="slide"

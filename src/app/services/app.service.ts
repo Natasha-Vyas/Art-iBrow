@@ -77,4 +77,24 @@ export class AppService {
             requestBody
         );
     }
+
+    careerSubmission(data: any): Observable<any> {
+        let requestBody = {
+            ...data,
+            type: 'Careers'
+        };
+        return this.http.post(
+            `https://submit-form.com/${this.formCode}`,
+            requestBody
+        );
+    }
+
+    uploadImage(data: any): Observable<any> {
+        let formData = new FormData();
+        formData.append('image', data);
+        return this.http.post(
+            `https://appapi.ghc.health/api/progress/upload`,
+            formData
+        );
+    }
 }

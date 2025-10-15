@@ -1,0 +1,101 @@
+main {
+    font-family: "Poppins", sans-serif;
+    padding: 205px;
+
+    padding-top: 205px;
+
+    form {
+        display: grid;
+        gap: 10px;
+        padding: 20px;
+        border: 4px double #000;
+        border-radius: 10px;
+
+        label {
+            color: #000;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        input,
+        textarea,
+        select {
+            color: #000;
+            border: 1px solid #000;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .outer-div {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+
+            div {
+                display: grid;
+                width: 50%;
+            }
+        }
+
+        button {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            background-color: #91271a;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 40px;
+            align-self: center;
+            margin: auto;
+            cursor: pointer;
+        }
+    }
+
+    .success {
+        display: inline-grid;
+        margin-top: 100px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+        span {
+            font-size: 120px;
+            color: #4bb543;
+        }
+
+        button {
+            font-size: 16px;
+            font-weight: 500;
+            padding: 5px 15px;
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            margin: auto;
+            background-color: #91271a;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    main {
+        padding: 20px;
+        padding-top: 160px;
+
+        .form-div {
+            form {
+                .outer-div {
+                    flex-direction: column;
+
+                    .inner-div {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
