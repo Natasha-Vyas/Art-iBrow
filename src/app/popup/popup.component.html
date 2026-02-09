@@ -1,0 +1,11 @@
+<div *ngIf="display && popup" class="custom-model-main model-open">
+    <div class="custom-model-inner" [style]="css?.modelwidth">
+        <div [style]="css?.closePopup" class="close-btn" (click)="closePopup()">×</div>
+        <div class="custom-model-wrap">
+            <div class="pop-up-content-wrap">
+                <img alt="home-popup" loading="lazy" [src]="popup" />
+            </div>
+        </div>
+    </div>
+    <div class="bg-overlay" (click)="closePopup()"></div>
+</div>

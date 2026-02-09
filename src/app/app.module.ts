@@ -26,6 +26,7 @@ import { ProductComponent } from './product/product.component';
 import { ServiceComponent } from './service/service.component';
 import { SuccessComponent } from './success/success.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
+import { PopupComponent } from './popup/popup.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
     ProductComponent,
     ServiceComponent,
     SuccessComponent,
-    TestimonialComponent
+    TestimonialComponent,
+    PopupComponent
   ],
   imports: [
     BrowserModule,
