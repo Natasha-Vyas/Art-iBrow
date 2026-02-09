@@ -1,1 +1,15 @@
-<p>payment works!</p>
+<main>
+    <div class="payment-section">
+        <form [formGroup]="amountDetails">
+            <label>Enter Your Amount*</label>
+            <input
+                type="number"
+                name="amount"
+                placeholder="Enter Your Amount"
+                formControlName="amount"
+                required
+            />
+            <div style="margin-top: 20px;" id="paypal-button-container"></div>
+        </form>
+    </div>
+</main>
