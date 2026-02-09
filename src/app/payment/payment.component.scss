@@ -1,0 +1,97 @@
+main {
+    .payment-section {
+        padding: 16rem 15rem 4rem;
+        display: flex;
+        justify-content: center;
+
+        form {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 10px;
+            padding: 5rem;
+            background: #80808030;
+            margin: 0 auto;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+
+            label {
+                font-size: 16px;
+                font-weight: 800;
+                margin-bottom: 15px;
+                font-family: monospace;
+
+            }
+
+            input {
+                border-radius: 8px;
+                border: 1px solid lightgray;
+                padding: 10px;
+                width: auto;
+            }
+
+            button {
+                color: #fff;
+                background-color: #000;
+                font-size: 14px;
+                letter-spacing: 0.3px;
+                text-align: center;
+                border: 0;
+                font-weight: 700;
+                margin-top: 20px;
+                padding: 10px 20px;
+                text-transform: capitalize;
+                border-radius: 5px;
+            }
+
+            #paypal-button-container {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    main {
+        .payment-section {
+            padding: 14rem 4rem 3rem;
+
+            form {
+                width: 100%;
+                max-width: 460px;
+                padding: 3rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        .payment-section {
+            padding: 11rem 1rem 2rem;
+
+            form {
+                max-width: 430px;
+                padding: 2rem 1.25rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    main {
+        .payment-section {
+            padding: 10rem 0.75rem 1.5rem;
+
+            form {
+                max-width: 100%;
+                padding: 1.5rem 1rem;
+                border-radius: 8px;
+            }
+
+            label {
+                font-size: 15px;
+            }
+        }
+    }
+}
