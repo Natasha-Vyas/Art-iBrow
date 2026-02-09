@@ -30,15 +30,20 @@
                 <a target="_blank" [href]="social.oneFixGoogle" *ngIf="social.oneFixGoogle">
                     <img src="google-outlined" /></a>
                 <a target="_blank" [href]="social.oneFixYelp" *ngIf="social.oneFixYelp">
-                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b6108287-f471-41a4-963e-fe96a177bb8c_yelp-outlined.png" /></a>
+                    <img
+                        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b6108287-f471-41a4-963e-fe96a177bb8c_yelp-outlined.png" /></a>
                 <a target="_blank" [href]="social.fb" *ngIf="social.fb">
-                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/17c0f2b5-39c5-4398-b105-5975c5277c7f_facebook-colorful.png" /></a>
+                    <img
+                        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/17c0f2b5-39c5-4398-b105-5975c5277c7f_facebook-colorful.png" /></a>
                 <a target="_blank" [href]="social.insta" *ngIf="social.insta">
-                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cb295100-3650-43d1-b72e-650ffbd2f3dc_instagram-colorful.png" /></a>
+                    <img
+                        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cb295100-3650-43d1-b72e-650ffbd2f3dc_instagram-colorful.png" /></a>
                 <a target="_blank" [href]="social.twitter" *ngIf="social.twitter">
-                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5c5f4c0d-5d28-4afd-b83f-cde3d749395a_twitter-colorful.png" /></a>
+                    <img
+                        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5c5f4c0d-5d28-4afd-b83f-cde3d749395a_twitter-colorful.png" /></a>
                 <a target="_blank" [href]="social.google" *ngIf="social.google">
-                    <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/249a122a-6155-4d48-9cec-df28de0faf50_google-colorful.png" /></a>
+                    <img
+                        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/249a122a-6155-4d48-9cec-df28de0faf50_google-colorful.png" /></a>
                 <a target="_blank" [href]="social.yelp" *ngIf="social.yelp">
                     <img src="../../assets/pics/social/Yelp-Logo.png" /></a>
                 <a target="_blank" [href]="social.whatsapp" *ngIf="social.whatsapp">
@@ -112,8 +117,18 @@
             <a [style]="css.footerText" *ngIf="address3" [href]="social.map">
                 <img [style]="css.socialIcons" src="../../assets/pics/social/Address pin (1).png" /> {{ address3 }}
             </a>
-            <a [style]="css.footerText" *ngIf="contact" [href]="social.hrefPhone">
+            <!-- <a [style]="css.footerText" *ngIf="contact" [href]="social.hrefPhone">
                 <img [style]="css.socialIcons" src="../../assets/pics/social/call.png" /> {{ contact }}
+            </a> -->
+            <a [style]="css.footerText" *ngIf="contact" target="_blank" [href]="social.hrefPhone">
+                <img [style]="css.socialIcons"
+                    src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5c09575e-08c0-4cc6-b301-35f545557af3_call.png" />
+                Moreno Valley: {{ contact }}
+            </a>
+            <a [style]="css.footerText" *ngIf="contactNew" target="_blank" [href]="social.hrefPhone2">
+                <img [style]="css.socialIcons"
+                    src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5c09575e-08c0-4cc6-b301-35f545557af3_call.png" />
+                Riverside: {{ social.contact2 }}
             </a>
             <a [style]="css.footerText" *ngIf="emailid" [href]="social.hrefEmail">
                 <img [style]="css.socialIcons" src="../../assets/pics/social/email.png" /> {{ emailid }}
@@ -164,7 +179,9 @@
     </div>
 
     <div class="closingLiner" [style]="css.footerClosingLiner">
-        <p [style]="css.footerText">© Copyright 2025 {{ brandName }} All rights reserved.</p>
+        <p [style]="css.footerText">© Copyright 2025 {{ brandName }}. <img [src]="hero.closingIcon"
+                style="width: 30px; height: 30px; margin: 5px;" /> Operated by Cosmothetics Pros Inc. All rights
+            reserved.</p>
         <a [style]="css.footerText" target="_blank" href="https://tryantler.com/home">Powered by Antler Technologies</a>
     </div>
 </main>

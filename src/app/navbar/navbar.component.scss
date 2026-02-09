@@ -87,8 +87,13 @@
                         border-bottom: 3px solid transparent;
                         transition: all 0.3s ease;
                         display: flex;
+
                         align-items: center;
                         gap: 5px;
+
+                        &.dropdown-toggle {
+                            cursor: pointer;
+                        }
 
                         &:hover,
                         &.active {
@@ -109,14 +114,6 @@
                         // &:hover .expand-icon:not(.rotated) {
                         //     transform: rotate(180deg);
                         // }
-                    }
-                }
-
-                .navbar-nav>li {
-                    &:hover .dropdown-menu {
-                        display: block;
-                        opacity: 1;
-                        visibility: visible;
                     }
                 }
 
@@ -263,8 +260,8 @@
 
                 .navbar-collapse {
                     border: none;
-                    overflow-y: auto;
-                    max-height: calc(100vh - 200px);
+                    overflow: visible;
+                    max-height: none;
                     // Hide by default on mobile, show when toggled
                     display: none !important;
                     position: absolute;
@@ -284,7 +281,8 @@
                     .navbar-nav {
                         margin-top: 0;
                         display: block;
-                        width: 100%;
+                        width: 140px;
+                        margin: 0 auto;
                         padding: 0;
 
                         >li {
@@ -298,16 +296,22 @@
 
                             >a {
                                 padding: 15px 20px;
-                                text-align: left;
+                                text-align: center;
                                 border-bottom: none !important;
                                 display: flex;
                                 width: 100%;
-                                justify-content: space-between;
+                                justify-content: center;
                                 align-items: center;
                                 color: #000;
                                 text-decoration: none;
-                                width: fit-content;
-                                margin: auto;
+                                width: 100%;
+                                margin: 0;
+
+
+
+                                &.dropdown-toggle {
+                                    cursor: pointer;
+                                }
 
                                 &:hover,
                                 &.active {
@@ -327,36 +331,43 @@
 
                             // Mobile dropdown menu styling
                             .dropdown-menu {
-                                position: static !important;
+                                position: absolute !important;
                                 display: none !important;
-                                box-shadow: none;
-                                border: none;
-                                background: #f8f9fa;
+                                box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+                                border: 1px solid #c8c8c8;
+                                background: #f0f0f0;
                                 margin: 0;
-                                border-radius: 0;
+                                border-radius: 4px;
                                 transform: none !important;
-                                left: auto !important;
-                                top: auto !important;
-                                width: 100%;
+                                left: calc(100% + 12px) !important;
+                                right: auto !important;
+                                top: -52px !important;
+                                width: min(42vw, 185px);
+                                min-width: 150px;
+                                max-height: 65vh;
+                                overflow-y: auto;
+                                z-index: 1002;
 
                                 &.show {
                                     display: block !important;
                                 }
 
                                 .dropdown-values {
-                                    // border-bottom: 1px solid #ddd;
+                                    border-bottom: 1px solid #d5d5d5;
 
                                     &:last-child {
                                         border-bottom: none;
                                     }
 
                                     a {
-                                        padding: 12px 30px;
+                                        padding: 11px 12px;
                                         font-size: 14px;
                                         color: #333;
                                         display: flex;
                                         justify-content: space-between;
                                         align-items: center;
+                                        width: 100%;
+                                        margin: 0;
 
                                         &:hover {
                                             background-color: #e9ecef;
@@ -367,7 +378,7 @@
                                         background: #e9ecef;
 
                                         li a {
-                                            padding: 10px 40px;
+                                            padding: 10px 16px;
                                             font-size: 13px;
                                             color: #555;
                                         }
@@ -449,34 +460,46 @@
                 }
 
                 .navbar-collapse {
-                    max-height: calc(100vh - 150px);
+                    max-height: none;
 
                     .navbar-nav {
+                        width: 130px;
+                        margin: 0 auto;
+
                         >li {
                             >a {
                                 font-size: 14px;
                                 padding: 12px 15px;
                                 text-align: left;
+                                justify-content: start;
                             }
 
                             // Improved mobile dropdown styling
                             .dropdown-menu {
-                                position: static !important;
+                                position: absolute !important;
                                 display: none !important;
-                                box-shadow: none;
-                                border: none;
+                                box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+                                border: 1px solid #c8c8c8;
                                 background: #f0f0f0;
                                 margin: 0;
-                                border-radius: 0;
+                                border-radius: 4px;
                                 transform: none !important;
-                                left: auto !important;
-                                top: auto !important;
-                                width: 100%;
-                                max-height: none;
-                                overflow-y: visible;
+                                left: calc(100% + 10px) !important;
+                                right: auto !important;
+                                top: -48px !important;
+                                width: min(40vw, 170px);
+                                min-width: 140px;
+                                max-height: 60vh;
+                                overflow-y: auto;
+                                z-index: 1002;
 
                                 &.show {
                                     display: block !important;
+                                    left: 104px !important;
+                                    text-align: center !important;
+                                    top: -50px !important;
+                                    max-height: 90vh;
+                                    overflow-y: auto;
                                 }
 
                                 .dropdown-values {
@@ -487,22 +510,23 @@
                                     }
 
                                     a {
-                                        color: #333;
-                                        font-weight: 500;
-                                        font-size: 13px;
-                                        padding: 10px 25px;
+                                        color: #000;
+                                        letter-spacing: 1px;
+                                        font-weight: 600;
+                                        font-size: 12px;
+                                        padding: 5px;
                                         display: flex;
                                         text-decoration: none;
                                         cursor: pointer;
                                         align-items: center;
                                         justify-content: space-between;
-                                        text-align: left;
-                                        letter-spacing: 0.5px;
-                                        width: fit-content;
-                                        margin: auto;
+                                        text-align: start;
+                                        width: 160px;
+                                        margin: 0;
+                                        background: #fff;
 
                                         &:hover {
-                                            background-color: #e0e0e0;
+                                            background-color: #fff;
                                         }
                                     }
 

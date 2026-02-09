@@ -4,12 +4,15 @@
   "footerText": "Art iBrow Threading Salon offers expert beauty services—from precision threading to makeup and facials—empowering you to feel confident and radiant.",
   "brandName": "ART iBrow Threading Salon",
   "address": "12625 Frederick St F13, Moreno Valley, CA 92553, United States",
+  "address2": "1201 University Ave # 104A, Riverside, CA 92507, United States",
   "contact": "+1 951-777-8566",
+  "contactNew": "+1 951-213-6440",
   "email": "info@artibrow.com",
   "type": "template1085",
   "template": {
     "footer": "footerLogoMenuContact"
   },
+  "popup": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/beacfe09-6fc8-45b6-bca3-474127b974e6_popup_artibrow.png",
   "social": {
     "orderonline": "https://waitwhile.com/locations/artibrow",
     "twitter": "",
@@ -24,7 +27,8 @@
     "hrefEmail": "mailto:info@artibrow.com",
     "hrefPhone": "tel:+1 951-777-8566",
     "hrefPhone2": "tel:+1 951-213-6440",
-    "map": "https://maps.app.goo.gl/SgErsD62p8rURHDv8"
+    "map": "https://maps.app.goo.gl/SgErsD62p8rURHDv8",
+    "map2": "https://maps.app.goo.gl/ESn1TmTFRQbTxU3j7"
   },
   "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.19662966786!2d-117.26649062428845!3d33.9360704732009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dca601c5614c11%3A0x822b27597f0c5619!2s12625%20Frederick%20St%20F13%2C%20Moreno%20Valley%2C%20CA%2092553%2C%20USA!5e0!3m2!1sen!2sin!4v1709723384470!5m2!1sen!2sin",
   "css": {
@@ -358,7 +362,7 @@
       },
       {
         "text": "Pricing",
-        "link": "price/all",
+        "link": "/menutwo/all",
         "type": "internal"
       },
       {
@@ -504,6 +508,7 @@
     "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/198b423c-93e8-4f07-94b8-029d91ffa4d9_4d50093a-4d8e-4f8e-8d05-4e6d8ba798e3_h4-marquee-img2.png"
   ],
   "hero": {
+    "closingIcon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5540c5e6-5646-4051-a642-d362b73031e1_Untitled_design-8-removebg-preview.png",
     "internalLinks": true,
     "links": [
       {
@@ -513,7 +518,7 @@
       },
       {
         "text": "Pricing",
-        "link": "/price/all",
+        "link": "/menutwo/all",
         "type": "internal"
       },
       {
@@ -703,6 +708,7 @@
       "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ec02fccb-3f13-44c1-ba18-f5e441f261ac_94%20%281%29.png"
     ],
     "aboutText": [
+      "Art iBrow Threading Salon is a beauty service brand owned and operated by Cosmothetics Pros Inc., a California corporation",
       "With over a decade of expertise, our Art iBrow Threading Salon is a beacon of excellence in eyebrow styling. We specialize in creating stunning, natural-looking brows and many more that enhance your beauty. Our skilled technicians use the latest techniques and top-quality products to ensure you leave feeling confident and beautiful. Experience the difference at our trusted salon today!",
       "So, for over a decade, our Art iBrow Threading Salon has set the standard for exceptional eyebrow styling. Our seasoned professionals bring a wealth of experience to every appointment, ensuring precision and perfection in every stroke. Trust us to deliver unparalleled results, backed by a decade-long commitment to beauty and customer satisfaction."
     ],
@@ -6754,6 +6760,293 @@
           ]
         }
       ],
+      "menseyebrow-waxing": [
+        {
+          "title": "Art Ibrow: Premium Men's Eyebrow Waxing Service",
+          "description": "Discover Art Ibrow's expert men's eyebrow waxing for a clean, precise look. Professional service for flawless, well-groomed brows. Book your appointment today!",
+          "name": "Men's Eyebrow Waxing",
+          "duration": "10 to 15 minutes",
+          "price": "$15",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2bbe21b5-1ea0-4bcf-9c05-0b4e6d8bc2d2_WhatsApp%20Image%202024-10-09%20at%2013.jpeg",
+          "para": [
+            "Men's eyebrow waxing involves applying warm wax to unwanted eyebrow hair, then placing a cloth strip over it. The strip is quickly pulled off, removing the hair from the roots. This method shapes and tidies the eyebrows, offering a clean, defined look that lasts longer than tweezing.The process is relatively quick and can be done at a salon or at home with a waxing kit. Regular waxing can help maintain the desired eyebrow shape and reduce the frequency of hair regrowth."
+          ],
+          "faq": [
+            {
+              "question": "1. What is men's eyebrow waxing? ",
+              "answer": "Men's eyebrow waxing is a grooming technique that uses warm wax to remove unwanted eyebrow hair, creating a clean and defined shape.",
+              "open": false
+            },
+            {
+              "question": "2. Is eyebrow waxing painful?",
+              "answer": "Some discomfort is expected, but it varies from person to person. The pain is usually brief and tolerable.",
+              "open": false
+            },
+            {
+              "question": "3. How long do the results last?",
+              "answer": "Results typically last between 3 to 6 weeks, depending on the individual's hair growth rate.",
+              "open": false
+            },
+            {
+              "question": "4. Can I wax my eyebrows at home?",
+              "answer": "Yes, home waxing kits are available, but for best results, it’s recommended to have it done by a professional, especially for the first time.",
+              "open": false
+            },
+            {
+              "question": "5. How should I prepare for an eyebrow waxing session?",
+              "answer": "Make sure your eyebrow area is clean and free of any makeup or oils. Avoid tanning or exfoliating the area 24 hours before the session.",
+              "open": false
+            },
+            {
+              "question": "6. What should I do after waxing?",
+              "answer": "Avoid sun exposure, swimming, and using harsh skincare products on the area for at least 24 hours. Apply a soothing lotion to reduce irritation.",
+              "open": false
+            },
+            {
+              "question": "7. Are there any risks associated with eyebrow waxing?",
+              "answer": "Risks are minimal but can include redness, irritation, or in rare cases, skin lifting. Choosing a reputable salon and technician can minimize these risks.",
+              "open": false
+            },
+            {
+              "question": "8. Can people with sensitive skin get their eyebrows waxed?",
+              "answer": "Yes, but they should inform the technician beforehand. The technician may use a gentler wax or suggest alternative methods.",
+              "open": false
+            },
+            {
+              "question": "9. How often should I get my eyebrows waxed?",
+              "answer": "Every 3 to 6 weeks is typical, but it depends on how quickly your hair grows back and your personal grooming preferences.",
+              "open": false
+            },
+            {
+              "question": "10. Will waxing make my eyebrow hair grow back thicker?",
+              "answer": "No, waxing can actually make hair grow back finer and sparser over time, as it weakens the hair follicles.",
+              "open": false
+            }
+          ],
+          "benefits": [
+            {
+              "showDesc": false,
+              "title": "Defined shape"
+            },
+            {
+              "showDesc": false,
+              "title": "Clean look"
+            },
+            {
+              "showDesc": false,
+              "title": "Less maintenance"
+            },
+            {
+              "showDesc": false,
+              "title": "Smooth skin"
+            },
+            {
+              "showDesc": false,
+              "title": "No stray hairs"
+            },
+            {
+              "showDesc": false,
+              "title": "Enhanced features"
+            },
+            {
+              "showDesc": false,
+              "title": "Professional appearance"
+            },
+            {
+              "showDesc": false,
+              "title": "Confidence boost"
+            },
+            {
+              "showDesc": false,
+              "title": "Reduced irritation"
+            },
+            {
+              "showDesc": false,
+              "title": "Long-lasting results"
+            }
+          ],
+          "callButton": "Call us to get a Quote",
+          "callLink": "tel:+1 951-777-8566",
+          "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5462d691-6f16-4758-b476-adb3518b0c4d_Men_s%20Eyebrow%20Waxing.png",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5462d691-6f16-4758-b476-adb3518b0c4d_Men_s%20Eyebrow%20Waxing.png",
+              "alt": "menseybrowwaxing1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/badbefe2-8ddc-4d11-a757-42dae93eaade_Men_s%20Eyebrow%20Waxing%20%282%29.png",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/badbefe2-8ddc-4d11-a757-42dae93eaade_Men_s%20Eyebrow%20Waxing%20%282%29.png",
+              "alt": "menseybrowwaxing2"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81d7a14c-8cd7-4bda-909e-1a4ec0001311_compressed-1728447102757-9c747395-c93c-4998-bf87-e357a88222fb_eyebrow%20wax4.png",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81d7a14c-8cd7-4bda-909e-1a4ec0001311_compressed-1728447102757-9c747395-c93c-4998-bf87-e357a88222fb_eyebrow%20wax4.png",
+              "alt": "menseybrowwaxing3"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fe7ecbff-0271-44d2-8dbe-b7505ec99fe9_compressed-1728447103844-9ac313d5-ee61-4902-a209-373a50bee4a4_eyebrow%20wax3.png",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fe7ecbff-0271-44d2-8dbe-b7505ec99fe9_compressed-1728447103844-9ac313d5-ee61-4902-a209-373a50bee4a4_eyebrow%20wax3.png",
+              "alt": "menseybrowwaxing4"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1a69b071-8120-45cc-bf7d-1915f3497307_compressed-1728447104271-1e38a43a-0243-441e-bcc1-a0c8524da0df_eyebrow%20wax2.png",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1a69b071-8120-45cc-bf7d-1915f3497307_compressed-1728447104271-1e38a43a-0243-441e-bcc1-a0c8524da0df_eyebrow%20wax2.png",
+              "alt": "menseybrowwaxing5"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/49ea003e-6fd8-4d63-8a90-7682cd7b8ed6_compressed-1728447104638-27bca323-1c91-4b85-802c-d27e1bc8f658_eyebrow%20wax1.png",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/49ea003e-6fd8-4d63-8a90-7682cd7b8ed6_compressed-1728447104638-27bca323-1c91-4b85-802c-d27e1bc8f658_eyebrow%20wax1.png",
+              "alt": "menseybrowwaxing6"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d5337e96-ec33-4559-a12e-e7627d14c1df_compressed-1728447105035-ce2c21dc-ef47-4ea9-8943-7149de371509_eyebrow%20wax.png",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d5337e96-ec33-4559-a12e-e7627d14c1df_compressed-1728447105035-ce2c21dc-ef47-4ea9-8943-7149de371509_eyebrow%20wax.png",
+              "alt": "menseybrowwaxing7"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ef320946-beae-4afa-8918-6c2f5272b529_compressed-1728447105534-80a51137-8198-4e34-a0af-71d3a6dc55e1_eyebrow%20wax%206.png",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ef320946-beae-4afa-8918-6c2f5272b529_compressed-1728447105534-80a51137-8198-4e34-a0af-71d3a6dc55e1_eyebrow%20wax%206.png",
+              "alt": "menseybrowwaxing8"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0460e885-a272-4f9e-816a-899732b74eb1_compressed-1728447105975-38c2b03a-fe44-4c32-8b52-ed3058e7dd67_eyebrow%20wax%205.png",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0460e885-a272-4f9e-816a-899732b74eb1_compressed-1728447105975-38c2b03a-fe44-4c32-8b52-ed3058e7dd67_eyebrow%20wax%205.png",
+              "alt": "menseybrowwaxing9"
+            }
+          ]
+        }
+      ],
+      "menscheeking-waxing": [
+        {
+          "title": "Expert Men's Cheeks Waxing for a Smooth Finish | Art Ibrow",
+          "description": "Experience Art Ibrow's top-notch men's cheeks waxing for a smooth, irritation-free result. Professional care for a refined, clean look. Book now!",
+          "name": "Men's Cheeks Waxing",
+          "duration": "10 to 15 minutes",
+          "price": "$15",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b19ee6a2-d5a9-4fa6-88b9-674e0267cb26_compressed-1728447334253-e999868c-3c78-4330-8c55-8b49973877a1_Cheek%20wax1.png",
+          "para": [
+            "Men's cheeks waxing involves removing unwanted hair from the cheek area using warm wax and cloth strips. This method offers a smooth, clean look that lasts longer than shaving. Ideal for those seeking a well-groomed appearance, it helps maintain defined facial contours by eliminating stray hairs and reducing the frequency of regrowth."
+          ],
+          "faq": [
+            {
+              "question": "1. Why should men consider waxing their cheeks?",
+              "answer": "Waxing provides a longer-lasting smoothness compared to shaving, helps maintain a clean look, and reduces the frequency of hair removal.",
+              "open": false
+            },
+            {
+              "question": "2. What type of wax is best for men's cheeks?",
+              "answer": "Hard wax is often preferred for facial areas as it is gentler on the skin and less painful compared to soft wax.",
+              "open": false
+            },
+            {
+              "question": "3. Can waxing help prevent ingrown hairs on the cheeks?",
+              "answer": "Yes, waxing removes hair from the root, which can help reduce the occurrence of ingrown hairs compared to shaving.",
+              "open": false
+            },
+            {
+              "question": "4. How long do the results last?",
+              "answer": "Results typically last between 3 to 6 weeks, depending on individual hair growth rates.",
+              "open": false
+            },
+            {
+              "question": "5. What should I avoid doing immediately after cheeks waxing?",
+              "answer": "Avoid touching the waxed area with dirty hands, applying makeup, or using fragranced skincare products to prevent irritation.",
+              "open": false
+            },
+            {
+              "question": "6. How does cheeks waxing compare to other hair removal methods like threading or laser?",
+              "answer": "Waxing is quicker and offers longer-lasting results than threading, but it's less permanent than laser hair removal, which can provide a more lasting solution over multiple sessions.",
+              "open": false
+            },
+            {
+              "question": "7. Can cheeks waxing cause acne or breakouts?",
+              "answer": "While waxing itself doesn't cause acne, it can irritate the skin and lead to breakouts if proper aftercare is not followed, such as cleansing the skin and avoiding pore-clogging products.",
+              "open": false
+            },
+            {
+              "question": "8. Is cheeks waxing suitable for all skin types?",
+              "answer": "Yes, but individuals with very sensitive skin should consult with a professional to determine the best type of wax and technique to use.",
+              "open": false
+            },
+            {
+              "question": "9. Can waxing help with reducing hair density over time?",
+              "answer": "Yes, regular waxing can weaken hair follicles, resulting in finer and less dense hair growth over time.",
+              "open": false
+            },
+            {
+              "question": "10. What are the signs that I should stop waxing and seek professional advice?",
+              "answer": "If you experience severe redness, swelling, or persistent pain after waxing, it's advisable to seek professional advice to avoid potential skin damage or infection.",
+              "open": false
+            }
+          ],
+          "benefits": [
+            {
+              "showDesc": false,
+              "title": "Smoother cheeks"
+            },
+            {
+              "showDesc": false,
+              "title": "Clear complexion"
+            },
+            {
+              "showDesc": false,
+              "title": "Minimized pores"
+            },
+            {
+              "showDesc": false,
+              "title": "Thinner hair regrowth"
+            },
+            {
+              "showDesc": false,
+              "title": "Reduced shaving time"
+            },
+            {
+              "showDesc": false,
+              "title": "Even skin tone"
+            },
+            {
+              "showDesc": false,
+              "title": "Less stubble"
+            },
+            {
+              "showDesc": false,
+              "title": "Youthful appearance"
+            },
+            {
+              "showDesc": false,
+              "title": "No nicks"
+            },
+            {
+              "showDesc": false,
+              "title": "Exfoliated skin"
+            }
+          ],
+          "callButton": "Call us to get a Quote",
+          "callLink": "tel:+1 951-777-8566",
+          "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b19ee6a2-d5a9-4fa6-88b9-674e0267cb26_compressed-1728447334253-e999868c-3c78-4330-8c55-8b49973877a1_Cheek%20wax1.png",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b19ee6a2-d5a9-4fa6-88b9-674e0267cb26_compressed-1728447334253-e999868c-3c78-4330-8c55-8b49973877a1_Cheek%20wax1.png",
+              "alt": "mens cheek waxing1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1e5c906b-2193-4ee8-982b-b81198e0dd92_compressed-1728447337307-e6477b40-69b8-4d52-b820-5660f213f95d_Cheek%20wax.png",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1e5c906b-2193-4ee8-982b-b81198e0dd92_compressed-1728447337307-e6477b40-69b8-4d52-b820-5660f213f95d_Cheek%20wax.png",
+              "alt": "mens cheek waxing2"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a6f68cf4-dd46-470d-8504-db221c5320f9_compressed-1728447340155-b3719d5c-cdf6-4d4e-8e34-d307a8f1e92e_Cheek%20wax%202.png",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a6f68cf4-dd46-470d-8504-db221c5320f9_compressed-1728447340155-b3719d5c-cdf6-4d4e-8e34-d307a8f1e92e_Cheek%20wax%202.png",
+              "alt": "mens cheek waxing3"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96138e99-3b24-F4402-821d-2a9a90664ce9_shutterstock_1950669076.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96138e99-3b24-F4402-821d-2a9a90664ce9_shutterstock_1950669076.jpg",
+              "alt": "mens cheek waxing4"
+            }
+          ]
+        }
+      ],
       "traditional-waxing": [
         {
           "title": "Traditional Waxing",
@@ -7581,293 +7874,6 @@
               "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/de65f838-f43a-4c1d-abbe-73f017044999_uner%20arm.png",
               "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/de65f838-f43a-4c1d-abbe-73f017044999_uner%20arm.png",
               "alt": "Underarm Wax 2"
-            }
-          ]
-        }
-      ],
-      "menseyebrow-waxing": [
-        {
-          "title": "Art Ibrow: Premium Men's Eyebrow Waxing Service",
-          "description": "Discover Art Ibrow's expert men's eyebrow waxing for a clean, precise look. Professional service for flawless, well-groomed brows. Book your appointment today!",
-          "name": "Men's Eyebrow Waxing",
-          "duration": "10 to 15 minutes",
-          "price": "$15",
-          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2bbe21b5-1ea0-4bcf-9c05-0b4e6d8bc2d2_WhatsApp%20Image%202024-10-09%20at%2013.jpeg",
-          "para": [
-            "Men's eyebrow waxing involves applying warm wax to unwanted eyebrow hair, then placing a cloth strip over it. The strip is quickly pulled off, removing the hair from the roots. This method shapes and tidies the eyebrows, offering a clean, defined look that lasts longer than tweezing.The process is relatively quick and can be done at a salon or at home with a waxing kit. Regular waxing can help maintain the desired eyebrow shape and reduce the frequency of hair regrowth."
-          ],
-          "faq": [
-            {
-              "question": "1. What is men's eyebrow waxing? ",
-              "answer": "Men's eyebrow waxing is a grooming technique that uses warm wax to remove unwanted eyebrow hair, creating a clean and defined shape.",
-              "open": false
-            },
-            {
-              "question": "2. Is eyebrow waxing painful?",
-              "answer": "Some discomfort is expected, but it varies from person to person. The pain is usually brief and tolerable.",
-              "open": false
-            },
-            {
-              "question": "3. How long do the results last?",
-              "answer": "Results typically last between 3 to 6 weeks, depending on the individual's hair growth rate.",
-              "open": false
-            },
-            {
-              "question": "4. Can I wax my eyebrows at home?",
-              "answer": "Yes, home waxing kits are available, but for best results, it’s recommended to have it done by a professional, especially for the first time.",
-              "open": false
-            },
-            {
-              "question": "5. How should I prepare for an eyebrow waxing session?",
-              "answer": "Make sure your eyebrow area is clean and free of any makeup or oils. Avoid tanning or exfoliating the area 24 hours before the session.",
-              "open": false
-            },
-            {
-              "question": "6. What should I do after waxing?",
-              "answer": "Avoid sun exposure, swimming, and using harsh skincare products on the area for at least 24 hours. Apply a soothing lotion to reduce irritation.",
-              "open": false
-            },
-            {
-              "question": "7. Are there any risks associated with eyebrow waxing?",
-              "answer": "Risks are minimal but can include redness, irritation, or in rare cases, skin lifting. Choosing a reputable salon and technician can minimize these risks.",
-              "open": false
-            },
-            {
-              "question": "8. Can people with sensitive skin get their eyebrows waxed?",
-              "answer": "Yes, but they should inform the technician beforehand. The technician may use a gentler wax or suggest alternative methods.",
-              "open": false
-            },
-            {
-              "question": "9. How often should I get my eyebrows waxed?",
-              "answer": "Every 3 to 6 weeks is typical, but it depends on how quickly your hair grows back and your personal grooming preferences.",
-              "open": false
-            },
-            {
-              "question": "10. Will waxing make my eyebrow hair grow back thicker?",
-              "answer": "No, waxing can actually make hair grow back finer and sparser over time, as it weakens the hair follicles.",
-              "open": false
-            }
-          ],
-          "benefits": [
-            {
-              "showDesc": false,
-              "title": "Defined shape"
-            },
-            {
-              "showDesc": false,
-              "title": "Clean look"
-            },
-            {
-              "showDesc": false,
-              "title": "Less maintenance"
-            },
-            {
-              "showDesc": false,
-              "title": "Smooth skin"
-            },
-            {
-              "showDesc": false,
-              "title": "No stray hairs"
-            },
-            {
-              "showDesc": false,
-              "title": "Enhanced features"
-            },
-            {
-              "showDesc": false,
-              "title": "Professional appearance"
-            },
-            {
-              "showDesc": false,
-              "title": "Confidence boost"
-            },
-            {
-              "showDesc": false,
-              "title": "Reduced irritation"
-            },
-            {
-              "showDesc": false,
-              "title": "Long-lasting results"
-            }
-          ],
-          "callButton": "Call us to get a Quote",
-          "callLink": "tel:+1 951-777-8566",
-          "slider": [
-            {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5462d691-6f16-4758-b476-adb3518b0c4d_Men_s%20Eyebrow%20Waxing.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5462d691-6f16-4758-b476-adb3518b0c4d_Men_s%20Eyebrow%20Waxing.png",
-              "alt": "menseybrowwaxing1"
-            },
-            {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/badbefe2-8ddc-4d11-a757-42dae93eaade_Men_s%20Eyebrow%20Waxing%20%282%29.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/badbefe2-8ddc-4d11-a757-42dae93eaade_Men_s%20Eyebrow%20Waxing%20%282%29.png",
-              "alt": "menseybrowwaxing2"
-            },
-            {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81d7a14c-8cd7-4bda-909e-1a4ec0001311_compressed-1728447102757-9c747395-c93c-4998-bf87-e357a88222fb_eyebrow%20wax4.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81d7a14c-8cd7-4bda-909e-1a4ec0001311_compressed-1728447102757-9c747395-c93c-4998-bf87-e357a88222fb_eyebrow%20wax4.png",
-              "alt": "menseybrowwaxing3"
-            },
-            {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fe7ecbff-0271-44d2-8dbe-b7505ec99fe9_compressed-1728447103844-9ac313d5-ee61-4902-a209-373a50bee4a4_eyebrow%20wax3.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fe7ecbff-0271-44d2-8dbe-b7505ec99fe9_compressed-1728447103844-9ac313d5-ee61-4902-a209-373a50bee4a4_eyebrow%20wax3.png",
-              "alt": "menseybrowwaxing4"
-            },
-            {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1a69b071-8120-45cc-bf7d-1915f3497307_compressed-1728447104271-1e38a43a-0243-441e-bcc1-a0c8524da0df_eyebrow%20wax2.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1a69b071-8120-45cc-bf7d-1915f3497307_compressed-1728447104271-1e38a43a-0243-441e-bcc1-a0c8524da0df_eyebrow%20wax2.png",
-              "alt": "menseybrowwaxing5"
-            },
-            {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/49ea003e-6fd8-4d63-8a90-7682cd7b8ed6_compressed-1728447104638-27bca323-1c91-4b85-802c-d27e1bc8f658_eyebrow%20wax1.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/49ea003e-6fd8-4d63-8a90-7682cd7b8ed6_compressed-1728447104638-27bca323-1c91-4b85-802c-d27e1bc8f658_eyebrow%20wax1.png",
-              "alt": "menseybrowwaxing6"
-            },
-            {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d5337e96-ec33-4559-a12e-e7627d14c1df_compressed-1728447105035-ce2c21dc-ef47-4ea9-8943-7149de371509_eyebrow%20wax.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d5337e96-ec33-4559-a12e-e7627d14c1df_compressed-1728447105035-ce2c21dc-ef47-4ea9-8943-7149de371509_eyebrow%20wax.png",
-              "alt": "menseybrowwaxing7"
-            },
-            {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ef320946-beae-4afa-8918-6c2f5272b529_compressed-1728447105534-80a51137-8198-4e34-a0af-71d3a6dc55e1_eyebrow%20wax%206.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ef320946-beae-4afa-8918-6c2f5272b529_compressed-1728447105534-80a51137-8198-4e34-a0af-71d3a6dc55e1_eyebrow%20wax%206.png",
-              "alt": "menseybrowwaxing8"
-            },
-            {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0460e885-a272-4f9e-816a-899732b74eb1_compressed-1728447105975-38c2b03a-fe44-4c32-8b52-ed3058e7dd67_eyebrow%20wax%205.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0460e885-a272-4f9e-816a-899732b74eb1_compressed-1728447105975-38c2b03a-fe44-4c32-8b52-ed3058e7dd67_eyebrow%20wax%205.png",
-              "alt": "menseybrowwaxing9"
-            }
-          ]
-        }
-      ],
-      "menscheeking-waxing": [
-        {
-          "title": "Expert Men's Cheeks Waxing for a Smooth Finish | Art Ibrow",
-          "description": "Experience Art Ibrow's top-notch men's cheeks waxing for a smooth, irritation-free result. Professional care for a refined, clean look. Book now!",
-          "name": "Men's Cheeks Waxing",
-          "duration": "10 to 15 minutes",
-          "price": "$15",
-          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b19ee6a2-d5a9-4fa6-88b9-674e0267cb26_compressed-1728447334253-e999868c-3c78-4330-8c55-8b49973877a1_Cheek%20wax1.png",
-          "para": [
-            "Men's cheeks waxing involves removing unwanted hair from the cheek area using warm wax and cloth strips. This method offers a smooth, clean look that lasts longer than shaving. Ideal for those seeking a well-groomed appearance, it helps maintain defined facial contours by eliminating stray hairs and reducing the frequency of regrowth."
-          ],
-          "faq": [
-            {
-              "question": "1. Why should men consider waxing their cheeks?",
-              "answer": "Waxing provides a longer-lasting smoothness compared to shaving, helps maintain a clean look, and reduces the frequency of hair removal.",
-              "open": false
-            },
-            {
-              "question": "2. What type of wax is best for men's cheeks?",
-              "answer": "Hard wax is often preferred for facial areas as it is gentler on the skin and less painful compared to soft wax.",
-              "open": false
-            },
-            {
-              "question": "3. Can waxing help prevent ingrown hairs on the cheeks?",
-              "answer": "Yes, waxing removes hair from the root, which can help reduce the occurrence of ingrown hairs compared to shaving.",
-              "open": false
-            },
-            {
-              "question": "4. How long do the results last?",
-              "answer": "Results typically last between 3 to 6 weeks, depending on individual hair growth rates.",
-              "open": false
-            },
-            {
-              "question": "5. What should I avoid doing immediately after cheeks waxing?",
-              "answer": "Avoid touching the waxed area with dirty hands, applying makeup, or using fragranced skincare products to prevent irritation.",
-              "open": false
-            },
-            {
-              "question": "6. How does cheeks waxing compare to other hair removal methods like threading or laser?",
-              "answer": "Waxing is quicker and offers longer-lasting results than threading, but it's less permanent than laser hair removal, which can provide a more lasting solution over multiple sessions.",
-              "open": false
-            },
-            {
-              "question": "7. Can cheeks waxing cause acne or breakouts?",
-              "answer": "While waxing itself doesn't cause acne, it can irritate the skin and lead to breakouts if proper aftercare is not followed, such as cleansing the skin and avoiding pore-clogging products.",
-              "open": false
-            },
-            {
-              "question": "8. Is cheeks waxing suitable for all skin types?",
-              "answer": "Yes, but individuals with very sensitive skin should consult with a professional to determine the best type of wax and technique to use.",
-              "open": false
-            },
-            {
-              "question": "9. Can waxing help with reducing hair density over time?",
-              "answer": "Yes, regular waxing can weaken hair follicles, resulting in finer and less dense hair growth over time.",
-              "open": false
-            },
-            {
-              "question": "10. What are the signs that I should stop waxing and seek professional advice?",
-              "answer": "If you experience severe redness, swelling, or persistent pain after waxing, it's advisable to seek professional advice to avoid potential skin damage or infection.",
-              "open": false
-            }
-          ],
-          "benefits": [
-            {
-              "showDesc": false,
-              "title": "Smoother cheeks"
-            },
-            {
-              "showDesc": false,
-              "title": "Clear complexion"
-            },
-            {
-              "showDesc": false,
-              "title": "Minimized pores"
-            },
-            {
-              "showDesc": false,
-              "title": "Thinner hair regrowth"
-            },
-            {
-              "showDesc": false,
-              "title": "Reduced shaving time"
-            },
-            {
-              "showDesc": false,
-              "title": "Even skin tone"
-            },
-            {
-              "showDesc": false,
-              "title": "Less stubble"
-            },
-            {
-              "showDesc": false,
-              "title": "Youthful appearance"
-            },
-            {
-              "showDesc": false,
-              "title": "No nicks"
-            },
-            {
-              "showDesc": false,
-              "title": "Exfoliated skin"
-            }
-          ],
-          "callButton": "Call us to get a Quote",
-          "callLink": "tel:+1 951-777-8566",
-          "slider": [
-            {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b19ee6a2-d5a9-4fa6-88b9-674e0267cb26_compressed-1728447334253-e999868c-3c78-4330-8c55-8b49973877a1_Cheek%20wax1.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b19ee6a2-d5a9-4fa6-88b9-674e0267cb26_compressed-1728447334253-e999868c-3c78-4330-8c55-8b49973877a1_Cheek%20wax1.png",
-              "alt": "mens cheek waxing1"
-            },
-            {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1e5c906b-2193-4ee8-982b-b81198e0dd92_compressed-1728447337307-e6477b40-69b8-4d52-b820-5660f213f95d_Cheek%20wax.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1e5c906b-2193-4ee8-982b-b81198e0dd92_compressed-1728447337307-e6477b40-69b8-4d52-b820-5660f213f95d_Cheek%20wax.png",
-              "alt": "mens cheek waxing2"
-            },
-            {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a6f68cf4-dd46-470d-8504-db221c5320f9_compressed-1728447340155-b3719d5c-cdf6-4d4e-8e34-d307a8f1e92e_Cheek%20wax%202.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a6f68cf4-dd46-470d-8504-db221c5320f9_compressed-1728447340155-b3719d5c-cdf6-4d4e-8e34-d307a8f1e92e_Cheek%20wax%202.png",
-              "alt": "mens cheek waxing3"
-            },
-            {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96138e99-3b24-F4402-821d-2a9a90664ce9_shutterstock_1950669076.jpg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96138e99-3b24-F4402-821d-2a9a90664ce9_shutterstock_1950669076.jpg",
-              "alt": "mens cheek waxing4"
             }
           ]
         }
@@ -13099,7 +13105,8 @@
     "headingMoreno": "Moreno Valley Location Hours",
     "headingRiverside": "Riverside Location Hours",
     "timesMoreno": [
-      "Mon–Sat: 10:00 AM – 7:00 PM",
+      "Monday: 11:00 AM – 7:00 PM",
+      "Tue–Sat: 10:00 AM – 7:00 PM",
       "Sunday: 10:00 AM – 5:00 PM"
     ],
     "timesRiverside": [
@@ -13151,7 +13158,7 @@
                       "alt": "Eyebrow + Lip",
                       "itemPrice": "$18",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6e22b5a4-9dca-45cb-9e79-062d92c58f3d_Eyebrow%20%2B%20Lip%20%282%29.png",
-                      "link": "/price/all",
+                      "link": "/menutwo/all",
                       "galleryLink": "/gallery-two/eyebrow-lips"
                     },
                     {
@@ -13159,7 +13166,7 @@
                       "alt": "Eyebrow + Chin",
                       "itemPrice": "$18",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c839e7fc-64e7-4bf3-afe5-1370c59fde32_Eyebrow%20%2B%20Chin%20%286%29.png",
-                      "link": "/price/all",
+                      "link": "/menutwo/all",
                       "galleryLink": "/gallery-two/eyebrow-chin"
                     },
                     {
@@ -13167,7 +13174,7 @@
                       "alt": "Eyebrow + Chin + Lips",
                       "itemPrice": "$24",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6a6130f5-a2cc-4667-aa75-417ba2765449_Eyebrow%20%2B%20Chin%20%2B%20Lips%20%283%29.png",
-                      "link": "/price/all",
+                      "link": "/menutwo/all",
                       "galleryLink": "/gallery-two/eyebrow-chin-lips"
                     },
                     {
@@ -13175,7 +13182,7 @@
                       "alt": "Eyebrow + Lip + Lowerlip + Chin",
                       "itemPrice": "$27",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0b8fff97-f08f-4313-bdbe-8eaec6a061d6_Eyebrow%20%2B%20Lip%20%2B%20Lowerlip%20%2B%20Chin%20%282%29.png",
-                      "link": "/price/all",
+                      "link": "/menutwo/all",
                       "galleryLink": "/gallery-two/eyebrow-lips-lowerlip-chin"
                     },
                     {
@@ -13183,7 +13190,7 @@
                       "alt": "Men's Cheeks",
                       "itemPrice": "$12",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/40993eed-f8a9-4457-8413-859c06c38fcb_Men_s%20Cheeks%20%282%29.png",
-                      "link": "/price/all",
+                      "link": "/menutwo/all",
                       "galleryLink": "/gallery-two/menscheek-threading"
                     },
                     {
@@ -13191,7 +13198,7 @@
                       "alt": "Head",
                       "itemPrice": "$9",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c4ff9dd7-8b29-4803-bdfd-cc71bf69c027_Head%20%282%29.png",
-                      "link": "/price/all",
+                      "link": "/menutwo/all",
                       "galleryLink": "/gallery-two/head-threading"
                     },
                     {
@@ -13199,7 +13206,7 @@
                       "alt": "Side",
                       "itemPrice": "$12",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dbacda4f-ee2a-45ee-b43c-35309aedc83b_Side%20%282%29.png",
-                      "link": "/price/all",
+                      "link": "/menutwo/all",
                       "galleryLink": "/gallery-two/side-threading"
                     },
                     {
@@ -13207,7 +13214,7 @@
                       "alt": "Full Neck",
                       "itemPrice": "$9",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a14e2f48-e781-4283-9c39-3db9d37a52e2_Front%20%26%20back%20Neck%20Threading.png",
-                      "link": "/price/all",
+                      "link": "/menutwo/all",
                       "galleryLink": "/gallery-two/full-face"
                     },
                     {
@@ -13215,7 +13222,7 @@
                       "alt": "Neck",
                       "itemPrice": "$6",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a14e2f48-e781-4283-9c39-3db9d37a52e2_Front%20%26%20back%20Neck%20Threading.png",
-                      "link": "/price/all",
+                      "link": "/menutwo/all",
                       "galleryLink": "/gallery-two/full-face"
                     },
                     {
@@ -13223,7 +13230,7 @@
                       "alt": "Chin",
                       "itemPrice": "$6",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f5558fa4-a3d6-408a-a568-7d56441f8b25_Eyebrow%20%2B%20Chin%20%282%29.png",
-                      "link": "/price/all",
+                      "link": "/menutwo/all",
                       "galleryLink": "/gallery-two/chin"
                     }
                   ]

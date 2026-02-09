@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { AppService } from '../services/app.service';
 import { Meta, Title } from '@angular/platform-browser';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
@@ -124,6 +124,8 @@ export class NavbarComponent implements OnInit {
 
   closeDropdown() {
     this.isDropdownOpen = false;
+    this.activeDropdown = null;
+    this.selectedNavCategory = null;
   }
 
   toggleSubCategories(option: any) {
@@ -165,6 +167,25 @@ export class NavbarComponent implements OnInit {
   closeMobileMenu() {
     this.close = true;
     this.closeDropdown();
+  }
+
+  @HostListener('document:click', ['$event'])
+  onDocumentClick(event: MouseEvent): void {
+    if (!this.isDropdownOpen) {
+      return;
+    }
+
+    const target = event.target as HTMLElement | null;
+    if (!target) {
+      return;
+    }
+
+    const clickedOnToggle = !!target.closest('.dropdown-toggle');
+    const clickedInsideDropdown = !!target.closest('.dropdown-menu');
+
+    if (!clickedOnToggle && !clickedInsideDropdown) {
+      this.closeDropdown();
+    }
   }
 
 }
