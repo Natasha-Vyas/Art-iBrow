@@ -22,20 +22,18 @@ declare global {
 }
 
 @Component(
-
   {
     selector: 'app-payment',
     templateUrl: './payment.component.html',
     styleUrls: ['./payment.component.scss']
   }
-
 )
 export class PaymentComponent implements AfterViewInit {
   public amountDetails = new FormGroup({
     amount: new FormControl<number | null>(null, [Validators.required, Validators.min(1)])
   });
 
-  private readonly paypalClientId = 'sb';
+  private readonly paypalSdkSelector = 'script[data-paypal-sdk="true"], script[src*="paypal.com/sdk/js"]';
   private paypalButtonsInitialized = false;
 
   constructor(private router: Router) { }
@@ -46,36 +44,45 @@ export class PaymentComponent implements AfterViewInit {
 
   private async initializePayPal(): Promise<void> {
     try {
-      await this.loadPaypalScript();
+      await this.ensurePayPalSdkReady();
       this.renderPayPalButtons();
     } catch (error) {
       console.error('Failed to initialize PayPal SDK', error);
     }
   }
 
-  private loadPaypalScript(): Promise<void> {
+  private async ensurePayPalSdkReady(): Promise<void> {
+    if (window.paypal) {
+      return;
+    }
+
+    const existingScript = document.querySelector(this.paypalSdkSelector);
+    if (!existingScript) {
+      throw new Error('PayPal SDK script was not found. Ensure it is loaded in index.html.');
+    }
+
+    await this.waitForPaypalAvailability();
+  }
+
+  private waitForPaypalAvailability(): Promise<void> {
     return new Promise((resolve, reject) => {
-      if (window.paypal) {
-        resolve();
-        return;
-      }
+      const timeoutMs = 10000;
+      const intervalMs = 50;
+      let elapsed = 0;
 
-      const existingScript = document.querySelector('script[data-paypal-sdk="true"]') as HTMLScriptElement | null;
-      if (existingScript) {
-        existingScript.addEventListener('load', () => resolve(), { once: true });
-        existingScript.addEventListener('error', () => reject(new Error('Failed to load PayPal SDK.')), { once: true });
-        return;
-      }
+      const timer = window.setInterval(() => {
+        if (window.paypal) {
+          window.clearInterval(timer);
+          resolve();
+          return;
+        }
 
-      const script = document.createElement('script');
-      script.src = `https://www.paypal.com/sdk/js?client-id=${this.paypalClientId}&currency=USD`;
-      script.async = true;
-      script.defer = true;
-      script.dataset['paypalSdk'] = 'true';
-      script.onload = () => resolve();
-      script.onerror = () => reject(new Error('Failed to load PayPal SDK.'));
-
-      document.body.appendChild(script);
+        elapsed += intervalMs;
+        if (elapsed >= timeoutMs) {
+          window.clearInterval(timer);
+          reject(new Error('PayPal SDK did not become available in time.'));
+        }
+      }, intervalMs);
     });
   }
 
