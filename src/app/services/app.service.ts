@@ -24,8 +24,11 @@ export class AppService {
         switch (website) {
             case 'artibrow.com':
             case 'www.artibrow.com':
+                if (!this.favIcon) {
+                    this.favIcon = document.querySelector('#appIcon') || document.querySelector('link[rel~="icon"]');
+                }
                 if (this.favIcon) {
-                    this.favIcon.href = './assets/favicon.png';
+                    this.favIcon.href = 'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/567b2d5b-eee5-49fd-a792-f169b83230ee_Frame%20172549.png?v=2';
                 }
                 this.formCode = 'Vmn05XNC';
                 return artiBrowData;

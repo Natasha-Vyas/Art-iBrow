@@ -68,7 +68,7 @@ main {
 
         >div:not(.custom-slider) {
             position: absolute;
-            top: calc(35% - 40px);
+            top: calc(28.5% - 40px);
             left: calc(26% - 396px);
             display: flex;
             flex-direction: column;
@@ -419,7 +419,7 @@ main {
             }
 
             >div:not(.custom-slider) {
-                top: 23%;
+                top: 16%;
                 left: 0%;
                 transform: translate(-50%, -50%);
                 padding: 11rem 1rem;
