@@ -357,6 +357,47 @@
                 "link": "/service/hairstyle"
               }
             ]
+          },
+          {
+            "name": "Eyebrow Lamination",
+            "type": "internal",
+            "link": "",
+            "options": [
+              {
+                "name": "Classic Eyebrow Lamination",
+                "type": "internal",
+                "link": "/service/classic-eyebrow-lamination"
+              },
+              {
+                "name": "Eyebrow Lamination with Tint",
+                "type": "internal",
+                "link": "/service/eyebrow-lamination-with-tint"
+              }
+            ]
+          },
+          {
+            "name": "Dark Lip Neutralization",
+            "type": "internal",
+            "link": "",
+            "options": [
+              {
+                "name": "Dark Lip Neutralization",
+                "type": "internal",
+                "link": "/service/dark-lip-neutralization"
+              }
+            ]
+          },
+          {
+            "name": "Women's Hair Cut",
+            "type": "internal",
+            "link": "",
+            "options": [
+              {
+                "name": "Women's Hair Cut",
+                "type": "internal",
+                "link": "/service/womens-hair-cut"
+              }
+            ]
           }
         ]
       },
@@ -596,6 +637,10 @@
       "Bridal Make-up",
       "Brazilian Waxing",
       "Hairstyle",
+      "Classic Eyebrow Lamination",
+      "Eyebrow Lamination with Tint",
+      "Dark Lip Neutralization",
+      "Women's Hair Cut",
       "Others"
     ],
     "icons": [
@@ -789,6 +834,27 @@
         "label": "hairstyle",
         "link": "/service/hairstyle",
         "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/34135384-31f2-4fa4-8fca-03b65cf572d9_Hairstyle%20%282%29.png"
+      },
+      {
+        "showDesc": false,
+        "title": "Women's Hair Cut",
+        "label": "womenshaircut",
+        "link": "/service/womenshaircut",
+        "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/43c86ffc-2cba-4551-ba66-40365b6be219_Women%E2%80%99s%20Hair%20Cut-bg.avif"
+      },
+      {
+        "showDesc": false,
+        "title": "Dark Lip Neutralization",
+        "label": "darklipneutralization",
+        "link": "/service/darklipneutralization",
+        "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed770f2e-97e0-4b64-a33b-938c1da328a0_lip-naturalization-bg.webp"
+      },
+      {
+        "showDesc": false,
+        "title": "Eyebrow Lamination",
+        "label": "eyebrowlamination",
+        "link": "/service/eyebrowlamination",
+        "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3359fc36-d36f-43e8-ab9b-accd5e9ff76e_ibrow-lamination-bg.webp"
       }
     ],
     "hosts": {
@@ -12081,6 +12147,421 @@
             }
           ]
         }
+      ],
+      "eyebrow-lamination": [
+        {
+          "title": "Eyebrow Lamination",
+          "description": "Eyebrow lamination is a semi-permanent treatment designed to give your brows a fuller, more defined look. It smooths and lifts the brow hairs, setting them in place to create a sleek and polished appearance. This service is ideal for individuals with sparse, unruly, or uneven brows.",
+          "name": "Eyebrow Lamination",
+          "duration": "30–60 Minutes",
+          "price": "$66 & Up",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3359fc36-d36f-43e8-ab9b-accd5e9ff76e_ibrow-lamination-bg.webp",
+          "para": [
+            "Eyebrow lamination is a semi-permanent treatment designed to give your brows a fuller, more defined look. It smooths and lifts the brow hairs, setting them in place to create a sleek and polished appearance. This service is ideal for individuals with sparse, unruly, or uneven brows.",
+            "",
+            ""
+          ],
+          "faq": [
+            {
+              "question": "1. How long does eyebrow lamination last?",
+              "answer": "Results typically last 4–6 weeks with proper care.",
+              "open": false
+            },
+            {
+              "question": "2. Is the treatment safe for sensitive skin?",
+              "answer": "Yes, but a patch test is recommended before the service.",
+              "open": false
+            },
+            {
+              "question": "3. Can I wear makeup after the treatment?",
+              "answer": "It is advised to avoid makeup on the brows for at least 24 hours.",
+              "open": false
+            }
+          ],
+          "benefits": [
+            {
+              "showDesc": false,
+              "title": "Fuller brows",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Natural lift",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Long-lasting shape",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Easy styling",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Smooth finish",
+              "desc": ""
+            }
+          ],
+          "callButton": "Call us to get a Quote",
+          "callLink": "tel:+1 951-777-8566",
+          "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e00d01d5-a259-47f8-9ec9-2638ca855955_Eyebrow%20Lamination-1.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e00d01d5-a259-47f8-9ec9-2638ca855955_Eyebrow%20Lamination-1.jpg",
+              "alt": "Eyebrow Lamination-1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/182e2d91-bcb8-4592-803c-7bfc9243a453_Eyebrow%20Lamination-2.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/182e2d91-bcb8-4592-803c-7bfc9243a453_Eyebrow%20Lamination-2.jpg",
+              "alt": "Eyebrow Lamination-2"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c6087f9d-241c-45d1-9689-62b47f107872_Eyebrow%20Lamination-3.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c6087f9d-241c-45d1-9689-62b47f107872_Eyebrow%20Lamination-3.jpg",
+              "alt": "Eyebrow Lamination-3"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/89aae8fc-f679-4963-9e9b-704d42aecd1c_Eyebrow%20Lamination-4.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/89aae8fc-f679-4963-9e9b-704d42aecd1c_Eyebrow%20Lamination-4.jpg",
+              "alt": "Eyebrow Lamination-4"
+            }
+          ]
+        }
+      ],
+      "classic-eyebrow-lamination": [
+        {
+          "title": "Classic Eyebrow Lamination",
+          "description": "Eyebrow lamination is a semi-permanent treatment designed to give your brows a fuller, more defined look. It smooths and lifts the brow hairs, setting them in place to create a sleek and polished appearance. This service is ideal for individuals with sparse, unruly, or uneven brows.",
+          "name": "Classic Eyebrow Lamination",
+          "duration": "30–40 Minutes",
+          "price": "$66",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f408f6ac-cf91-4100-832d-d4e6f6cbd90c_Classic%20Eyebrow%20Lamination-bg.jpg",
+          "para": [
+            "Eyebrow lamination is a semi-permanent treatment designed to give your brows a fuller, more defined look. It smooths and lifts the brow hairs, setting them in place to create a sleek and polished appearance. This service is ideal for individuals with sparse, unruly, or uneven brows.",
+            "",
+            ""
+          ],
+          "faq": [
+            {
+              "question": "1. How long does eyebrow lamination last?",
+              "answer": "Results typically last 4–6 weeks with proper care.",
+              "open": false
+            },
+            {
+              "question": "2. Is the treatment safe for sensitive skin?",
+              "answer": "Yes, but a patch test is recommended before the service.",
+              "open": false
+            },
+            {
+              "question": "3. Can I wear makeup after the treatment?",
+              "answer": "It is advised to avoid makeup on the brows for at least 24 hours.",
+              "open": false
+            }
+          ],
+          "benefits": [
+            {
+              "showDesc": false,
+              "title": "Soft definition",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Natural look",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Tamed brows",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Clean shape",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Everyday ready",
+              "desc": ""
+            }
+          ],
+          "callButton": "Call us to get a Quote",
+          "callLink": "tel:+1 951-777-8566",
+          "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d0d736a5-bfd2-4de7-81be-82d2dbdab598_Classic%20Eyebrow%20Lamination-1.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d0d736a5-bfd2-4de7-81be-82d2dbdab598_Classic%20Eyebrow%20Lamination-1.jpg",
+              "alt": "Classic Eyebrow Lamination-1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2d099605-7b40-4368-9ec3-362000b9cdb5_Classic%20Eyebrow%20Lamination-2.webp",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2d099605-7b40-4368-9ec3-362000b9cdb5_Classic%20Eyebrow%20Lamination-2.webp",
+              "alt": "Classic Eyebrow Lamination-2"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f9def59b-4133-4d8a-8d37-0dad6ff5d1a9_Classic%20Eyebrow%20Lamination-3.webp",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f9def59b-4133-4d8a-8d37-0dad6ff5d1a9_Classic%20Eyebrow%20Lamination-3.webp",
+              "alt": "Classic Eyebrow Lamination-3"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f408f6ac-cf91-4100-832d-d4e6f6cbd90c_Classic%20Eyebrow%20Lamination-bg.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f408f6ac-cf91-4100-832d-d4e6f6cbd90c_Classic%20Eyebrow%20Lamination-bg.jpg",
+              "alt": "Classic Eyebrow Lamination-4"
+            }
+          ]
+        }
+      ],
+      "eyebrow-lamination-with-tint": [
+        {
+          "title": "Eyebrow Lamination with Tint",
+          "description": "Eyebrow lamination is a semi-permanent treatment designed to give your brows a fuller, more defined look. It smooths and lifts the brow hairs, setting them in place to create a sleek and polished appearance. This service is ideal for individuals with sparse, unruly, or uneven brows.",
+          "name": "Eyebrow Lamination with Tint",
+          "duration": "45–60 Minutes",
+          "price": "$96",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d97bfea0-6a5b-43db-855d-19c11210bd7a_eyebrow-lamination-with-tint-bg.jpg",
+          "para": [
+            "Eyebrow lamination is a semi-permanent treatment designed to give your brows a fuller, more defined look. It smooths and lifts the brow hairs, setting them in place to create a sleek and polished appearance. This service is ideal for individuals with sparse, unruly, or uneven brows.",
+            "",
+            ""
+          ],
+          "faq": [
+            {
+              "question": "1. How long does eyebrow lamination last?",
+              "answer": "Results typically last 4–6 weeks with proper care.",
+              "open": false
+            },
+            {
+              "question": "2. Is the treatment safe for sensitive skin?",
+              "answer": "Yes, but a patch test is recommended before the service.",
+              "open": false
+            },
+            {
+              "question": "3. Can I wear makeup after the treatment?",
+              "answer": "It is advised to avoid makeup on the brows for at least 24 hours.",
+              "open": false
+            }
+          ],
+          "benefits": [
+            {
+              "showDesc": false,
+              "title": "Darker brows",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Defined shape",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Fuller effect",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Long-lasting color",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Bold finish",
+              "desc": ""
+            }
+          ],
+          "callButton": "Call us to get a Quote",
+          "callLink": "tel:+1 951-777-8566",
+          "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9a11c6fe-ce62-46b7-9f8a-57ea41d16cb7_Eyebrow%20Lamination%20with%20Tint-1.avif",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9a11c6fe-ce62-46b7-9f8a-57ea41d16cb7_Eyebrow%20Lamination%20with%20Tint-1.avif",
+              "alt": "Eyebrow Lamination with Tint-1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/502ac11e-5d41-4e40-ae66-627c03983d54_Eyebrow%20Lamination%20with%20Tint-2.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/502ac11e-5d41-4e40-ae66-627c03983d54_Eyebrow%20Lamination%20with%20Tint-2.jpg",
+              "alt": "Eyebrow Lamination with Tint-2"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81587f88-8e99-4db8-aaf3-33a96fa23d5c_Eyebrow%20Lamination%20with%20Tint-3.webp",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81587f88-8e99-4db8-aaf3-33a96fa23d5c_Eyebrow%20Lamination%20with%20Tint-3.webp",
+              "alt": "Eyebrow Lamination with Tint-3"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3029fe91-6270-4c4b-a210-89dade5cc744_Eyebrow%20Lamination%20with%20Tint-4.webp",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3029fe91-6270-4c4b-a210-89dade5cc744_Eyebrow%20Lamination%20with%20Tint-4.webp",
+              "alt": "Eyebrow Lamination with Tint-4"
+            }
+          ]
+        }
+      ],
+      "dark-lip-neutralization": [
+        {
+          "title": "Dark Lip Neutralization",
+          "description": "Dark lip neutralization is a specialized cosmetic procedure that helps lighten and balance lip pigmentation. It involves color correction techniques to restore a more natural and even lip tone, enhancing the overall appearance of the lips.",
+          "name": "Dark Lip Neutralization",
+          "duration": "2–3 Hours",
+          "price": "$255",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed770f2e-97e0-4b64-a33b-938c1da328a0_lip-naturalization-bg.webp",
+          "para": [
+            "Dark lip neutralization is a specialized cosmetic procedure that helps lighten and balance lip pigmentation. It involves color correction techniques to restore a more natural and even lip tone, enhancing the overall appearance of the lips.",
+            "",
+            ""
+          ],
+          "faq": [
+            {
+              "question": "1. How many sessions are required?",
+              "answer": "Usually 2–4 sessions are needed depending on pigmentation.",
+              "open": false
+            },
+            {
+              "question": "2. Is the procedure painful?",
+              "answer": "Mild discomfort may be experienced, but numbing agents are used to minimize it.",
+              "open": false
+            },
+            {
+              "question": "3. How long do the results last?",
+              "answer": "Results can last for years with proper aftercare and maintenance.",
+              "open": false
+            }
+          ],
+          "benefits": [
+            {
+              "showDesc": false,
+              "title": "Even tone",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Natural pink",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Pigmentation correction",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Smooth lips",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Enhanced color",
+              "desc": ""
+            }
+          ],
+          "callButton": "Call us to get a Quote",
+          "callLink": "tel:+1 951-777-8566",
+          "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e56352cf-28de-4a90-bd5b-5b4a98103098_Dark%20Lip%20Neutralization-1.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e56352cf-28de-4a90-bd5b-5b4a98103098_Dark%20Lip%20Neutralization-1.jpg",
+              "alt": "Dark Lip Neutralization-1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/71a63c86-4dd4-448c-abcb-0a9de10d4591_Dark%20Lip%20Neutralization-2.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/71a63c86-4dd4-448c-abcb-0a9de10d4591_Dark%20Lip%20Neutralization-2.jpg",
+              "alt": "Dark Lip Neutralization-2"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b345f794-596b-448d-8958-d771fd5705db_Dark%20Lip%20Neutralization-3.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b345f794-596b-448d-8958-d771fd5705db_Dark%20Lip%20Neutralization-3.jpg",
+              "alt": "Dark Lip Neutralization-3"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/abbfcb8d-f6a4-486c-bedb-f7d85fbd3104_Dark%20Lip%20Neutralization-4.webp",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/abbfcb8d-f6a4-486c-bedb-f7d85fbd3104_Dark%20Lip%20Neutralization-4.webp",
+              "alt": "Dark Lip Neutralization-4"
+            }
+          ]
+        }
+      ],
+      "womens-hair-cut": [
+        {
+          "title": "Women's Hair Cut",
+          "description": "Our women's haircut service is tailored to suit your face shape, hair texture, and personal style. Whether you prefer a classic trim, layered cut, or a trendy style, our professional stylists ensure a fresh and flattering look.",
+          "name": "Women's Hair Cut",
+          "duration": "30–40 Minutes",
+          "price": "$45",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/43c86ffc-2cba-4551-ba66-40365b6be219_Women%E2%80%99s%20Hair%20Cut-bg.avif",
+          "para": [
+            "Our women's haircut service is tailored to suit your face shape, hair texture, and personal style. Whether you prefer a classic trim, layered cut, or a trendy style, our professional stylists ensure a fresh and flattering look.",
+            "",
+            ""
+          ],
+          "faq": [
+            {
+              "question": "1. How do I choose the right haircut?",
+              "answer": "Our stylists will guide you based on your face shape and preferences.",
+              "open": false
+            },
+            {
+              "question": "2. How often should I get a haircut?",
+              "answer": "It is recommended every 6–8 weeks to maintain healthy hair.",
+              "open": false
+            },
+            {
+              "question": "3. Do you provide consultation before the haircut?",
+              "answer": "Yes, a detailed consultation is included to understand your requirements.",
+              "open": false
+            }
+          ],
+          "benefits": [
+            {
+              "showDesc": false,
+              "title": "Fresh look",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Healthy hair",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Face framing",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Easy styling",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Volume boost",
+              "desc": ""
+            }
+          ],
+          "callButton": "Call us to get a Quote",
+          "callLink": "tel:+1 951-777-8566",
+          "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/85191282-2af2-4065-a0a7-e547a824d970_Women%E2%80%99s%20Hair%20Cut-1.webp",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/85191282-2af2-4065-a0a7-e547a824d970_Women%E2%80%99s%20Hair%20Cut-1.webp",
+              "alt": "Women Hair Cut-1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/82dc83e2-9744-46a5-a88b-06c8470e73f9_Women%E2%80%99s%20Hair%20Cut-2.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/82dc83e2-9744-46a5-a88b-06c8470e73f9_Women%E2%80%99s%20Hair%20Cut-2.jpg",
+              "alt": "Women Hair Cut-2"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/53870d42-fc30-47ac-a3f1-6a39d96e979f_Women%E2%80%99s%20Hair%20Cut-3.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/53870d42-fc30-47ac-a3f1-6a39d96e979f_Women%E2%80%99s%20Hair%20Cut-3.jpg",
+              "alt": "Women Hair Cut-3"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1b0c9b02-d6c1-48a1-872d-5914e2ae82a7_Women%E2%80%99s%20Hair%20Cut-4.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1b0c9b02-d6c1-48a1-872d-5914e2ae82a7_Women%E2%80%99s%20Hair%20Cut-4.jpg",
+              "alt": "Women Hair Cut-4"
+            }
+          ]
+        }
       ]
     },
     "slide": [
@@ -12990,6 +13471,69 @@
           ],
           "galVideos": []
         }
+      ],
+      "classic-eyebrow-lamination": [
+        {
+          "title": "Classic Eyebrow Lamination",
+          "description": "Eyebrow lamination is a semi-permanent treatment designed to give your brows a fuller, more defined look. It smooths and lifts the brow hairs, setting them in place to create a sleek and polished appearance. This service is ideal for individuals with sparse, unruly, or uneven brows.",
+          "name": "Classic Eyebrow Lamination",
+          "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d97bfea0-6a5b-43db-855d-19c11210bd7a_eyebrow-lamination-with-tint-bg.jpg",
+          "galImg": [
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d0d736a5-bfd2-4de7-81be-82d2dbdab598_Classic%20Eyebrow%20Lamination-1.jpg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2d099605-7b40-4368-9ec3-362000b9cdb5_Classic%20Eyebrow%20Lamination-2.webp",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f9def59b-4133-4d8a-8d37-0dad6ff5d1a9_Classic%20Eyebrow%20Lamination-3.webp",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e00d01d5-a259-47f8-9ec9-2638ca855955_Eyebrow%20Lamination-1.jpg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/182e2d91-bcb8-4592-803c-7bfc9243a453_Eyebrow%20Lamination-2.jpg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c6087f9d-241c-45d1-9689-62b47f107872_Eyebrow%20Lamination-3.jpg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/89aae8fc-f679-4963-9e9b-704d42aecd1c_Eyebrow%20Lamination-4.jpg"
+          ],
+          "galVideos": []
+        }
+      ],
+      "eyebrow-lamination-with-tint": [
+        {
+          "title": "Eyebrow Lamination with Tint",
+          "description": "Eyebrow lamination is a semi-permanent treatment designed to give your brows a fuller, more defined look. It smooths and lifts the brow hairs, setting them in place to create a sleek and polished appearance. This service is ideal for individuals with sparse, unruly, or uneven brows.",
+          "name": "Eyebrow Lamination with Tint",
+          "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d97bfea0-6a5b-43db-855d-19c11210bd7a_eyebrow-lamination-with-tint-bg.jpg",
+          "galImg": [
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9a11c6fe-ce62-46b7-9f8a-57ea41d16cb7_Eyebrow%20Lamination%20with%20Tint-1.avif",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/502ac11e-5d41-4e40-ae66-627c03983d54_Eyebrow%20Lamination%20with%20Tint-2.jpg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81587f88-8e99-4db8-aaf3-33a96fa23d5c_Eyebrow%20Lamination%20with%20Tint-3.webp",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3029fe91-6270-4c4b-a210-89dade5cc744_Eyebrow%20Lamination%20with%20Tint-4.webp"
+          ],
+          "galVideos": []
+        }
+      ],
+      "dark-lip-neutralization": [
+        {
+          "title": "Dark-Lip-Neutralization",
+          "description": "Dark lip neutralization is a specialized cosmetic procedure that helps lighten and balance lip pigmentation. It involves color correction techniques to restore a more natural and even lip tone, enhancing the overall appearance of the lips.",
+          "name": "Dark-Lip-Neutralization",
+          "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed770f2e-97e0-4b64-a33b-938c1da328a0_lip-naturalization-bg.webp",
+          "galImg": [
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e56352cf-28de-4a90-bd5b-5b4a98103098_Dark%20Lip%20Neutralization-1.jpg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/71a63c86-4dd4-448c-abcb-0a9de10d4591_Dark%20Lip%20Neutralization-2.jpg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b345f794-596b-448d-8958-d771fd5705db_Dark%20Lip%20Neutralization-3.jpg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/abbfcb8d-f6a4-486c-bedb-f7d85fbd3104_Dark%20Lip%20Neutralization-4.webp"
+          ],
+          "galVideos": []
+        }
+      ],
+      "womens-hair-cut": [
+        {
+          "title": "Women's Hair Cut",
+          "description": "Our women's haircut service is tailored to suit your face shape, hair texture, and personal style. Whether you prefer a classic trim, layered cut, or a trendy style, our professional stylists ensure a fresh and flattering look.",
+          "name": "Women's Hair Cut",
+          "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/43c86ffc-2cba-4551-ba66-40365b6be219_Women%E2%80%99s%20Hair%20Cut-bg.avif",
+          "galImg": [
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/85191282-2af2-4065-a0a7-e547a824d970_Women%E2%80%99s%20Hair%20Cut-1.webp",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/82dc83e2-9744-46a5-a88b-06c8470e73f9_Women%E2%80%99s%20Hair%20Cut-2.jpg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/53870d42-fc30-47ac-a3f1-6a39d96e979f_Women%E2%80%99s%20Hair%20Cut-3.jpg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1b0c9b02-d6c1-48a1-872d-5914e2ae82a7_Women%E2%80%99s%20Hair%20Cut-4.jpg"
+          ],
+          "galVideos": []
+        }
       ]
     },
     "professionals": "our skilled professionals deliver top-notch beauty services, including eyebrow shaping, microblading, microneedling, dermaplaning, and more. We focus on precision, personalization, and attention to detail, ensuring you leave feeling confident and refreshed. Trust our experts to enhance your natural beauty with exceptional care.",
@@ -13612,6 +14156,63 @@
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/34135384-31f2-4fa4-8fca-03b65cf572d9_Hairstyle%20%282%29.png",
                       "link": "/service/hairstyle",
                       "galleryLink": "/gallery-two/hairstyle"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Eyebrow-Lamination",
+                  "routeName": "Eyebrow-Lamination",
+                  "videos": [],
+                  "items": [
+                    {
+                      "itemName": "Classic Eyebrow Lamination",
+                      "alt": "Classic Eyebrow Lamination",
+                      "itemPrice": "$66 & Up",
+                      "quantity": 0,
+                      "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e00d01d5-a259-47f8-9ec9-2638ca855955_Eyebrow%20Lamination-1.jpg",
+                      "link": "/service/classic-eyebrow-lamination",
+                      "galleryLink": "/gallery-two/classic-eyebrow-lamination"
+                    },
+                    {
+                      "itemName": "Eyebrow Lamination with Tint",
+                      "alt": "Eyebrow Lamination with Tint",
+                      "itemPrice": "$96 & Up",
+                      "quantity": 0,
+                      "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d97bfea0-6a5b-43db-855d-19c11210bd7a_eyebrow-lamination-with-tint-bg.jpg",
+                      "link": "/service/eyebrow-lamination-with-tint",
+                      "galleryLink": "/gallery-two/eyebrow-lamination-with-tint"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Dark-Lip-Neutralization",
+                  "routeName": "Dark-Lip-Neutralization",
+                  "videos": [],
+                  "items": [
+                    {
+                      "itemName": "Dark Lip Neutralization",
+                      "alt": "Dark Lip Neutralization",
+                      "itemPrice": "$255 & Up",
+                      "quantity": 0,
+                      "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed770f2e-97e0-4b64-a33b-938c1da328a0_lip-naturalization-bg.webp",
+                      "link": "/service/dark-lip-neutralization",
+                      "galleryLink": "/gallery-two/dark-lip-neutralization"
+                    }
+                  ]
+                },
+                {
+                  "categoryName": "Womens-Hair-Cut",
+                  "routeName": "Womens-Hair-Cut",
+                  "videos": [],
+                  "items": [
+                    {
+                      "itemName": "Women's Hair Cut",
+                      "alt": "Women's Hair Cut",
+                      "itemPrice": "$45 & Up",
+                      "quantity": 0,
+                      "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/43c86ffc-2cba-4551-ba66-40365b6be219_Women%E2%80%99s%20Hair%20Cut-bg.avif",
+                      "link": "/service/womens-hair-cut",
+                      "galleryLink": "/gallery-two/womens-hair-cut"
                     }
                   ]
                 }

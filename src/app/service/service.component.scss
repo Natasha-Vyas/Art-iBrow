@@ -290,25 +290,32 @@ main {
                 max-width: 22%;
                 border-radius: 10px;
                 transition: border-color 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+                position: relative;
 
                 .text {
                     text-shadow: 1px -1px 10px rgba(0, 0, 0, 0.91);
                     transition: 0.5s;
                     position: absolute;
-                    padding: 120px 0px 0px;
-                    width: 100%;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 95%;
+                    min-width: 180px;
                     z-index: 999;
-                    margin: auto;
+                    text-align: center;
 
                     h4 {
-                        font-size: 17px;
+                        font-size: 14px;
                         font-weight: 700;
                         animation: slideUpFade 5.5s ease forwards;
-                        animation-delay: 5.0s;
+                        animation-delay: 5s;
                         color: #fff;
                         text-align: center;
-                        position: relative;
-                        right: 15px;
+                        margin-bottom: 8px;
+                        line-height: 1.2;
+                        padding: 0 3px;
+                        word-wrap: break-word;
+                        hyphens: auto;
                     }
 
                     a {
@@ -320,22 +327,24 @@ main {
                         background-color: #ffffff;
                         color: #000000;
                         border: none;
-                        padding: 8px 10px;
+                        padding: 6px 12px;
                         border-radius: 35px;
                         cursor: pointer;
                         transition: opacity 0.5s;
                         justify-content: center;
-                        width: 60%;
-                        position: relative;
-                        right: 16px;
+                        width: auto;
+                        min-width: 80px;
+                        max-width: 90%;
                         margin: auto;
-                        font-size: 12px;
+                        font-size: 11px;
                         font-weight: 500;
+                        white-space: nowrap;
                     }
                 }
 
                 img {
                     width: 100%;
+                    aspect-ratio: 1 / 1;
                     object-fit: cover;
                     border-radius: 5px;
                     filter: brightness(0.7);
