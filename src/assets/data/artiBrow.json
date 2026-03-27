@@ -838,22 +838,22 @@
       {
         "showDesc": false,
         "title": "Women's Hair Cut",
-        "label": "womenshaircut",
-        "link": "/service/womenshaircut",
+        "label": "womens-hair-cut",
+        "link": "/service/womens-hair-cut",
         "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/43c86ffc-2cba-4551-ba66-40365b6be219_Women%E2%80%99s%20Hair%20Cut-bg.avif"
       },
       {
         "showDesc": false,
         "title": "Dark Lip Neutralization",
-        "label": "darklipneutralization",
-        "link": "/service/darklipneutralization",
+        "label": "dark-lip-neutralization",
+        "link": "/service/dark-lip-neutralization",
         "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed770f2e-97e0-4b64-a33b-938c1da328a0_lip-naturalization-bg.webp"
       },
       {
         "showDesc": false,
         "title": "Eyebrow Lamination",
-        "label": "eyebrowlamination",
-        "link": "/service/eyebrowlamination",
+        "label": "eyebrow-lamination",
+        "link": "/service/eyebrow-lamination",
         "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3359fc36-d36f-43e8-ab9b-accd5e9ff76e_ibrow-lamination-bg.webp"
       }
     ],
@@ -12150,12 +12150,12 @@
       ],
       "eyebrow-lamination": [
         {
-          "title": "Eyebrow Lamination",
+          "title": "Classic Eyebrow Lamination",
           "description": "Eyebrow lamination is a semi-permanent treatment designed to give your brows a fuller, more defined look. It smooths and lifts the brow hairs, setting them in place to create a sleek and polished appearance. This service is ideal for individuals with sparse, unruly, or uneven brows.",
-          "name": "Eyebrow Lamination",
-          "duration": "30–60 Minutes",
-          "price": "$66 & Up",
-          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3359fc36-d36f-43e8-ab9b-accd5e9ff76e_ibrow-lamination-bg.webp",
+          "name": "Classic Eyebrow Lamination",
+          "duration": "30–40 Minutes",
+          "price": "$66",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f408f6ac-cf91-4100-832d-d4e6f6cbd90c_Classic%20Eyebrow%20Lamination-bg.jpg",
           "para": [
             "Eyebrow lamination is a semi-permanent treatment designed to give your brows a fuller, more defined look. It smooths and lifts the brow hairs, setting them in place to create a sleek and polished appearance. This service is ideal for individuals with sparse, unruly, or uneven brows.",
             "",
@@ -12181,27 +12181,27 @@
           "benefits": [
             {
               "showDesc": false,
-              "title": "Fuller brows",
+              "title": "Soft definition",
               "desc": ""
             },
             {
               "showDesc": false,
-              "title": "Natural lift",
+              "title": "Natural look",
               "desc": ""
             },
             {
               "showDesc": false,
-              "title": "Long-lasting shape",
+              "title": "Tamed brows",
               "desc": ""
             },
             {
               "showDesc": false,
-              "title": "Easy styling",
+              "title": "Clean shape",
               "desc": ""
             },
             {
               "showDesc": false,
-              "title": "Smooth finish",
+              "title": "Everyday ready",
               "desc": ""
             }
           ],
@@ -12209,24 +12209,105 @@
           "callLink": "tel:+1 951-777-8566",
           "slider": [
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e00d01d5-a259-47f8-9ec9-2638ca855955_Eyebrow%20Lamination-1.jpg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e00d01d5-a259-47f8-9ec9-2638ca855955_Eyebrow%20Lamination-1.jpg",
-              "alt": "Eyebrow Lamination-1"
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d0d736a5-bfd2-4de7-81be-82d2dbdab598_Classic%20Eyebrow%20Lamination-1.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d0d736a5-bfd2-4de7-81be-82d2dbdab598_Classic%20Eyebrow%20Lamination-1.jpg",
+              "alt": "Classic Eyebrow Lamination-1"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/182e2d91-bcb8-4592-803c-7bfc9243a453_Eyebrow%20Lamination-2.jpg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/182e2d91-bcb8-4592-803c-7bfc9243a453_Eyebrow%20Lamination-2.jpg",
-              "alt": "Eyebrow Lamination-2"
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2d099605-7b40-4368-9ec3-362000b9cdb5_Classic%20Eyebrow%20Lamination-2.webp",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2d099605-7b40-4368-9ec3-362000b9cdb5_Classic%20Eyebrow%20Lamination-2.webp",
+              "alt": "Classic Eyebrow Lamination-2"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c6087f9d-241c-45d1-9689-62b47f107872_Eyebrow%20Lamination-3.jpg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c6087f9d-241c-45d1-9689-62b47f107872_Eyebrow%20Lamination-3.jpg",
-              "alt": "Eyebrow Lamination-3"
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f9def59b-4133-4d8a-8d37-0dad6ff5d1a9_Classic%20Eyebrow%20Lamination-3.webp",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f9def59b-4133-4d8a-8d37-0dad6ff5d1a9_Classic%20Eyebrow%20Lamination-3.webp",
+              "alt": "Classic Eyebrow Lamination-3"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/89aae8fc-f679-4963-9e9b-704d42aecd1c_Eyebrow%20Lamination-4.jpg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/89aae8fc-f679-4963-9e9b-704d42aecd1c_Eyebrow%20Lamination-4.jpg",
-              "alt": "Eyebrow Lamination-4"
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f408f6ac-cf91-4100-832d-d4e6f6cbd90c_Classic%20Eyebrow%20Lamination-bg.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f408f6ac-cf91-4100-832d-d4e6f6cbd90c_Classic%20Eyebrow%20Lamination-bg.jpg",
+              "alt": "Classic Eyebrow Lamination-4"
+            }
+          ]
+        },
+        {
+          "title": "Eyebrow Lamination with Tint",
+          "description": "Eyebrow lamination is a semi-permanent treatment designed to give your brows a fuller, more defined look. It smooths and lifts the brow hairs, setting them in place to create a sleek and polished appearance. This service is ideal for individuals with sparse, unruly, or uneven brows.",
+          "name": "Eyebrow Lamination with Tint",
+          "duration": "45–60 Minutes",
+          "price": "$96",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d97bfea0-6a5b-43db-855d-19c11210bd7a_eyebrow-lamination-with-tint-bg.jpg",
+          "para": [
+            "Eyebrow lamination is a semi-permanent treatment designed to give your brows a fuller, more defined look. It smooths and lifts the brow hairs, setting them in place to create a sleek and polished appearance. This service is ideal for individuals with sparse, unruly, or uneven brows.",
+            "",
+            ""
+          ],
+          "faq": [
+            {
+              "question": "1. How long does eyebrow lamination last?",
+              "answer": "Results typically last 4–6 weeks with proper care.",
+              "open": false
+            },
+            {
+              "question": "2. Is the treatment safe for sensitive skin?",
+              "answer": "Yes, but a patch test is recommended before the service.",
+              "open": false
+            },
+            {
+              "question": "3. Can I wear makeup after the treatment?",
+              "answer": "It is advised to avoid makeup on the brows for at least 24 hours.",
+              "open": false
+            }
+          ],
+          "benefits": [
+            {
+              "showDesc": false,
+              "title": "Darker brows",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Defined shape",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Fuller effect",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Long-lasting color",
+              "desc": ""
+            },
+            {
+              "showDesc": false,
+              "title": "Bold finish",
+              "desc": ""
+            }
+          ],
+          "callButton": "Call us to get a Quote",
+          "callLink": "tel:+1 951-777-8566",
+          "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9a11c6fe-ce62-46b7-9f8a-57ea41d16cb7_Eyebrow%20Lamination%20with%20Tint-1.avif",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9a11c6fe-ce62-46b7-9f8a-57ea41d16cb7_Eyebrow%20Lamination%20with%20Tint-1.avif",
+              "alt": "Eyebrow Lamination with Tint-1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/502ac11e-5d41-4e40-ae66-627c03983d54_Eyebrow%20Lamination%20with%20Tint-2.jpg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/502ac11e-5d41-4e40-ae66-627c03983d54_Eyebrow%20Lamination%20with%20Tint-2.jpg",
+              "alt": "Eyebrow Lamination with Tint-2"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81587f88-8e99-4db8-aaf3-33a96fa23d5c_Eyebrow%20Lamination%20with%20Tint-3.webp",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81587f88-8e99-4db8-aaf3-33a96fa23d5c_Eyebrow%20Lamination%20with%20Tint-3.webp",
+              "alt": "Eyebrow Lamination with Tint-3"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3029fe91-6270-4c4b-a210-89dade5cc744_Eyebrow%20Lamination%20with%20Tint-4.webp",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3029fe91-6270-4c4b-a210-89dade5cc744_Eyebrow%20Lamination%20with%20Tint-4.webp",
+              "alt": "Eyebrow Lamination with Tint-4"
             }
           ]
         }
