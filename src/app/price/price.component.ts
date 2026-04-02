@@ -90,6 +90,7 @@ export class PriceComponent implements OnInit {
   public matchingCategory: any;
   public subcategory: any;
   public selectedCategoryData: any;
+  public allCategoriesView: any[] = [];
   @ViewChild('categorySection') categorySection: ElementRef | undefined;
   @ViewChild('categoryContainer') categoryContainer: ElementRef | undefined;
   @ViewChild('scrollContainer', { static: false }) scrollContainer!: ElementRef;
@@ -133,7 +134,9 @@ export class PriceComponent implements OnInit {
     this.templatetype = this.appService.getContentData('templatetype');
     this.multiMenu = this.appService.getContentData('menu')[0].menu[0];
     this.menu = this.appService.getContentData('menu')[0];
-    this.categories = this.appService.getContentData('menu')[0].menu[0].superCategory ? this.appService.getContentData('menu')[0].menu[0].superCategory[0].category : [];
+    const existingCategories = this.appService.getContentData('menu')[0].menu[0].superCategory ? this.appService.getContentData('menu')[0].menu[0].superCategory[0].category : [];
+    this.allCategoriesView = existingCategories;
+    this.categories = this.buildCategoriesWithAll(existingCategories);
     this.categories2 = this.appService.getContentData('menu')[0].menu2 ? this.appService.getContentData('menu')[0].menu2[0].superCategory[0].category : [];
     this.categories3 = this.appService.getContentData('menu')[0].menu3 ? this.appService.getContentData('menu')[0].menu3[0].superCategory[0].category : [];
     this.menuImages = this.appService.getContentData('menuImages');
@@ -157,14 +160,75 @@ export class PriceComponent implements OnInit {
 
   ngOnInit(): void {
     this.setTitleAndMetaTags();
-    // Auto-select first category like gallery component
     if (this.brandName == 'ART iBrow Threading Salon' && this.categories && this.categories.length > 0) {
-      this.getDiv(0, this.categories[0]);
+      this.setInitialCategory();
     }
   }
 
+  buildCategoriesWithAll(categories: any[]) {
+    const allItems = categories.flatMap((category: any) =>
+      (category.items || []).map((item: any) => ({
+        ...item,
+        categoryName: category.categoryName,
+        routeName: category.routeName
+      }))
+    );
+
+    return [
+      {
+        categoryName: 'All',
+        routeName: 'all',
+        items: allItems
+      },
+      {
+        categoryName: 'All2',
+        routeName: 'all2',
+        items: allItems
+      },
+      ...categories
+    ];
+  }
+
+  setInitialCategory() {
+    const currentName = this.activatedRoute.snapshot.params['name'];
+
+    if (currentName === 'all') {
+      this.getDiv(0, this.categories[0]);
+      return;
+    }
+
+    if (currentName === 'all2') {
+      this.getDiv(1, this.categories[1]);
+      return;
+    }
+
+    const matchedIndex = this.categories.findIndex((category: any) => {
+      const normalizedCategoryName = (category.categoryName || '').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+      return category.routeName === currentName || normalizedCategoryName === currentName;
+    });
+
+    if (matchedIndex > -1) {
+      this.getDiv(matchedIndex, this.categories[matchedIndex]);
+      return;
+    }
+
+    this.getDiv(0, this.categories[0]);
+  }
+
+  getCategoryValue(item: any, index: number) {
+    if (item.categoryName === 'All') {
+      return 'all';
+    }
+
+    if (item.categoryName === 'All2') {
+      return 'all2';
+    }
+
+    return index;
+  }
+
   getDiv(index: any, item: any) {
-    this.selectedCategory = item.categoryName === 'All' ? 'all' : index;
+    this.selectedCategory = this.getCategoryValue(item, index);
     if (item.items.length) {
       this.selectedCategoryName = item?.categoryName
       this.subCategories = item?.subCategories
@@ -176,9 +240,24 @@ export class PriceComponent implements OnInit {
     }
   }
 
-  onCategoryChange(index: number) {
-    const selectedCategory = this.categories[index];
-    this.getDiv(index, selectedCategory);
+  onCategoryChange(categoryValue: any) {
+    const selectedCategory = this.categories.find((item: any, index: number) =>
+      this.getCategoryValue(item, index) == categoryValue
+    );
+
+    if (!selectedCategory) {
+      return;
+    }
+
+    const selectedIndex = this.categories.findIndex((item: any, index: number) =>
+      this.getCategoryValue(item, index) == categoryValue
+    );
+
+    if (selectedIndex === -1) {
+      return;
+    }
+
+    this.getDiv(selectedIndex, selectedCategory);
   }
 
   searchItems() {
