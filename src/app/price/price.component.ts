@@ -77,6 +77,7 @@ export class PriceComponent implements OnInit {
   public windowScrolled: any;
   public hero: any;
   public navbar: any;
+  public dedicatedServiceLinks: Set<string> = new Set();
   public lovedDishes: any;
   public success: any = false;
   public activeSlideIndex: any = 0;
@@ -155,6 +156,7 @@ export class PriceComponent implements OnInit {
     this.host = this.host[this.host.length - 1];
     this.hero = this.appService.getContentData('hero');
     this.navbar = this.appService.getContentData('navbar');
+    this.dedicatedServiceLinks = this.extractDedicatedServiceLinks(this.navbar?.links || []);
     this.mealCategory = this.appService.getContentData('menu')[0].menu[0].superCategory;
   }
 
@@ -215,6 +217,25 @@ export class PriceComponent implements OnInit {
     this.getDiv(0, this.categories[0]);
   }
 
+  extractDedicatedServiceLinks(links: any[]): Set<string> {
+    const serviceLinks = new Set<string>();
+
+    const collectLinks = (items: any[]) => {
+      items.forEach((item: any) => {
+        if (item?.link && typeof item.link === 'string' && item.link.startsWith('/service/')) {
+          serviceLinks.add(item.link);
+        }
+
+        if (item?.options?.length) {
+          collectLinks(item.options);
+        }
+      });
+    };
+
+    collectLinks(links);
+    return serviceLinks;
+  }
+
   getCategoryValue(item: any, index: number) {
     if (item.categoryName === 'All') {
       return 'all';
@@ -225,6 +246,10 @@ export class PriceComponent implements OnInit {
     }
 
     return index;
+  }
+
+  hasDedicatedServicePage(item: any) {
+    return !!item?.link && this.dedicatedServiceLinks.has(item.link);
   }
 
   getDiv(index: any, item: any) {
