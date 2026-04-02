@@ -94,8 +94,10 @@ export class ServicesPageComponent implements OnInit {
       return;
     }
 
-    const yOffset = -190;
-    const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+    const navbar = document.querySelector('.heading') as HTMLElement | null;
+    const navbarHeight = navbar ? navbar.offsetHeight : 0;
+    const spacingBelowNavbar = 48;
+    const y = element.getBoundingClientRect().top + window.pageYOffset - navbarHeight - spacingBelowNavbar;
     window.scrollTo({ top: y, behavior: 'smooth' });
   }
 
