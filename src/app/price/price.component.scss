@@ -6,17 +6,18 @@ main {
 
     .main-section {
         display: flex;
+        align-items: flex-start;
 
         .inner-div {
             width: 30%;
 
             .options-tab {
                 position: sticky;
-                top: 0;
+                top: 205px;
                 border: 1px solid rgba(9, 12, 15, 0.1);
                 padding: 30px 60px;
                 background-color: #f8f8f8;
-                height: 100%;
+                height: calc(100vh - 205px);
                 overflow-y: auto;
 
                 .highlighted {
@@ -123,6 +124,8 @@ main {
         .items {
             padding: 2%;
             width: 70%;
+            height: calc(100vh - 205px);
+            overflow-y: auto;
             // margin: auto;
 
             .category-title {
@@ -150,6 +153,10 @@ main {
                     padding: 10px;
                     background-color: #ffffff8a;
                     padding: 20px 10px;
+
+                    &.service-card {
+                        cursor: pointer;
+                    }
 
                     div {
                         display: grid;
@@ -192,6 +199,85 @@ main {
 
             .inner-container::-webkit-scrollbar {
                 display: none !important;
+            }
+        }
+
+        .all-items-view {
+            .all-category-block {
+                margin-bottom: 40px;
+            }
+
+            .category-subtitle {
+                margin: 0 50px 20px;
+
+                h2 {
+                    color: #c0302c;
+                    font-size: 32px;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                    margin: 0;
+                }
+            }
+        }
+
+        .all2-items-view {
+            .all2-service-list {
+                margin: 0 50px;
+                border-top: 1px solid rgba(9, 12, 15, 0.12);
+            }
+
+            .all2-service-row {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 20px;
+                padding: 18px 0;
+                border-bottom: 1px solid rgba(9, 12, 15, 0.12);
+            }
+
+            .all2-service-copy {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 20px;
+                flex: 1;
+                cursor: pointer;
+
+                h5 {
+                    margin: 0;
+                    color: #000;
+                    font-family: monospace;
+                    font-size: 18px !important;
+                    font-weight: 700 !important;
+                    text-transform: capitalize;
+                }
+
+                span {
+                    color: #91271a;
+                    font-family: monospace;
+                    font-size: 18px;
+                    font-weight: 700;
+                    text-align: right;
+                }
+            }
+
+            button {
+                padding: 10px 18px;
+                border: 1px solid #91271a;
+                border-radius: 8px;
+                background-color: #91271a;
+                color: #fff;
+                font-family: monospace;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+
+            button:hover,
+            .all2-service-copy:hover {
+                opacity: 0.84;
             }
         }
     }
@@ -396,6 +482,46 @@ main {
                                 box-sizing: border-box;
                             }
                         }
+                    }
+                }
+
+                &.all-items-view {
+                    .all-category-block {
+                        margin-bottom: 28px;
+                    }
+
+                    .category-subtitle {
+                        margin: 0 0 14px;
+
+                        h2 {
+                            font-size: 24px;
+                            text-align: center;
+                        }
+                    }
+                }
+
+                &.all2-items-view {
+                    .all2-service-list {
+                        margin: 0;
+                    }
+
+                    .all2-service-row {
+                        align-items: flex-start;
+                        flex-direction: column;
+                    }
+
+                    .all2-service-copy {
+                        align-items: flex-start;
+                        flex-direction: column;
+                        gap: 8px;
+
+                        span {
+                            text-align: left;
+                        }
+                    }
+
+                    button {
+                        width: 100%;
                     }
                 }
             }
