@@ -1,0 +1,286 @@
+.services-page {
+    padding: 205px 5% 80px;
+    background: #f9f4f0;
+    color: #000;
+}
+
+.hero-section {
+    margin: 0 auto 32px;
+    padding: 48px;
+    border: 1px solid rgba(145, 39, 26, 0.18);
+    border-radius: 28px;
+    background:
+        linear-gradient(135deg, rgba(145, 39, 26, 0.08), rgba(255, 255, 255, 0.96)),
+        #fff;
+    box-shadow: 0 18px 45px rgba(145, 39, 26, 0.08);
+}
+
+.hero-copy {
+    max-width: 760px;
+}
+
+.eyebrow {
+    margin: 0 0 10px;
+    color: #c0302c;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.hero-section h1 {
+    margin: 0;
+    color: #91271a;
+    font-family: "Dancing Script", cursive;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.intro {
+    margin: 18px 0 0;
+    max-width: 620px;
+    color: #2b2b2b;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 26px;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.book-link {
+    padding: 12px 22px;
+    border: 1px solid #91271a;
+    border-radius: 999px;
+    background: #91271a;
+    color: #fff;
+    text-decoration: none;
+}
+
+.category-nav {
+    position: sticky;
+    top: 156px;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 28px;
+    padding: 18px 20px;
+    border: 1px solid rgba(145, 39, 26, 0.12);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(10px);
+}
+
+.category-nav a {
+    padding: 10px 16px;
+    border-radius: 999px;
+    background: #f4e4dd;
+    color: #91271a;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.menu-sections {
+    display: grid;
+    gap: 28px;
+}
+
+.menu-card {
+    padding: 30px 32px;
+    border: 1px solid rgba(145, 39, 26, 0.12);
+    border-radius: 28px;
+    background: #fffdfb;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.04);
+}
+
+.section-heading {
+    margin-bottom: 18px;
+}
+
+.section-heading h2 {
+    margin: 0;
+    color: #91271a;
+    font-family: "Dancing Script", cursive;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.service-list {
+    border-top: 1px solid rgba(145, 39, 26, 0.12);
+}
+
+.service-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(145, 39, 26, 0.12);
+}
+
+.service-copy {
+    flex: 1;
+    cursor: pointer;
+}
+
+.service-copy.no-link {
+    cursor: default;
+}
+
+.service-copy h3 {
+    margin: 0;
+    color: #161616;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.service-copy p {
+    margin: 6px 0 0;
+    color: #5e5e5e;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.service-meta {
+    display: flex;
+    align-items: center;
+    min-width: 140px;
+    justify-content: flex-end;
+}
+
+.price {
+    color: #91271a;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.service-copy:not(.no-link):hover,
+.category-nav a:hover,
+.book-link:hover {
+    opacity: 0.84;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .services-page {
+        padding: 185px 20px 60px;
+    }
+
+    .hero-section {
+        padding: 32px 24px;
+    }
+
+    .hero-section h1 {
+        font-size: 46px;
+    }
+
+    .category-nav {
+        top: 132px;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .services-page {
+        padding: 170px 14px 40px;
+        text-align: center;
+    }
+
+    .hero-section {
+        padding: 24px 18px;
+        border-radius: 22px;
+    }
+
+    .hero-section h1 {
+        font-size: 38px;
+    }
+
+    .intro {
+        font-size: 14px;
+    }
+
+    .hero-actions {
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .category-nav {
+        position: static;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 14px 10px;
+        border-radius: 18px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
+
+    .category-nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .category-nav a {
+        flex: 0 0 auto;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .menu-card {
+        padding: 20px 16px;
+        border-radius: 22px;
+    }
+
+    .section-heading h2 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .service-row {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-meta {
+        min-width: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .price {
+        text-align: center;
+    }
+
+    .service-copy {
+        width: 100%;
+        text-align: center;
+    }
+
+    .service-copy h3,
+    .service-copy p {
+        text-align: center;
+    }
+}
