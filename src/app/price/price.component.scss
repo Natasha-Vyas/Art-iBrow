@@ -243,6 +243,10 @@ main {
                 flex: 1;
                 cursor: pointer;
 
+                &.no-link {
+                    cursor: default;
+                }
+
                 h5 {
                     margin: 0;
                     color: #000;

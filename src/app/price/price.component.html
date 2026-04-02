@@ -64,11 +64,11 @@
                 </div>
                 <div class="all2-service-list">
                     <div class="all2-service-row" *ngFor="let item of category.items">
-                        <div class="all2-service-copy" [routerLink]="item.link">
+                        <div class="all2-service-copy" [routerLink]="hasDedicatedServicePage(item) ? item.link : null"
+                            [class.no-link]="!hasDedicatedServicePage(item)">
                             <h5>{{ item.itemName }}</h5>
                             <span>{{ item.itemPrice }}</span>
                         </div>
-                        <button type="button" [routerLink]="item.link">View Service</button>
                     </div>
                 </div>
             </div>
