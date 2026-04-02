@@ -12,6 +12,7 @@ import { FormComponent } from './form/form.component';
 import { PaymentComponent } from './payment/payment.component';
 import { SuccessComponent } from './success/success.component';
 import { FailedComponent } from './failed/failed.component';
+import { ServicesPageComponent } from './services-page/services-page.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'gallery', component: GalleryComponent },
   { path: 'gallery-two/:name', component: GalleryTwoComponent },
   { path: 'service/:name', component: ServiceComponent },
+  { path: 'services', component: ServicesPageComponent },
   { path: 'faq', component: FaqComponent },
   { path: 'price/:name', component: PriceComponent },
   { path: 'about-us', component: AboutUsComponent },
