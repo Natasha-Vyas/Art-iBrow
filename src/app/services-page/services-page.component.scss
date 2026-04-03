@@ -67,19 +67,29 @@
     text-decoration: none;
 }
 
+.services-layout {
+    display: grid;
+    grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+    align-items: start;
+    gap: 28px;
+    height: calc(100vh - 237px);
+    min-height: 0;
+}
+
 .category-nav {
     position: sticky;
-    top: 50px;
+    top: 200px;
     z-index: 2;
     display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-bottom: 28px;
-    padding: 18px 20px;
+    flex-direction: column;
+    gap: 10px;
+    padding: 22px 18px;
     border: 1px solid rgba(145, 39, 26, 0.12);
     border-radius: 22px;
     background: rgba(255, 255, 255, 0.94);
     backdrop-filter: blur(10px);
+    max-height: calc(100vh - 237px);
+    overflow-y: auto;
 }
 
 .category-nav a {
@@ -96,6 +106,10 @@
 .menu-sections {
     display: grid;
     gap: 28px;
+    min-height: 0;
+    max-height: calc(100vh - 237px);
+    overflow-y: auto;
+    padding-right: 8px;
 }
 
 .menu-card {
@@ -191,8 +205,24 @@
         font-size: 46px;
     }
 
+    .services-layout {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
     .category-nav {
         top: 132px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 18px 20px;
+        max-height: none;
+        overflow-y: visible;
+    }
+
+    .menu-sections {
+        max-height: none;
+        overflow-y: visible;
+        padding-right: 0;
     }
 }
 
@@ -225,6 +255,7 @@
     .category-nav {
         position: static;
         display: flex;
+        flex-direction: row;
         flex-wrap: nowrap;
         justify-content: flex-start;
         gap: 10px;

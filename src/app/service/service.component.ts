@@ -60,6 +60,7 @@ export class ServiceComponent implements OnInit {
 
   ngOnInit(): void {
     this.setTitleAndMetaTags();
+    setTimeout(() => this.scrollToTop(), 0);
     this.activatedRoute.fragment.subscribe(fragment => {
       if (fragment) {
         setTimeout(() => {
@@ -77,6 +78,7 @@ export class ServiceComponent implements OnInit {
     }
     this.service = this.appService.getContentData('service');
     this.routeSubscription = this.activatedRoute.params.subscribe(params => {
+      this.scrollToTop();
       this.currentRouteParams = params['name'];
 
       this.artIBrowService = this.hero && this.hero.services ? (this.hero.services?.filter((ele: any) => ele.label !== params['name'])) : [];
