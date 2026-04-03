@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { AppService } from '../services/app.service';
 
@@ -8,6 +8,8 @@ import { AppService } from '../services/app.service';
   styleUrls: ['./services-page.component.scss']
 })
 export class ServicesPageComponent implements OnInit {
+  @ViewChild('menuSections') menuSections?: ElementRef<HTMLElement>;
+
   public css: any;
   public contact: any;
   public social: any;
@@ -59,22 +61,6 @@ export class ServicesPageComponent implements OnInit {
     return !!item?.link && this.dedicatedServiceLinks.has(item.link);
   }
 
-  getServiceDescription(item: any): string {
-    if (item?.itemDescription) {
-      return item.itemDescription;
-    }
-
-    if (!item?.link || !this.hero?.hosts) {
-      return '';
-    }
-
-    const serviceKey = item.link.replace('/service/', '');
-    const serviceContent = this.hero.hosts[serviceKey]?.[0];
-    const firstParagraph = Array.isArray(serviceContent?.para) ? serviceContent.para[0] : '';
-
-    return firstParagraph || '';
-  }
-
   getCategoryAnchor(category: any): string {
     const value = category?.routeName || category?.categoryName || '';
 
@@ -91,6 +77,14 @@ export class ServicesPageComponent implements OnInit {
     const element = document.getElementById(anchor);
 
     if (!element) {
+      return;
+    }
+
+    const menuSections = this.menuSections?.nativeElement;
+
+    if (menuSections && menuSections.scrollHeight > menuSections.clientHeight) {
+      const targetTop = element.getBoundingClientRect().top - menuSections.getBoundingClientRect().top + menuSections.scrollTop;
+      menuSections.scrollTo({ top: Math.max(targetTop - 8, 0), behavior: 'smooth' });
       return;
     }
 
