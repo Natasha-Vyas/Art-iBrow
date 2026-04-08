@@ -185,6 +185,11 @@
                 "link": "/service/regularfacial"
               },
               {
+                "name": "Mini Facial",
+                "type": "internal",
+                "link": "/service/minifacial"
+              },
+              {
                 "name": "Dermaplanning With Facial",
                 "type": "internal",
                 "link": "/service/dermaplanning"
@@ -5999,7 +6004,7 @@
           "description": "Transform your look with perfectly shaped brows. Art iBrow offers quick and gentle eyebrow waxing services near Moreno Valley to enhance your natural beauty.",
           "name": "Women's Eyebrow Waxing",
           "duration": "10–15 Minutes",
-          "price": "$15 & Up",
+          "price": "$15",
           "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c800bd26-bdcd-42b8-a90f-7c89218d42aa_image-20250522-120009%20%281%29.png",
           "para": [
             "Sculpted. Defined. Effortlessly You. At Artibrow Threading Salon, we believe perfectly shaped brows can transform your entire look. Our Eyebrow waxing service offers a quick, effective, and gentle way to achieve clean, defined brows with long-lasting results. Our trained specialists use high-quality wax and precise techniques to remove unwanted hair while enhancing your natural brow shape. Whether you're looking to maintain your current style or try a new arch, we tailor every service to flatter your unique features."
@@ -6560,7 +6565,7 @@
           "description": "Transform your look with perfectly shaped brows. Art iBrow offers quick and gentle eyebrow waxing services near Moreno Valley to enhance your natural beauty.",
           "name": "Women's Eyebrow Waxing",
           "duration": "10–15 Minutes",
-          "price": "$15 & Up",
+          "price": "$15",
           "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c800bd26-bdcd-42b8-a90f-7c89218d42aa_image-20250522-120009%20%281%29.png",
           "para": [
             "Sculpted. Defined. Effortlessly You. At Artibrow Threading Salon, we believe perfectly shaped brows can transform your entire look. Our Eyebrow waxing service offers a quick, effective, and gentle way to achieve clean, defined brows with long-lasting results. Our trained specialists use high-quality wax and precise techniques to remove unwanted hair while enhancing your natural brow shape. Whether you're looking to maintain your current style or try a new arch, we tailor every service to flatter your unique features."
@@ -10462,6 +10467,105 @@
           ]
         },
         {
+          "title": "Mini Facial Near Moreno Valley | Quick Glow Facial | ART iBrow",
+          "description": "Refresh your skin with a Mini Facial at ART iBrow. This quick treatment cleanses, exfoliates, steams, masks, and moisturizes for a clean, smooth glow in under 30 minutes.",
+          "name": "Mini Facial",
+          "duration": "Under 30 Minutes",
+          "price": "$30",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4cbbb7e3-070d-4cf9-adc8-5af10dce0637_WhatsApp%20Image%202024-10-09%20at%2014.jpeg",
+          "para": [
+            "A mini facial is a quick, refreshing skincare treatment designed to cleanse, exfoliate, and rejuvenate the skin in a shorter time than a full facial. It includes a deep cleanse, gentle exfoliation, light steaming, a customized mask, and a finishing moisturizer, leaving your skin feeling clean, smooth, and glowing in under 30 minutes."
+          ],
+          "faq": [
+            {
+              "question": "1. What is a mini facial?",
+              "answer": "A mini facial is a quick, refreshing skincare treatment designed to cleanse, exfoliate, and rejuvenate the skin in less time than a full facial.",
+              "open": false
+            },
+            {
+              "question": "2. What is included in a mini facial?",
+              "answer": "A mini facial includes a deep cleanse, gentle exfoliation, light steaming, a customized mask, and a finishing moisturizer.",
+              "open": false
+            },
+            {
+              "question": "3. How long does a mini facial take?",
+              "answer": "A mini facial is designed to leave your skin clean, smooth, and glowing in under 30 minutes.",
+              "open": false
+            },
+            {
+              "question": "4. Who is a mini facial best for?",
+              "answer": "A mini facial is ideal for anyone who wants a quick skin refresh when they are short on time but still want visible results.",
+              "open": false
+            },
+            {
+              "question": "5. What results can I expect after a mini facial?",
+              "answer": "You can expect your skin to feel clean, smooth, refreshed, and glowing after the treatment.",
+              "open": false
+            }
+          ],
+          "benefits": [
+            {
+              "showDesc": false,
+              "title": "Quick Refresh",
+              "desc": "Perfect for busy schedules, a mini facial gives your skin a fresh boost in under 30 minutes."
+            },
+            {
+              "showDesc": false,
+              "title": "Deep Cleanse",
+              "desc": "The treatment helps remove surface buildup, leaving the skin feeling clean and renewed."
+            },
+            {
+              "showDesc": false,
+              "title": "Gentle Exfoliation",
+              "desc": "Light exfoliation smooths the skin and helps reveal a brighter-looking complexion."
+            },
+            {
+              "showDesc": false,
+              "title": "Customized Care",
+              "desc": "A tailored mask helps address your skin's immediate needs for a more personalized treatment."
+            },
+            {
+              "showDesc": false,
+              "title": "Instant Glow",
+              "desc": "Finishing hydration leaves the skin looking soft, smooth, and radiant right away."
+            }
+          ],
+          "callButton": "Call us to get a Quote",
+          "callLink": "tel:+1 951-777-8566",
+          "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dbbdfcd1-cb42-4a37-b2b0-63bd07b91d05_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dbbdfcd1-cb42-4a37-b2b0-63bd07b91d05_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/68641f3b-306b-4a52-893c-e326afa7e17b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/68641f3b-306b-4a52-893c-e326afa7e17b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial2"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/21e04f2f-d9d5-4c67-9fdc-5ab6d7ee29fe_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/21e04f2f-d9d5-4c67-9fdc-5ab6d7ee29fe_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial3"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/834af035-65c1-46f0-89dc-e2b768adc2f9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/834af035-65c1-46f0-89dc-e2b768adc2f9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial4"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/776498d0-4d93-4fcd-80d8-656c170fefb0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/776498d0-4d93-4fcd-80d8-656c170fefb0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial5"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial6"
+            }
+          ]
+        },
+        {
           "title": "Dermaplaning & Facial Treatment | Smooth & Glowing Skin | ART iBrow",
           "description": "Experience the ultimate in skincare with our Dermaplaning & Facial treatment. Enjoy smooth, glowing skin with our expert services including facials and more at ART iBrow.",
           "name": "Dermaplaning With Facial",
@@ -11563,6 +11667,107 @@
               "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
               "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
               "alt": "regularfacial6"
+            }
+          ]
+        }
+      ],
+      "minifacial": [
+        {
+          "title": "Mini Facial Near Moreno Valley | Quick Glow Facial | ART iBrow",
+          "description": "Refresh your skin with a Mini Facial at ART iBrow. This quick treatment cleanses, exfoliates, steams, masks, and moisturizes for a clean, smooth glow in under 30 minutes.",
+          "name": "Mini Facial",
+          "duration": "Under 30 Minutes",
+          "price": "$30",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4cbbb7e3-070d-4cf9-adc8-5af10dce0637_WhatsApp%20Image%202024-10-09%20at%2014.jpeg",
+          "para": [
+            "A mini facial is a quick, refreshing skincare treatment designed to cleanse, exfoliate, and rejuvenate the skin in a shorter time than a full facial. It includes a deep cleanse, gentle exfoliation, light steaming, a customized mask, and a finishing moisturizer, leaving your skin feeling clean, smooth, and glowing in under 30 minutes."
+          ],
+          "faq": [
+            {
+              "question": "1. What is a mini facial?",
+              "answer": "A mini facial is a quick, refreshing skincare treatment designed to cleanse, exfoliate, and rejuvenate the skin in less time than a full facial.",
+              "open": false
+            },
+            {
+              "question": "2. What is included in a mini facial?",
+              "answer": "A mini facial includes a deep cleanse, gentle exfoliation, light steaming, a customized mask, and a finishing moisturizer.",
+              "open": false
+            },
+            {
+              "question": "3. How long does a mini facial take?",
+              "answer": "A mini facial is designed to leave your skin clean, smooth, and glowing in under 30 minutes.",
+              "open": false
+            },
+            {
+              "question": "4. Who is a mini facial best for?",
+              "answer": "A mini facial is ideal for anyone who wants a quick skin refresh when they are short on time but still want visible results.",
+              "open": false
+            },
+            {
+              "question": "5. What results can I expect after a mini facial?",
+              "answer": "You can expect your skin to feel clean, smooth, refreshed, and glowing after the treatment.",
+              "open": false
+            }
+          ],
+          "benefits": [
+            {
+              "showDesc": false,
+              "title": "Quick Refresh",
+              "desc": "Perfect for busy schedules, a mini facial gives your skin a fresh boost in under 30 minutes."
+            },
+            {
+              "showDesc": false,
+              "title": "Deep Cleanse",
+              "desc": "The treatment helps remove surface buildup, leaving the skin feeling clean and renewed."
+            },
+            {
+              "showDesc": false,
+              "title": "Gentle Exfoliation",
+              "desc": "Light exfoliation smooths the skin and helps reveal a brighter-looking complexion."
+            },
+            {
+              "showDesc": false,
+              "title": "Customized Care",
+              "desc": "A tailored mask helps address your skin's immediate needs for a more personalized treatment."
+            },
+            {
+              "showDesc": false,
+              "title": "Instant Glow",
+              "desc": "Finishing hydration leaves the skin looking soft, smooth, and radiant right away."
+            }
+          ],
+          "callButton": "Call us to get a Quote",
+          "callLink": "tel:+1 951-777-8566",
+          "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dbbdfcd1-cb42-4a37-b2b0-63bd07b91d05_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dbbdfcd1-cb42-4a37-b2b0-63bd07b91d05_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/68641f3b-306b-4a52-893c-e326afa7e17b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/68641f3b-306b-4a52-893c-e326afa7e17b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial2"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/21e04f2f-d9d5-4c67-9fdc-5ab6d7ee29fe_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/21e04f2f-d9d5-4c67-9fdc-5ab6d7ee29fe_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial3"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/834af035-65c1-46f0-89dc-e2b768adc2f9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/834af035-65c1-46f0-89dc-e2b768adc2f9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial4"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/776498d0-4d93-4fcd-80d8-656c170fefb0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/776498d0-4d93-4fcd-80d8-656c170fefb0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial5"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial6"
             }
           ]
         }
@@ -13103,6 +13308,23 @@
           "galVideos": []
         }
       ],
+      "minifacial": [
+        {
+          "title": "Mini Facial Near Moreno Valley | Quick Glow Facial | ART iBrow",
+          "description": "Refresh your skin with a Mini Facial at ART iBrow. This quick treatment cleanses, exfoliates, steams, masks, and moisturizes for a clean, smooth glow in under 30 minutes.",
+          "name": "Mini Facial",
+          "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4cbbb7e3-070d-4cf9-adc8-5af10dce0637_WhatsApp%20Image%202024-10-09%20at%2014.jpeg",
+          "galImg": [
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dbbdfcd1-cb42-4a37-b2b0-63bd07b91d05_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/68641f3b-306b-4a52-893c-e326afa7e17b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/21e04f2f-d9d5-4c67-9fdc-5ab6d7ee29fe_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/834af035-65c1-46f0-89dc-e2b768adc2f9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/776498d0-4d93-4fcd-80d8-656c170fefb0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg"
+          ],
+          "galVideos": []
+        }
+      ],
       "dermaplanning": [
         {
           "title": "Dermaplaning & Facial Treatment | Smooth & Glowing Skin | ART iBrow",
@@ -13992,6 +14214,15 @@
                       "galleryLink": "/gallery-two/regularfacial"
                     },
                     {
+                      "itemName": "Mini Facial",
+                      "alt": "Mini Facial",
+                      "itemDescription": "Quick cleanse, exfoliation, mask, and glow in under 30 minutes.",
+                      "itemPrice": "$30",
+                      "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e68828b6-be46-4746-84e7-142e1177c3f4_Regular%20Facial%20%282%29.png",
+                      "link": "/service/minifacial",
+                      "galleryLink": "/gallery-two/minifacial"
+                    },
+                    {
                       "itemName": "Dermaplaning with Facial",
                       "alt": "Dermaplaning with Facial",
                       "itemPrice": "$180",
@@ -14037,7 +14268,7 @@
                     {
                       "itemName": "Mole & Skin Tags Removal ",
                       "alt": "Mole & Skin Tags Removal ",
-                      "itemPrice": "$60 & Up",
+                      "itemPrice": "$15",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a1d396f5-5f2f-4048-a2f6-28ab363c4010_Mole%20%26%20Skin%20Tags%20Removal%20%282%29.png",
                       "link": "/service/mole-removal",
                       "galleryLink": "/gallery-two/mole-removal"
@@ -14160,7 +14391,7 @@
                     {
                       "itemName": "Women's Eyebrow Waxing",
                       "alt": "Women's Eyebrow Waxing",
-                      "itemPrice": "$60 & Up",
+                      "itemPrice": "$15",
                       "quantity": 0,
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2fbc29f4-2c6c-4533-ba32-eb525cad5ecb_image-20250522-115530.png",
                       "link": "/service/women-eyebrow-waxing",

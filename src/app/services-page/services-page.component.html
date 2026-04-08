@@ -1,9 +1,15 @@
-<main class="services-page">
+<main #servicesPageRoot class="services-page">
     <span class="powder powder-top" aria-hidden="true"></span>
     <span class="powder powder-bottom" aria-hidden="true"></span>
 
     <section class="price-poster" *ngIf="categories.length">
         <p class="poster-brand">{{ posterBrand }}</p>
+
+        <div class="poster-actions">
+            <button type="button" class="download-button" (click)="downloadPriceListPdf()" [disabled]="isDownloadingPdf">
+                {{ isDownloadingPdf ? 'Preparing PDF...' : 'Download PDF' }}
+            </button>
+        </div>
 
         <header class="poster-header">
             <h1>SALON</h1>
