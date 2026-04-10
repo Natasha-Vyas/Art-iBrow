@@ -143,7 +143,7 @@
             "link": "",
             "options": [
               {
-                "name": "Microblading & Shading",
+                "name": "Microblading, Shading, Ombre, & Nano Brows",
                 "type": "internal",
                 "link": "/service/microblading"
               },
@@ -619,7 +619,7 @@
       "Eyebrow Threading",
       "Full Face",
       "Henna Brow Tinting",
-      "Microblading & Shading",
+      "Microblading, Shading, Ombre, & Nano Brows",
       "Lip Liner",
       "Permanent Eyeliner",
       "Green Peel Facial",
@@ -2668,7 +2668,7 @@
           "description": "Get the best mole & skin tag removal near Moreno Valley. Safe, effective treatments for all your beauty needs, including threading, facials, and more at ART iBrow.",
           "name": "Mole & Skin Tags Removal",
           "duration": "Varies depending on the number of moles and tags",
-          "price": "$60 & Up",
+          "price": "$50 & up",
           "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0ef71d75-d684-46a1-bee6-fe648c160dc7_e74a7aa5-3ab5-4ebf-9d4a-289d9729810c_1a89b9b7-8560-47ae-a95b-54dbc51710ab_0656e1af-69ad-408a-b6fd-d4bd0652e5ce_image-20240415-100549%20%282%29%20%281%29.png",
           "para": [
             "Moles are skin growths that go unnoticed more often than not. After all, everyone has them. But if your moles are bothering you, then it’s perfectly okay to get rid of them, too.",
@@ -8799,9 +8799,9 @@
       ],
       "permanentmakeup": [
         {
-          "title": "Best  Eyebrow Microblading & Shading Near Moreno Valley | ART iBrow",
+          "title": "Best  Eyebrow Microblading, Shading, Ombre, & Nano Brows Near Moreno Valley | ART iBrow",
           "description": "Discover the best eyebrow microblading and shading near Moreno Valley at ART iBrow. Our services include threading, tinting, facials, and permanent makeup.",
-          "name": "Microblading & Shading",
+          "name": "Microblading, Shading, Ombre, & Nano Brows",
           "duration": "New Microblading - 2-3 hours, Touch Up - 1-2 hours",
           "price": "$360 Special ($570 Regular)",
           "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c3d5392e-70d7-4bce-90fc-2b684904a94d_WhatsApp%20Image%202024-10-09%20at%2013.jpeg",
@@ -9302,9 +9302,9 @@
       ],
       "microblading": [
         {
-          "title": "Best Eyebrow Microblading & Shading Near Moreno Valley | ART iBrow",
+          "title": "Best Eyebrow Microblading, Shading, Ombre, & Nano Brows Near Moreno Valley | ART iBrow",
           "description": "Discover the best eyebrow microblading and shading near Moreno Valley at ART iBrow. Our services include threading, tinting, facials, and permanent makeup.",
-          "name": "Microblading & Shading",
+          "name": "Microblading, Shading, Ombre, & Nano Brows",
           "duration": "New Microblading - 2-3 hours, Touch Up - 1-2 hours",
           "price": "$360 Special (Regular $570 )",
           "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c3d5392e-70d7-4bce-90fc-2b684904a94d_WhatsApp%20Image%202024-10-09%20at%2013.jpeg",
@@ -12709,7 +12709,7 @@
           "description": "Dark lip neutralization is a specialized cosmetic procedure that helps lighten and balance lip pigmentation. It involves color correction techniques to restore a more natural and even lip tone, enhancing the overall appearance of the lips.",
           "name": "Dark Lip Neutralization",
           "duration": "2–3 Hours",
-          "price": "$255",
+          "price": "$270 & up",
           "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed770f2e-97e0-4b64-a33b-938c1da328a0_lip-naturalization-bg.webp",
           "para": [
             "Dark lip neutralization is a specialized cosmetic procedure that helps lighten and balance lip pigmentation. It involves color correction techniques to restore a more natural and even lip tone, enhancing the overall appearance of the lips.",
@@ -13169,7 +13169,7 @@
       ],
       "microblading": [
         {
-          "title": "Best  Eyebrow Microblading & Shading Near Moreno Valley | ART iBrow",
+          "title": "Best  Eyebrow Microblading, Shading, Ombre, & Nano Brows Near Moreno Valley | ART iBrow",
           "description": "Discover the best eyebrow microblading and shading near Moreno Valley at ART iBrow. Our services include threading, tinting, facials, and permanent makeup",
           "name": "Microblading",
           "bgImg": "",
@@ -14145,8 +14145,8 @@
                   ],
                   "items": [
                     {
-                      "itemName": "Microblading & Shading",
-                      "alt": "Microblading & Shading",
+                      "itemName": "Microblading, Shading, Ombre, & Nano Brows",
+                      "alt": "Microblading, Shading, Ombre, & Nano Brows",
                       "itemPrice": "$360 Special (Regular $570 )",
                       "itemDescription": "Includes 1 Free Touchup & 2 Eyebrow Threading",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/839cfcc9-2f70-497c-8af0-efa25bccc471_Microblading%20%26%20Shading%20%282%29.png",
@@ -14268,7 +14268,7 @@
                     {
                       "itemName": "Mole & Skin Tags Removal ",
                       "alt": "Mole & Skin Tags Removal ",
-                      "itemPrice": "$15",
+                      "itemPrice": "$50 & up",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a1d396f5-5f2f-4048-a2f6-28ab363c4010_Mole%20%26%20Skin%20Tags%20Removal%20%282%29.png",
                       "link": "/service/mole-removal",
                       "galleryLink": "/gallery-two/mole-removal"
@@ -14538,7 +14538,7 @@
                     {
                       "itemName": "Dark Lip Neutralization",
                       "alt": "Dark Lip Neutralization",
-                      "itemPrice": "$255 & Up",
+                      "itemPrice": "$270 & up",
                       "quantity": 0,
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed770f2e-97e0-4b64-a33b-938c1da328a0_lip-naturalization-bg.webp",
                       "link": "/service/dark-lip-neutralization",
