@@ -1,0 +1,32 @@
+<main #servicesPageRoot class="services-page">
+    <span class="powder powder-top" aria-hidden="true"></span>
+    <span class="powder powder-bottom" aria-hidden="true"></span>
+
+    <section class="price-poster" *ngIf="categories.length">
+        <p class="poster-brand">{{ posterBrand }}</p>
+
+        <div class="poster-actions">
+            <button type="button" class="download-button" (click)="downloadPriceListPdf()" [disabled]="isDownloadingPdf">
+                {{ isDownloadingPdf ? 'Preparing PDF...' : 'Download PDF' }}
+            </button>
+        </div>
+
+        <header class="poster-header">
+            <h1>SALON</h1>
+            <p>Price List</p>
+        </header>
+
+        <section class="poster-grid">
+            <article class="price-category" *ngFor="let category of categories">
+                <h2>{{ getDisplayCategoryName(category) }}</h2>
+
+                <div class="price-list">
+                    <div class="price-row" *ngFor="let item of category.items">
+                        <span class="service-name">{{ item.itemName }}</span>
+                        <span class="service-price">{{ item.itemPrice }}</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </section>
+</main>

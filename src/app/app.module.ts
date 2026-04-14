@@ -24,6 +24,7 @@ import { PaymentComponent } from './payment/payment.component';
 import { PolicyComponent } from './policy/policy.component';
 import { ProductComponent } from './product/product.component';
 import { ServiceComponent } from './service/service.component';
+import { ServicesPageComponent } from './services-page/services-page.component';
 import { SuccessComponent } from './success/success.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { PopupComponent } from './popup/popup.component';
@@ -48,6 +49,7 @@ import { PopupComponent } from './popup/popup.component';
     PolicyComponent,
     ProductComponent,
     ServiceComponent,
+    ServicesPageComponent,
     SuccessComponent,
     TestimonialComponent,
     PopupComponent

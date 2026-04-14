@@ -6,17 +6,18 @@ main {
 
     .main-section {
         display: flex;
+        align-items: flex-start;
 
         .inner-div {
             width: 30%;
 
             .options-tab {
                 position: sticky;
-                top: 0;
+                top: 205px;
                 border: 1px solid rgba(9, 12, 15, 0.1);
                 padding: 30px 60px;
                 background-color: #f8f8f8;
-                height: 100%;
+                height: calc(100vh - 205px);
                 overflow-y: auto;
 
                 .highlighted {
@@ -123,6 +124,8 @@ main {
         .items {
             padding: 2%;
             width: 70%;
+            height: calc(100vh - 205px);
+            overflow-y: auto;
             // margin: auto;
 
             .category-title {
@@ -398,6 +401,7 @@ main {
                         }
                     }
                 }
+
             }
         }
     }

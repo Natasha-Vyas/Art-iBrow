@@ -157,6 +157,7 @@ export class PriceComponent implements OnInit {
 
   ngOnInit(): void {
     this.setTitleAndMetaTags();
+    setTimeout(() => this.viewportScroller.scrollToPosition([0, 0]), 0);
     // Auto-select first category like gallery component
     if (this.brandName == 'ART iBrow Threading Salon' && this.categories && this.categories.length > 0) {
       this.getDiv(0, this.categories[0]);

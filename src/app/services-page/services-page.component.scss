@@ -1,0 +1,290 @@
+.services-page {
+    --theme-bg: #f9f4f0;
+    --theme-surface: #ffffff;
+    --theme-accent: #91271a;
+    --theme-text: #000000;
+    --theme-border: rgba(145, 39, 26, 0.14);
+    --theme-shadow: rgba(0, 0, 0, 0.08);
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    padding: 205px 5% 80px;
+    background:
+        radial-gradient(circle at 12% 8%, rgba(245, 184, 196, 0.34), transparent 12%),
+        radial-gradient(circle at 88% 90%, rgba(245, 184, 196, 0.28), transparent 13%),
+        linear-gradient(142deg, #09070a 0 16%, #f5f1eb 16% 84%, #09070a 84% 100%);
+    color: var(--theme-text);
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+.services-page *,
+.services-page *::before,
+.services-page *::after {
+    box-sizing: inherit;
+}
+
+.services-page::before,
+.services-page::after {
+    content: '';
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    background: radial-gradient(circle, rgba(247, 196, 207, 0.48), rgba(247, 196, 207, 0.04) 55%, transparent 72%);
+    filter: blur(8px);
+    pointer-events: none;
+}
+
+.services-page::before {
+    top: 38px;
+    left: -60px;
+}
+
+.services-page::after {
+    right: -80px;
+    bottom: -20px;
+}
+
+.powder {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    filter: blur(20px);
+    opacity: 0.8;
+}
+
+.powder-top {
+    top: 58px;
+    left: 30px;
+    width: 240px;
+    height: 240px;
+    background:
+        radial-gradient(circle at 62% 35%, rgba(255, 255, 255, 0.82), transparent 18%),
+        radial-gradient(circle at 45% 48%, rgba(245, 184, 196, 0.5), transparent 26%),
+        radial-gradient(circle, rgba(245, 184, 196, 0.2), transparent 70%);
+}
+
+.powder-bottom {
+    right: 10px;
+    bottom: 0;
+    width: 280px;
+    height: 280px;
+    background:
+        radial-gradient(circle at 50% 50%, rgba(245, 184, 196, 0.45), transparent 24%),
+        radial-gradient(circle, rgba(255, 255, 255, 0.45), transparent 68%);
+}
+
+.price-poster {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 40px 44px 48px;
+    border: 1px solid var(--theme-border);
+    border-radius: 14px;
+    background: var(--theme-surface);
+    box-shadow: 0 18px 40px var(--theme-shadow);
+}
+
+.poster-brand {
+    margin: 0 0 8px;
+    color: var(--theme-accent);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.poster-actions {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 18px;
+}
+
+.download-button {
+    border: 1px solid transparent;
+    border-radius: 999px;
+    padding: 12px 22px;
+    background: var(--theme-accent);
+    color: #fff;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 150ms ease, box-shadow 150ms ease, opacity 150ms ease;
+    box-shadow: 0 12px 24px rgba(145, 39, 26, 0.18);
+}
+
+.download-button:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 16px 28px rgba(145, 39, 26, 0.22);
+}
+
+.download-button:disabled {
+    cursor: progress;
+    opacity: 0.7;
+}
+
+.poster-header {
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.poster-header h1 {
+    margin: 0;
+    color: var(--theme-text);
+    font-family: Oswald, "Oswald Fallback";
+    font-size: clamp(62px, 9vw, 92px);
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    line-height: 0.95;
+    text-indent: 0.22em;
+    text-transform: uppercase;
+}
+
+.poster-header p {
+    margin: -6px 0 0;
+    color: var(--theme-accent);
+    font-family: "Dancing Script", cursive;
+    font-size: clamp(34px, 4.8vw, 54px);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 1;
+}
+
+.poster-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 36px;
+    align-items: start;
+}
+
+.price-category h2 {
+    margin: 0 0 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(145, 39, 26, 0.32);
+    color: var(--theme-accent);
+    font-family: "Dancing Script", cursive;
+    font-size: clamp(32px, 4vw, 42px);
+    font-weight: 800;
+    line-height: 1.05;
+    text-transform: capitalize;
+}
+
+.price-list {
+    display: grid;
+    gap: 12px;
+}
+
+.price-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(92px, 44%);
+    gap: 18px;
+    align-items: baseline;
+}
+
+.service-name,
+.service-price {
+    color: var(--theme-text);
+    font-size: 17px;
+    line-height: 1.45;
+}
+
+.service-name {
+    min-width: 0;
+    font-weight: 500;
+}
+
+.service-price {
+    width: 100%;
+    color: var(--theme-accent);
+    font-weight: 700;
+    text-align: right;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+@media only screen and (max-width: 768px) {
+    .services-page {
+        padding: 185px 20px 60px;
+    }
+
+    .price-poster {
+        padding: 28px 24px 34px;
+    }
+
+    .poster-grid {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .services-page {
+        padding: 170px 14px 40px;
+    }
+
+    .services-page::before,
+    .services-page::after,
+    .powder {
+        opacity: 0.55;
+    }
+
+    .price-poster {
+        padding: 24px 16px 28px;
+        border-radius: 10px;
+    }
+
+    .poster-brand {
+        font-size: 11px;
+        letter-spacing: 0.14em;
+    }
+
+    .poster-actions {
+        margin-bottom: 14px;
+    }
+
+    .download-button {
+        width: 100%;
+        justify-content: center;
+        padding: 11px 18px;
+        font-size: 13px;
+        letter-spacing: 0.06em;
+    }
+
+    .poster-header {
+        margin-bottom: 26px;
+    }
+
+    .poster-header h1 {
+        font-size: 42px;
+        letter-spacing: 0.12em;
+        text-indent: 0.12em;
+    }
+
+    .poster-header p {
+        font-size: 34px;
+    }
+
+    .price-category h2 {
+        font-size: 34px;
+    }
+
+    .price-row {
+        grid-template-columns: minmax(0, 1fr) minmax(96px, 40%);
+        gap: 8px;
+    }
+
+    .service-name,
+    .service-price {
+        font-size: 14px;
+    }
+
+    .service-price {
+        text-align: right;
+    }
+}

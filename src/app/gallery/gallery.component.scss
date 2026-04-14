@@ -30,6 +30,7 @@ main {
     .mainMenu {
         padding-top: 0px;
         display: flex;
+        align-items: flex-start;
         width: 100%;
 
         .title {
@@ -44,6 +45,10 @@ main {
             border: 1px solid rgba(9, 12, 15, 0.1);
             padding: 30px 60px;
             background-color: #f8f8f8;
+            position: sticky;
+            top: 205px;
+            height: calc(100vh - 205px);
+            overflow-y: auto;
 
             .highlighted {
                 background-color: #91271a !important;
@@ -114,6 +119,8 @@ main {
             background-size: cover;
             background-position: center;
             width: 70%;
+            height: calc(100vh - 205px);
+            overflow-y: auto;
 
             .category-tab {
                 div {

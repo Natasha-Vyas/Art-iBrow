@@ -143,7 +143,7 @@
             "link": "",
             "options": [
               {
-                "name": "Microblading & Shading",
+                "name": "Microblading, Shading, Ombre, & Nano Brows",
                 "type": "internal",
                 "link": "/service/microblading"
               },
@@ -183,6 +183,11 @@
                 "name": "Regular Facial",
                 "type": "internal",
                 "link": "/service/regularfacial"
+              },
+              {
+                "name": "Mini Facial",
+                "type": "internal",
+                "link": "/service/minifacial"
               },
               {
                 "name": "Dermaplanning With Facial",
@@ -614,7 +619,7 @@
       "Eyebrow Threading",
       "Full Face",
       "Henna Brow Tinting",
-      "Microblading & Shading",
+      "Microblading, Shading, Ombre, & Nano Brows",
       "Lip Liner",
       "Permanent Eyeliner",
       "Green Peel Facial",
@@ -1913,8 +1918,8 @@
           "callLink": "tel:+1 951-777-8566",
           "slider": [
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/154ab561-6293-430c-9795-a9e47b54aed0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/154ab561-6293-430c-9795-a9e47b54aed0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96f76352-0850-4341-98c4-537914c7893a_henna%20tint%20service%20page%20as%20before%20and%20after.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96f76352-0850-4341-98c4-537914c7893a_henna%20tint%20service%20page%20as%20before%20and%20after.jpeg",
               "alt": "henna-brow1"
             },
             {
@@ -1952,7 +1957,7 @@
           "name": "Henna Brow Tinting",
           "duration": "10-15 Minutes",
           "price": "$27",
-          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/154ab561-6293-430c-9795-a9e47b54aed0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96f76352-0850-4341-98c4-537914c7893a_henna%20tint%20service%20page%20as%20before%20and%20after.jpeg",
           "para": [
             "Brow Henna is mostly derived from plants, so does offer a more gentle treatment for those who find traditional brow tints a bit more harsh for their skin. Henna Brow tinting is a herbal process aimed at enhancing eyebrow appearance. Utilizing a semi-permanent henna application, eyebrows are darkened, defined, or filled in to create a fuller and more prominent shape. This natural method is especially favored by those with light or thin eyebrows, offering a defined and polished look without the need for daily makeup. Brow Henna is mostly derived from plants, so does offer a more gentle treatment for those who find traditional brow tints a bit more harsh for their skin.",
             "The brow tinting procedure involves a meticulous application of henna to the eyebrows, typically performed by a trained aesthetician or cosmetologist. Before the treatment begins, the technician will assess the client's natural eyebrow colour, skin tone, and desired outcome to determine the most suitable shade of henna. The henna is then carefully applied to the eyebrows using a precise brush or applicator, ensuring even coverage and a natural-looking result.",
@@ -2066,6 +2071,11 @@
             }
           ],
           "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96f76352-0850-4341-98c4-537914c7893a_henna%20tint%20service%20page%20as%20before%20and%20after.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96f76352-0850-4341-98c4-537914c7893a_henna%20tint%20service%20page%20as%20before%20and%20after.jpeg",
+              "alt": "henna-brow1"
+            },
             {
               "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/154ab561-6293-430c-9795-a9e47b54aed0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
               "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/154ab561-6293-430c-9795-a9e47b54aed0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
@@ -2658,7 +2668,7 @@
           "description": "Get the best mole & skin tag removal near Moreno Valley. Safe, effective treatments for all your beauty needs, including threading, facials, and more at ART iBrow.",
           "name": "Mole & Skin Tags Removal",
           "duration": "Varies depending on the number of moles and tags",
-          "price": "$60 & Up",
+          "price": "$50 & up",
           "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0ef71d75-d684-46a1-bee6-fe648c160dc7_e74a7aa5-3ab5-4ebf-9d4a-289d9729810c_1a89b9b7-8560-47ae-a95b-54dbc51710ab_0656e1af-69ad-408a-b6fd-d4bd0652e5ce_image-20240415-100549%20%282%29%20%281%29.png",
           "para": [
             "Moles are skin growths that go unnoticed more often than not. After all, everyone has them. But if your moles are bothering you, then it’s perfectly okay to get rid of them, too.",
@@ -4520,44 +4530,59 @@
           "callLink": "tel:+1 951-777-8566",
           "slider": [
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/15364a64-8e53-4137-90f9-cf17d416e677_Hand%20Henna.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/15364a64-8e53-4137-90f9-cf17d416e677_Hand%20Henna.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/70a367e5-dc8f-4253-a639-b6b65f24fd7d_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/70a367e5-dc8f-4253-a639-b6b65f24fd7d_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna1"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5a1c30f0-2d6e-4974-a91e-555b289a75d0_Hand%20Henna%20%282%29.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5a1c30f0-2d6e-4974-a91e-555b289a75d0_Hand%20Henna%20%282%29.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dcbad1ed-dfa7-4868-9084-1dd7610072cd_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dcbad1ed-dfa7-4868-9084-1dd7610072cd_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna2"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e9c4eb5b-e6cf-4301-afd3-ccdc2e94f8aa_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e9c4eb5b-e6cf-4301-afd3-ccdc2e94f8aa_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/540242f2-1968-49ff-8f2b-07ff2fd0624a_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/540242f2-1968-49ff-8f2b-07ff2fd0624a_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna3"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/82963b8e-6de4-4fe5-b69d-e7d3db9c4a7c_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/82963b8e-6de4-4fe5-b69d-e7d3db9c4a7c_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/028a3fd8-10a8-4998-bccb-f44e85657589_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/028a3fd8-10a8-4998-bccb-f44e85657589_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna4"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/563b7f74-1d68-4453-b867-b89643e98951_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/563b7f74-1d68-4453-b867-b89643e98951_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dd566375-11c2-476b-bcd6-d75083baf041_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dd566375-11c2-476b-bcd6-d75083baf041_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna5"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/aee2be12-81b4-45ed-ae51-e56033e550eb_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/aee2be12-81b4-45ed-ae51-e56033e550eb_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d83e75c9-8b76-40e6-8f59-d27eb720baab_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d83e75c9-8b76-40e6-8f59-d27eb720baab_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna6"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/bfe1804a-85e2-4037-bb97-cfa9a28732a0_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/bfe1804a-85e2-4037-bb97-cfa9a28732a0_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed59dad5-82d7-486a-ba3d-1f25656a3caa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed59dad5-82d7-486a-ba3d-1f25656a3caa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna7"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4b44bc3b-ca22-4570-b41c-9a644137074d_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4b44bc3b-ca22-4570-b41c-9a644137074d_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a0f22a2c-548d-466c-af7f-510f518ec4d4_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a0f22a2c-548d-466c-af7f-510f518ec4d4_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna8"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0c84e424-30ab-4254-be03-9f6ec8a8540b_handhenna1.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0c84e424-30ab-4254-be03-9f6ec8a8540b_handhenna1.jpeg",
+              "alt": "handhenna9"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/12fea827-a81d-4f0b-a8e1-fa0896280f90_handhenna2.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/12fea827-a81d-4f0b-a8e1-fa0896280f90_handhenna2.jpeg",
+              "alt": "handhenna10"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/766682d9-a67d-446a-b64d-27060db96241_handhenna4.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/766682d9-a67d-446a-b64d-27060db96241_handhenna4.jpeg",
+              "alt": "handhenna12"
             }
           ]
         },
@@ -4837,28 +4862,28 @@
           "callLink": "tel:+1 951-777-8566",
           "slider": [
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7b64c062-4ce8-4785-b42b-6b8ac857e2b6_Bridal%20Henna.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7b64c062-4ce8-4785-b42b-6b8ac857e2b6_Bridal%20Henna.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d83e75c9-8b76-40e6-8f59-d27eb720baab_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d83e75c9-8b76-40e6-8f59-d27eb720baab_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "bridalhenna1"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/858e28f8-cc91-46c6-8364-8b4d3125166b_Bridal%20Henna%20%282%29.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/858e28f8-cc91-46c6-8364-8b4d3125166b_Bridal%20Henna%20%282%29.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed59dad5-82d7-486a-ba3d-1f25656a3caa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed59dad5-82d7-486a-ba3d-1f25656a3caa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "bridalhenna2"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f43aec5b-c2c3-479f-8727-ba38710741e6_compressed-1728446671153-d1d7ed49-677f-4fbe-a503-f3e2c0ea7f3f_Bridal%20Henna.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f43aec5b-c2c3-479f-8727-ba38710741e6_compressed-1728446671153-d1d7ed49-677f-4fbe-a503-f3e2c0ea7f3f_Bridal%20Henna.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a0f22a2c-548d-466c-af7f-510f518ec4d4_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a0f22a2c-548d-466c-af7f-510f518ec4d4_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "bridalhenna3"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b76534ae-605f-4f9f-b29c-c7093fdbe4e1_compressed-1728446671577-e8c53ace-0139-47a2-8097-ff53c604ee8c_Bridal%20Henna%20%286%29.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b76534ae-605f-4f9f-b29c-c7093fdbe4e1_compressed-1728446671577-e8c53ace-0139-47a2-8097-ff53c604ee8c_Bridal%20Henna%20%286%29.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3a1dac1a-9585-41a9-8c9d-8fa00c37b832_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3a1dac1a-9585-41a9-8c9d-8fa00c37b832_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "bridalhenna4"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a5099f70-c904-4832-92fc-7095713d12d5_compressed-1728446671914-06fa7d49-4b64-43a1-92cc-87a16395d271_Bridal%20Henna%20%285%29.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a5099f70-c904-4832-92fc-7095713d12d5_compressed-1728446671914-06fa7d49-4b64-43a1-92cc-87a16395d271_Bridal%20Henna%20%285%29.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/061c4c82-567d-40ce-871d-c832d929faaa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/061c4c82-567d-40ce-871d-c832d929faaa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "bridalhenna5"
             },
             {
@@ -4998,44 +5023,59 @@
           "callLink": "tel:+1 951-777-8566",
           "slider": [
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/15364a64-8e53-4137-90f9-cf17d416e677_Hand%20Henna.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/15364a64-8e53-4137-90f9-cf17d416e677_Hand%20Henna.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/70a367e5-dc8f-4253-a639-b6b65f24fd7d_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/70a367e5-dc8f-4253-a639-b6b65f24fd7d_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna1"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5a1c30f0-2d6e-4974-a91e-555b289a75d0_Hand%20Henna%20%282%29.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5a1c30f0-2d6e-4974-a91e-555b289a75d0_Hand%20Henna%20%282%29.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dcbad1ed-dfa7-4868-9084-1dd7610072cd_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dcbad1ed-dfa7-4868-9084-1dd7610072cd_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna2"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e9c4eb5b-e6cf-4301-afd3-ccdc2e94f8aa_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e9c4eb5b-e6cf-4301-afd3-ccdc2e94f8aa_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/540242f2-1968-49ff-8f2b-07ff2fd0624a_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/540242f2-1968-49ff-8f2b-07ff2fd0624a_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna3"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/82963b8e-6de4-4fe5-b69d-e7d3db9c4a7c_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/82963b8e-6de4-4fe5-b69d-e7d3db9c4a7c_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/028a3fd8-10a8-4998-bccb-f44e85657589_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/028a3fd8-10a8-4998-bccb-f44e85657589_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna4"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/563b7f74-1d68-4453-b867-b89643e98951_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/563b7f74-1d68-4453-b867-b89643e98951_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dd566375-11c2-476b-bcd6-d75083baf041_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dd566375-11c2-476b-bcd6-d75083baf041_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna5"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/aee2be12-81b4-45ed-ae51-e56033e550eb_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/aee2be12-81b4-45ed-ae51-e56033e550eb_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d83e75c9-8b76-40e6-8f59-d27eb720baab_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d83e75c9-8b76-40e6-8f59-d27eb720baab_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna6"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/bfe1804a-85e2-4037-bb97-cfa9a28732a0_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/bfe1804a-85e2-4037-bb97-cfa9a28732a0_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed59dad5-82d7-486a-ba3d-1f25656a3caa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed59dad5-82d7-486a-ba3d-1f25656a3caa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna7"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4b44bc3b-ca22-4570-b41c-9a644137074d_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4b44bc3b-ca22-4570-b41c-9a644137074d_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a0f22a2c-548d-466c-af7f-510f518ec4d4_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a0f22a2c-548d-466c-af7f-510f518ec4d4_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna8"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0c84e424-30ab-4254-be03-9f6ec8a8540b_handhenna1.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0c84e424-30ab-4254-be03-9f6ec8a8540b_handhenna1.jpeg",
+              "alt": "handhenna9"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/12fea827-a81d-4f0b-a8e1-fa0896280f90_handhenna2.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/12fea827-a81d-4f0b-a8e1-fa0896280f90_handhenna2.jpeg",
+              "alt": "handhenna10"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/766682d9-a67d-446a-b64d-27060db96241_handhenna4.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/766682d9-a67d-446a-b64d-27060db96241_handhenna4.jpeg",
+              "alt": "handhenna12"
             }
           ]
         }
@@ -5320,28 +5360,28 @@
           "callLink": "tel:+1 951-777-8566",
           "slider": [
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7b64c062-4ce8-4785-b42b-6b8ac857e2b6_Bridal%20Henna.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7b64c062-4ce8-4785-b42b-6b8ac857e2b6_Bridal%20Henna.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d83e75c9-8b76-40e6-8f59-d27eb720baab_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d83e75c9-8b76-40e6-8f59-d27eb720baab_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "bridalhenna1"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/858e28f8-cc91-46c6-8364-8b4d3125166b_Bridal%20Henna%20%282%29.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/858e28f8-cc91-46c6-8364-8b4d3125166b_Bridal%20Henna%20%282%29.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed59dad5-82d7-486a-ba3d-1f25656a3caa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed59dad5-82d7-486a-ba3d-1f25656a3caa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "bridalhenna2"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f43aec5b-c2c3-479f-8727-ba38710741e6_compressed-1728446671153-d1d7ed49-677f-4fbe-a503-f3e2c0ea7f3f_Bridal%20Henna.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f43aec5b-c2c3-479f-8727-ba38710741e6_compressed-1728446671153-d1d7ed49-677f-4fbe-a503-f3e2c0ea7f3f_Bridal%20Henna.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a0f22a2c-548d-466c-af7f-510f518ec4d4_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a0f22a2c-548d-466c-af7f-510f518ec4d4_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "bridalhenna3"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b76534ae-605f-4f9f-b29c-c7093fdbe4e1_compressed-1728446671577-e8c53ace-0139-47a2-8097-ff53c604ee8c_Bridal%20Henna%20%286%29.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b76534ae-605f-4f9f-b29c-c7093fdbe4e1_compressed-1728446671577-e8c53ace-0139-47a2-8097-ff53c604ee8c_Bridal%20Henna%20%286%29.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3a1dac1a-9585-41a9-8c9d-8fa00c37b832_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3a1dac1a-9585-41a9-8c9d-8fa00c37b832_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "bridalhenna4"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a5099f70-c904-4832-92fc-7095713d12d5_compressed-1728446671914-06fa7d49-4b64-43a1-92cc-87a16395d271_Bridal%20Henna%20%285%29.png",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a5099f70-c904-4832-92fc-7095713d12d5_compressed-1728446671914-06fa7d49-4b64-43a1-92cc-87a16395d271_Bridal%20Henna%20%285%29.png",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/061c4c82-567d-40ce-871d-c832d929faaa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/061c4c82-567d-40ce-871d-c832d929faaa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "bridalhenna5"
             },
             {
@@ -5994,7 +6034,7 @@
           "description": "Transform your look with perfectly shaped brows. Art iBrow offers quick and gentle eyebrow waxing services near Moreno Valley to enhance your natural beauty.",
           "name": "Women's Eyebrow Waxing",
           "duration": "10–15 Minutes",
-          "price": "$15 & Up",
+          "price": "$15",
           "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c800bd26-bdcd-42b8-a90f-7c89218d42aa_image-20250522-120009%20%281%29.png",
           "para": [
             "Sculpted. Defined. Effortlessly You. At Artibrow Threading Salon, we believe perfectly shaped brows can transform your entire look. Our Eyebrow waxing service offers a quick, effective, and gentle way to achieve clean, defined brows with long-lasting results. Our trained specialists use high-quality wax and precise techniques to remove unwanted hair while enhancing your natural brow shape. Whether you're looking to maintain your current style or try a new arch, we tailor every service to flatter your unique features."
@@ -6555,7 +6595,7 @@
           "description": "Transform your look with perfectly shaped brows. Art iBrow offers quick and gentle eyebrow waxing services near Moreno Valley to enhance your natural beauty.",
           "name": "Women's Eyebrow Waxing",
           "duration": "10–15 Minutes",
-          "price": "$15 & Up",
+          "price": "$15",
           "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c800bd26-bdcd-42b8-a90f-7c89218d42aa_image-20250522-120009%20%281%29.png",
           "para": [
             "Sculpted. Defined. Effortlessly You. At Artibrow Threading Salon, we believe perfectly shaped brows can transform your entire look. Our Eyebrow waxing service offers a quick, effective, and gentle way to achieve clean, defined brows with long-lasting results. Our trained specialists use high-quality wax and precise techniques to remove unwanted hair while enhancing your natural brow shape. Whether you're looking to maintain your current style or try a new arch, we tailor every service to flatter your unique features."
@@ -8789,9 +8829,9 @@
       ],
       "permanentmakeup": [
         {
-          "title": "Best  Eyebrow Microblading & Shading Near Moreno Valley | ART iBrow",
+          "title": "Best  Eyebrow Microblading, Shading, Ombre, & Nano Brows Near Moreno Valley | ART iBrow",
           "description": "Discover the best eyebrow microblading and shading near Moreno Valley at ART iBrow. Our services include threading, tinting, facials, and permanent makeup.",
-          "name": "Microblading & Shading",
+          "name": "Microblading, Shading, Ombre, & Nano Brows",
           "duration": "New Microblading - 2-3 hours, Touch Up - 1-2 hours",
           "price": "$360 Special ($570 Regular)",
           "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c3d5392e-70d7-4bce-90fc-2b684904a94d_WhatsApp%20Image%202024-10-09%20at%2013.jpeg",
@@ -9292,9 +9332,9 @@
       ],
       "microblading": [
         {
-          "title": "Best Eyebrow Microblading & Shading Near Moreno Valley | ART iBrow",
+          "title": "Best Eyebrow Microblading, Shading, Ombre, & Nano Brows Near Moreno Valley | ART iBrow",
           "description": "Discover the best eyebrow microblading and shading near Moreno Valley at ART iBrow. Our services include threading, tinting, facials, and permanent makeup.",
-          "name": "Microblading & Shading",
+          "name": "Microblading, Shading, Ombre, & Nano Brows",
           "duration": "New Microblading - 2-3 hours, Touch Up - 1-2 hours",
           "price": "$360 Special (Regular $570 )",
           "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c3d5392e-70d7-4bce-90fc-2b684904a94d_WhatsApp%20Image%202024-10-09%20at%2013.jpeg",
@@ -9423,6 +9463,21 @@
           "callButton": "Call us to get a Quote",
           "callLink": "tel:+1 951-777-8566",
           "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/feb792e5-c6e2-49ed-b29d-909e62665363_microblading1.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/feb792e5-c6e2-49ed-b29d-909e62665363_microblading1.jpeg",
+              "alt": "microblading1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c2f7d460-f8f4-48cc-832e-f7e419391d56_microblading2.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c2f7d460-f8f4-48cc-832e-f7e419391d56_microblading2.jpeg",
+              "alt": "microblading1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4fdc10d6-5192-4279-a739-9b022866196e_microblading3.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4fdc10d6-5192-4279-a739-9b022866196e_microblading3.jpeg",
+              "alt": "microblading1"
+            },
             {
               "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7d110cc5-f6a5-4dec-9293-31313d2c7789_Microblading%20%26%20shading%20%282%29.jpg",
               "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7d110cc5-f6a5-4dec-9293-31313d2c7789_Microblading%20%26%20shading%20%282%29.jpg",
@@ -10438,6 +10493,105 @@
               "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
               "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
               "alt": "regularfacial6"
+            }
+          ]
+        },
+        {
+          "title": "Mini Facial Near Moreno Valley | Quick Glow Facial | ART iBrow",
+          "description": "Refresh your skin with a Mini Facial at ART iBrow. This quick treatment cleanses, exfoliates, steams, masks, and moisturizes for a clean, smooth glow in under 30 minutes.",
+          "name": "Mini Facial",
+          "duration": "Under 30 Minutes",
+          "price": "$30",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4cbbb7e3-070d-4cf9-adc8-5af10dce0637_WhatsApp%20Image%202024-10-09%20at%2014.jpeg",
+          "para": [
+            "A mini facial is a quick, refreshing skincare treatment designed to cleanse, exfoliate, and rejuvenate the skin in a shorter time than a full facial. It includes a deep cleanse, gentle exfoliation, light steaming, a customized mask, and a finishing moisturizer, leaving your skin feeling clean, smooth, and glowing in under 30 minutes."
+          ],
+          "faq": [
+            {
+              "question": "1. What is a mini facial?",
+              "answer": "A mini facial is a quick, refreshing skincare treatment designed to cleanse, exfoliate, and rejuvenate the skin in less time than a full facial.",
+              "open": false
+            },
+            {
+              "question": "2. What is included in a mini facial?",
+              "answer": "A mini facial includes a deep cleanse, gentle exfoliation, light steaming, a customized mask, and a finishing moisturizer.",
+              "open": false
+            },
+            {
+              "question": "3. How long does a mini facial take?",
+              "answer": "A mini facial is designed to leave your skin clean, smooth, and glowing in under 30 minutes.",
+              "open": false
+            },
+            {
+              "question": "4. Who is a mini facial best for?",
+              "answer": "A mini facial is ideal for anyone who wants a quick skin refresh when they are short on time but still want visible results.",
+              "open": false
+            },
+            {
+              "question": "5. What results can I expect after a mini facial?",
+              "answer": "You can expect your skin to feel clean, smooth, refreshed, and glowing after the treatment.",
+              "open": false
+            }
+          ],
+          "benefits": [
+            {
+              "showDesc": false,
+              "title": "Quick Refresh",
+              "desc": "Perfect for busy schedules, a mini facial gives your skin a fresh boost in under 30 minutes."
+            },
+            {
+              "showDesc": false,
+              "title": "Deep Cleanse",
+              "desc": "The treatment helps remove surface buildup, leaving the skin feeling clean and renewed."
+            },
+            {
+              "showDesc": false,
+              "title": "Gentle Exfoliation",
+              "desc": "Light exfoliation smooths the skin and helps reveal a brighter-looking complexion."
+            },
+            {
+              "showDesc": false,
+              "title": "Customized Care",
+              "desc": "A tailored mask helps address your skin's immediate needs for a more personalized treatment."
+            },
+            {
+              "showDesc": false,
+              "title": "Instant Glow",
+              "desc": "Finishing hydration leaves the skin looking soft, smooth, and radiant right away."
+            }
+          ],
+          "callButton": "Call us to get a Quote",
+          "callLink": "tel:+1 951-777-8566",
+          "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dbbdfcd1-cb42-4a37-b2b0-63bd07b91d05_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dbbdfcd1-cb42-4a37-b2b0-63bd07b91d05_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/68641f3b-306b-4a52-893c-e326afa7e17b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/68641f3b-306b-4a52-893c-e326afa7e17b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial2"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/21e04f2f-d9d5-4c67-9fdc-5ab6d7ee29fe_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/21e04f2f-d9d5-4c67-9fdc-5ab6d7ee29fe_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial3"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/834af035-65c1-46f0-89dc-e2b768adc2f9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/834af035-65c1-46f0-89dc-e2b768adc2f9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial4"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/776498d0-4d93-4fcd-80d8-656c170fefb0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/776498d0-4d93-4fcd-80d8-656c170fefb0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial5"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial6"
             }
           ]
         },
@@ -11547,6 +11701,107 @@
           ]
         }
       ],
+      "minifacial": [
+        {
+          "title": "Mini Facial Near Moreno Valley | Quick Glow Facial | ART iBrow",
+          "description": "Refresh your skin with a Mini Facial at ART iBrow. This quick treatment cleanses, exfoliates, steams, masks, and moisturizes for a clean, smooth glow in under 30 minutes.",
+          "name": "Mini Facial",
+          "duration": "Under 30 Minutes",
+          "price": "$30",
+          "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4cbbb7e3-070d-4cf9-adc8-5af10dce0637_WhatsApp%20Image%202024-10-09%20at%2014.jpeg",
+          "para": [
+            "A mini facial is a quick, refreshing skincare treatment designed to cleanse, exfoliate, and rejuvenate the skin in a shorter time than a full facial. It includes a deep cleanse, gentle exfoliation, light steaming, a customized mask, and a finishing moisturizer, leaving your skin feeling clean, smooth, and glowing in under 30 minutes."
+          ],
+          "faq": [
+            {
+              "question": "1. What is a mini facial?",
+              "answer": "A mini facial is a quick, refreshing skincare treatment designed to cleanse, exfoliate, and rejuvenate the skin in less time than a full facial.",
+              "open": false
+            },
+            {
+              "question": "2. What is included in a mini facial?",
+              "answer": "A mini facial includes a deep cleanse, gentle exfoliation, light steaming, a customized mask, and a finishing moisturizer.",
+              "open": false
+            },
+            {
+              "question": "3. How long does a mini facial take?",
+              "answer": "A mini facial is designed to leave your skin clean, smooth, and glowing in under 30 minutes.",
+              "open": false
+            },
+            {
+              "question": "4. Who is a mini facial best for?",
+              "answer": "A mini facial is ideal for anyone who wants a quick skin refresh when they are short on time but still want visible results.",
+              "open": false
+            },
+            {
+              "question": "5. What results can I expect after a mini facial?",
+              "answer": "You can expect your skin to feel clean, smooth, refreshed, and glowing after the treatment.",
+              "open": false
+            }
+          ],
+          "benefits": [
+            {
+              "showDesc": false,
+              "title": "Quick Refresh",
+              "desc": "Perfect for busy schedules, a mini facial gives your skin a fresh boost in under 30 minutes."
+            },
+            {
+              "showDesc": false,
+              "title": "Deep Cleanse",
+              "desc": "The treatment helps remove surface buildup, leaving the skin feeling clean and renewed."
+            },
+            {
+              "showDesc": false,
+              "title": "Gentle Exfoliation",
+              "desc": "Light exfoliation smooths the skin and helps reveal a brighter-looking complexion."
+            },
+            {
+              "showDesc": false,
+              "title": "Customized Care",
+              "desc": "A tailored mask helps address your skin's immediate needs for a more personalized treatment."
+            },
+            {
+              "showDesc": false,
+              "title": "Instant Glow",
+              "desc": "Finishing hydration leaves the skin looking soft, smooth, and radiant right away."
+            }
+          ],
+          "callButton": "Call us to get a Quote",
+          "callLink": "tel:+1 951-777-8566",
+          "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dbbdfcd1-cb42-4a37-b2b0-63bd07b91d05_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dbbdfcd1-cb42-4a37-b2b0-63bd07b91d05_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/68641f3b-306b-4a52-893c-e326afa7e17b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/68641f3b-306b-4a52-893c-e326afa7e17b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial2"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/21e04f2f-d9d5-4c67-9fdc-5ab6d7ee29fe_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/21e04f2f-d9d5-4c67-9fdc-5ab6d7ee29fe_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial3"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/834af035-65c1-46f0-89dc-e2b768adc2f9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/834af035-65c1-46f0-89dc-e2b768adc2f9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial4"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/776498d0-4d93-4fcd-80d8-656c170fefb0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/776498d0-4d93-4fcd-80d8-656c170fefb0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial5"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "alt": "minifacial6"
+            }
+          ]
+        }
+      ],
       "microneedling": [
         {
           "title": "Best Microneedling&Beauty Services for Youthful Skin | ART iBrow",
@@ -12484,7 +12739,7 @@
           "description": "Dark lip neutralization is a specialized cosmetic procedure that helps lighten and balance lip pigmentation. It involves color correction techniques to restore a more natural and even lip tone, enhancing the overall appearance of the lips.",
           "name": "Dark Lip Neutralization",
           "duration": "2–3 Hours",
-          "price": "$255",
+          "price": "$270 & up",
           "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed770f2e-97e0-4b64-a33b-938c1da328a0_lip-naturalization-bg.webp",
           "para": [
             "Dark lip neutralization is a specialized cosmetic procedure that helps lighten and balance lip pigmentation. It involves color correction techniques to restore a more natural and even lip tone, enhancing the overall appearance of the lips.",
@@ -12928,9 +13183,9 @@
           "title": "Henna Brow Tinting | Expert Tinting & Beauty Services | ART iBrow",
           "description": "Experience expert henna brow tinting at ART iBrow. We offer eyebrow threading, microblading, facials, permanent makeup, and more beauty services for a perfect look.",
           "name": "Henna Brow Tinting",
-          "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/154ab561-6293-430c-9795-a9e47b54aed0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+          "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96f76352-0850-4341-98c4-537914c7893a_henna%20tint%20service%20page%20as%20before%20and%20after.jpeg",
           "galImg": [
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/154ab561-6293-430c-9795-a9e47b54aed0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96f76352-0850-4341-98c4-537914c7893a_henna%20tint%20service%20page%20as%20before%20and%20after.jpeg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0ee63b95-5d0d-46a9-b9c1-13e643ff0d1e_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/52495d74-ed05-41eb-bd41-fc798338ee49_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5dd27746-b27a-4f80-b382-90e6f3477d44_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
@@ -12944,11 +13199,14 @@
       ],
       "microblading": [
         {
-          "title": "Best  Eyebrow Microblading & Shading Near Moreno Valley | ART iBrow",
+          "title": "Best  Eyebrow Microblading, Shading, Ombre, & Nano Brows Near Moreno Valley | ART iBrow",
           "description": "Discover the best eyebrow microblading and shading near Moreno Valley at ART iBrow. Our services include threading, tinting, facials, and permanent makeup",
           "name": "Microblading",
           "bgImg": "",
           "galImg": [
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/feb792e5-c6e2-49ed-b29d-909e62665363_microblading1.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c2f7d460-f8f4-48cc-832e-f7e419391d56_microblading2.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4fdc10d6-5192-4279-a739-9b022866196e_microblading3.jpeg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7d110cc5-f6a5-4dec-9293-31313d2c7789_Microblading%20%26%20shading%20%282%29.jpg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5344a7bb-d2f2-432f-8973-a0edce107d53_Microblading%20%26%20shading%20%283%29.jpg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed358613-d4f0-40ce-8f94-2762f952e443_Microblading%20%26%20shading.jpg",
@@ -13068,6 +13326,23 @@
           "title": "Best Regular Facials Near You | Relaxing & Revitalizing Spa | Art iBrow",
           "description": "Revitalize your skin with our Best Regular Facials. Enjoy top beauty services like Threading, Eyebrow Tinting, Henna Brow Tinting, Microblading & more at ART iBrow.",
           "name": "Regular Facial",
+          "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4cbbb7e3-070d-4cf9-adc8-5af10dce0637_WhatsApp%20Image%202024-10-09%20at%2014.jpeg",
+          "galImg": [
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dbbdfcd1-cb42-4a37-b2b0-63bd07b91d05_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/68641f3b-306b-4a52-893c-e326afa7e17b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/21e04f2f-d9d5-4c67-9fdc-5ab6d7ee29fe_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/834af035-65c1-46f0-89dc-e2b768adc2f9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/776498d0-4d93-4fcd-80d8-656c170fefb0_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e17bcc99-768f-41fc-bbc3-05a4db7d654a_WhatsApp%20Image%202024-10-08%20at%2018.jpeg"
+          ],
+          "galVideos": []
+        }
+      ],
+      "minifacial": [
+        {
+          "title": "Mini Facial Near Moreno Valley | Quick Glow Facial | ART iBrow",
+          "description": "Refresh your skin with a Mini Facial at ART iBrow. This quick treatment cleanses, exfoliates, steams, masks, and moisturizes for a clean, smooth glow in under 30 minutes.",
+          "name": "Mini Facial",
           "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4cbbb7e3-070d-4cf9-adc8-5af10dce0637_WhatsApp%20Image%202024-10-09%20at%2014.jpeg",
           "galImg": [
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dbbdfcd1-cb42-4a37-b2b0-63bd07b91d05_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
@@ -13285,17 +13560,24 @@
           "name": "Hand Henna",
           "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9f7e0818-f4ae-41dd-91d8-ada20a64f77a_WhatsApp%20Image%202024-10-09%20at%2012.jpeg",
           "galImg": [
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/15364a64-8e53-4137-90f9-cf17d416e677_Hand%20Henna.png",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5a1c30f0-2d6e-4974-a91e-555b289a75d0_Hand%20Henna%20%282%29.png",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e9c4eb5b-e6cf-4301-afd3-ccdc2e94f8aa_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/82963b8e-6de4-4fe5-b69d-e7d3db9c4a7c_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/563b7f74-1d68-4453-b867-b89643e98951_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/aee2be12-81b4-45ed-ae51-e56033e550eb_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/bfe1804a-85e2-4037-bb97-cfa9a28732a0_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4b44bc3b-ca22-4570-b41c-9a644137074d_WhatsApp%20Image%202024-10-09%20at%2009.jpeg"
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/70a367e5-dc8f-4253-a639-b6b65f24fd7d_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dcbad1ed-dfa7-4868-9084-1dd7610072cd_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/540242f2-1968-49ff-8f2b-07ff2fd0624a_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/028a3fd8-10a8-4998-bccb-f44e85657589_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dd566375-11c2-476b-bcd6-d75083baf041_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d83e75c9-8b76-40e6-8f59-d27eb720baab_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed59dad5-82d7-486a-ba3d-1f25656a3caa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a0f22a2c-548d-466c-af7f-510f518ec4d4_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0c84e424-30ab-4254-be03-9f6ec8a8540b_handhenna1.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/12fea827-a81d-4f0b-a8e1-fa0896280f90_handhenna2.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/766682d9-a67d-446a-b64d-27060db96241_handhenna4.jpeg"
           ],
           "galVideos": [
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/05b6d5c4-9ed9-4134-b485-508e04ec641e_WhatsApp%20Video%202024-04-12%20at%208.mp4"
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ddb3e591-f64f-4cea-9fd1-da3dd40e6089_WhatsApp%20Video%202026-04-05%20at%2002.mp4",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8f5e1a6e-43dd-4ad8-ae72-bc4e18c9fd12_WhatsApp%20Video%202026-04-05%20at%2002.mp4",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/75fd2e50-a9c2-4ea2-baeb-921efe9d3f19_WhatsApp%20Video%202026-04-05%20at%2002.mp4",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/73f061f5-49c9-4060-9045-282dd7d76942_WhatsApp%20Video%202026-04-05%20at%2002.mp4",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/06d2b3cb-a3d8-4ea1-aa75-cf2c1ec06829_WhatsApp%20Video%202026-04-05%20at%2002.mp4"
           ]
         }
       ],
@@ -13329,16 +13611,22 @@
           "name": "Bridal Henna",
           "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1e814ae8-148d-44ed-bbbb-f380bdc6fecf_WhatsApp%20Image%202024-10-09%20at%2012.jpeg",
           "galImg": [
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7b64c062-4ce8-4785-b42b-6b8ac857e2b6_Bridal%20Henna.png",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/858e28f8-cc91-46c6-8364-8b4d3125166b_Bridal%20Henna%20%282%29.png",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f43aec5b-c2c3-479f-8727-ba38710741e6_compressed-1728446671153-d1d7ed49-677f-4fbe-a503-f3e2c0ea7f3f_Bridal%20Henna.png",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b76534ae-605f-4f9f-b29c-c7093fdbe4e1_compressed-1728446671577-e8c53ace-0139-47a2-8097-ff53c604ee8c_Bridal%20Henna%20%286%29.png",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a5099f70-c904-4832-92fc-7095713d12d5_compressed-1728446671914-06fa7d49-4b64-43a1-92cc-87a16395d271_Bridal%20Henna%20%285%29.png",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d83e75c9-8b76-40e6-8f59-d27eb720baab_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed59dad5-82d7-486a-ba3d-1f25656a3caa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a0f22a2c-548d-466c-af7f-510f518ec4d4_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3a1dac1a-9585-41a9-8c9d-8fa00c37b832_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/061c4c82-567d-40ce-871d-c832d929faaa_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/32d91d64-f70f-4098-a47c-84a9c1cc4e89_compressed-1728446672295-ff1e4a8e-a95e-4e45-aa8f-76750caf14d8_Bridal%20Henna%20%284%29.png",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d11493fe-53b0-4049-9f2a-4da706e176d4_compressed-1728446672736-9b739770-3c3a-4664-a953-1b81e4da0fcb_Bridal%20Henna%20%283%29.png",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3f444e21-2540-46ba-b544-ef790eaaf1af_compressed-1728446673046-cd069703-b1ce-4326-afea-b7b6e4d4174d_Bridal%20Henna%20%282%29.png"
           ],
-          "galVideos": []
+          "galVideos": [
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ddb3e591-f64f-4cea-9fd1-da3dd40e6089_WhatsApp%20Video%202026-04-05%20at%2002.mp4",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8f5e1a6e-43dd-4ad8-ae72-bc4e18c9fd12_WhatsApp%20Video%202026-04-05%20at%2002.mp4",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/75fd2e50-a9c2-4ea2-baeb-921efe9d3f19_WhatsApp%20Video%202026-04-05%20at%2002.mp4",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/73f061f5-49c9-4060-9045-282dd7d76942_WhatsApp%20Video%202026-04-05%20at%2002.mp4",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/06d2b3cb-a3d8-4ea1-aa75-cf2c1ec06829_WhatsApp%20Video%202026-04-05%20at%2002.mp4"
+          ]
         }
       ],
       "party-make-up": [
@@ -13890,8 +14178,8 @@
                   ],
                   "items": [
                     {
-                      "itemName": "Microblading & Shading",
-                      "alt": "Microblading & Shading",
+                      "itemName": "Microblading, Shading, Ombre, & Nano Brows",
+                      "alt": "Microblading, Shading, Ombre, & Nano Brows",
                       "itemPrice": "$360 Special (Regular $570 )",
                       "itemDescription": "Includes 1 Free Touchup & 2 Eyebrow Threading",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/839cfcc9-2f70-497c-8af0-efa25bccc471_Microblading%20%26%20Shading%20%282%29.png",
@@ -13959,6 +14247,15 @@
                       "galleryLink": "/gallery-two/regularfacial"
                     },
                     {
+                      "itemName": "Mini Facial",
+                      "alt": "Mini Facial",
+                      "itemDescription": "Quick cleanse, exfoliation, mask, and glow in under 30 minutes.",
+                      "itemPrice": "$30",
+                      "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e68828b6-be46-4746-84e7-142e1177c3f4_Regular%20Facial%20%282%29.png",
+                      "link": "/service/minifacial",
+                      "galleryLink": "/gallery-two/minifacial"
+                    },
+                    {
                       "itemName": "Dermaplaning with Facial",
                       "alt": "Dermaplaning with Facial",
                       "itemPrice": "$180",
@@ -14004,7 +14301,7 @@
                     {
                       "itemName": "Mole & Skin Tags Removal ",
                       "alt": "Mole & Skin Tags Removal ",
-                      "itemPrice": "$60 & Up",
+                      "itemPrice": "$50 & up",
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a1d396f5-5f2f-4048-a2f6-28ab363c4010_Mole%20%26%20Skin%20Tags%20Removal%20%282%29.png",
                       "link": "/service/mole-removal",
                       "galleryLink": "/gallery-two/mole-removal"
@@ -14058,10 +14355,11 @@
                   "categoryName": "Henna Tattoos",
                   "routeName": "Henna Tattoos",
                   "videos": [
-                    "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/05b6d5c4-9ed9-4134-b485-508e04ec641e_WhatsApp%20Video%202024-04-12%20at%208.mp4",
-                    "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/031f2dde-a111-41d9-bf53-6c1ccd605649_WhatsApp+Video+2024-04-12+at+8.mp4",
-                    "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81d8fd95-62ca-4fd9-b557-701cb38c69fe_WhatsApp%20Video%202024-04-12%20at%208.mp4",
-                    "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a692587c-bdec-423c-b755-652ee2f1ec2a_Body%20art%20henna.mp4"
+                    "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ddb3e591-f64f-4cea-9fd1-da3dd40e6089_WhatsApp%20Video%202026-04-05%20at%2002.mp4",
+                    "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8f5e1a6e-43dd-4ad8-ae72-bc4e18c9fd12_WhatsApp%20Video%202026-04-05%20at%2002.mp4",
+                    "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/75fd2e50-a9c2-4ea2-baeb-921efe9d3f19_WhatsApp%20Video%202026-04-05%20at%2002.mp4",
+                    "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/73f061f5-49c9-4060-9045-282dd7d76942_WhatsApp%20Video%202026-04-05%20at%2002.mp4",
+                    "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/06d2b3cb-a3d8-4ea1-aa75-cf2c1ec06829_WhatsApp%20Video%202026-04-05%20at%2002.mp4"
                   ],
                   "items": [
                     {
@@ -14126,7 +14424,7 @@
                     {
                       "itemName": "Women's Eyebrow Waxing",
                       "alt": "Women's Eyebrow Waxing",
-                      "itemPrice": "$60 & Up",
+                      "itemPrice": "$15",
                       "quantity": 0,
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2fbc29f4-2c6c-4533-ba32-eb525cad5ecb_image-20250522-115530.png",
                       "link": "/service/women-eyebrow-waxing",
@@ -14273,7 +14571,7 @@
                     {
                       "itemName": "Dark Lip Neutralization",
                       "alt": "Dark Lip Neutralization",
-                      "itemPrice": "$255 & Up",
+                      "itemPrice": "$270 & up",
                       "quantity": 0,
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed770f2e-97e0-4b64-a33b-938c1da328a0_lip-naturalization-bg.webp",
                       "link": "/service/dark-lip-neutralization",
