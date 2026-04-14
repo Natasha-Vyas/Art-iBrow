@@ -407,6 +407,11 @@
         ]
       },
       {
+        "text": "All Services",
+        "link": "/services",
+        "type": "internal"
+      },
+      {
         "text": "Pricing",
         "link": "/price/all",
         "type": "internal"
@@ -560,6 +565,11 @@
       {
         "text": "Home",
         "link": "/home",
+        "type": "internal"
+      },
+      {
+        "text": "All Services",
+        "link": "/services",
         "type": "internal"
       },
       {
@@ -14546,7 +14556,7 @@
                     {
                       "itemName": "Classic Eyebrow Lamination",
                       "alt": "Classic Eyebrow Lamination",
-                      "itemPrice": "$66 & Up",
+                      "itemPrice": "$66",
                       "quantity": 0,
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e00d01d5-a259-47f8-9ec9-2638ca855955_Eyebrow%20Lamination-1.jpg",
                       "link": "/service/classic-eyebrow-lamination",
@@ -14555,7 +14565,7 @@
                     {
                       "itemName": "Eyebrow Lamination with Tint",
                       "alt": "Eyebrow Lamination with Tint",
-                      "itemPrice": "$96 & Up",
+                      "itemPrice": "$96",
                       "quantity": 0,
                       "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d97bfea0-6a5b-43db-855d-19c11210bd7a_eyebrow-lamination-with-tint-bg.jpg",
                       "link": "/service/eyebrow-lamination-with-tint",
