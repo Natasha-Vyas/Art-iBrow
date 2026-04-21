@@ -17,20 +17,19 @@
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
         <!-- Mobile toggle button - only visible on mobile -->
         <div class="navbar-header mobile-only">
-            <button *ngIf="close" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                 data-target="#bs-example-navbar-collapse-1" (click)="change(!close)">
-                <!-- <span class="sr-only">Toggle navigation</span> -->
-                <span class="toggleMenu-btn icon-bar"></span>
-                <span class="toggleMenu-btn icon-bar"></span>
-                <span class="toggleMenu-btn icon-bar"></span>
-            </button>
-
-            <button *ngIf="!close" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1" (click)="change(!close)">
-                <!-- <span class="sr-only">Toggle navigation</span> -->
-                <span [style]="css.icon" class="material-symbols-outlined">
+                <span class="menu-toggle-label">Menu</span>
+                <ng-container *ngIf="close; else closeIcon">
+                    <span class="toggleMenu-btn icon-bar"></span>
+                    <span class="toggleMenu-btn icon-bar"></span>
+                    <span class="toggleMenu-btn icon-bar"></span>
+                </ng-container>
+                <ng-template #closeIcon>
+                    <span [style]="css.icon" class="material-symbols-outlined">
                     close
-                </span>
+                    </span>
+                </ng-template>
             </button>
         </div>
 
