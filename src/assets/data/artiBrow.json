@@ -4540,6 +4540,11 @@
           "callLink": "tel:+1 951-777-8566",
           "slider": [
             {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0935efac-8012-449b-babb-016bbc9f63f1_WhatsApp%20Image%202026-04-27%20at%2010.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0935efac-8012-449b-babb-016bbc9f63f1_WhatsApp%20Image%202026-04-27%20at%2010.jpeg",
+              "alt": "handhenna1"
+            },
+            {
               "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/70a367e5-dc8f-4253-a639-b6b65f24fd7d_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/70a367e5-dc8f-4253-a639-b6b65f24fd7d_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
               "alt": "handhenna1"
@@ -4711,6 +4716,11 @@
           "callButton": "Call us to get a Quote",
           "callLink": "tel:+1 951-777-8566",
           "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/85404ec2-d823-4d45-96eb-111c89c4cc78_WhatsApp%20Image%202026-04-27%20at%2010.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/85404ec2-d823-4d45-96eb-111c89c4cc78_WhatsApp%20Image%202026-04-27%20at%2010.jpeg",
+              "alt": "bodyhenna1"
+            },
             {
               "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/02a59c0e-b2e4-4726-bef4-00f8190e38a8_Body%20Henna%20%282%29.png",
               "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/02a59c0e-b2e4-4726-bef4-00f8190e38a8_Body%20Henna%20%282%29.png",
@@ -5208,6 +5218,11 @@
           "callButton": "Call us to get a Quote",
           "callLink": "tel:+1 951-777-8566",
           "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/85404ec2-d823-4d45-96eb-111c89c4cc78_WhatsApp%20Image%202026-04-27%20at%2010.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/85404ec2-d823-4d45-96eb-111c89c4cc78_WhatsApp%20Image%202026-04-27%20at%2010.jpeg",
+              "alt": "bodyhenna1"
+            },
             {
               "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/02a59c0e-b2e4-4726-bef4-00f8190e38a8_Body%20Henna%20%282%29.png",
               "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/02a59c0e-b2e4-4726-bef4-00f8190e38a8_Body%20Henna%20%282%29.png",
@@ -13564,6 +13579,7 @@
           "name": "Hand Henna",
           "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9f7e0818-f4ae-41dd-91d8-ada20a64f77a_WhatsApp%20Image%202024-10-09%20at%2012.jpeg",
           "galImg": [
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0935efac-8012-449b-babb-016bbc9f63f1_WhatsApp%20Image%202026-04-27%20at%2010.jpeg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7eb9448a-23a6-459a-ac22-0ef76babddd0_WhatsApp%20Image%202026-04-13%20at%2001.jpeg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/70a367e5-dc8f-4253-a639-b6b65f24fd7d_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dcbad1ed-dfa7-4868-9084-1dd7610072cd_WhatsApp%20Image%202026-04-05%20at%2002.jpeg",
@@ -13594,6 +13610,8 @@
           "name": "Body Henna",
           "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/02a59c0e-b2e4-4726-bef4-00f8190e38a8_Body%20Henna%20%282%29.png",
           "galImg": [
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/91b09062-a97b-4e7a-ad2c-28142becedd3_body_tatto1.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c965490f-906e-415f-8f01-f7ec02175116_body_tatto2.jpeg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/02a59c0e-b2e4-4726-bef4-00f8190e38a8_Body%20Henna%20%282%29.png",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6f9fbf4e-3cc9-461b-8326-16dff884492c_Body%20Henna.png",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/32f21b0d-056d-4fba-9ff6-efe2222bea6b_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
