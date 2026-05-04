@@ -56,8 +56,8 @@
       "alt": "Banner images"
     },
     {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/647f369f-36c9-42e1-be0e-e0efe467557e_69fd6a88-c86e-4d44-b6db-dd917e42cdb2_Microblading.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/647f369f-36c9-42e1-be0e-e0efe467557e_69fd6a88-c86e-4d44-b6db-dd917e42cdb2_Microblading.jpg",
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/984df5db-1a07-458e-a36c-9e14e96f13c7_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/984df5db-1a07-458e-a36c-9e14e96f13c7_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
       "alt": "Microblading"
     },
     {
@@ -2259,6 +2259,11 @@
           "callLink": "tel:+1 951-777-8566",
           "slider": [
             {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cfada8db-af7b-4bf9-9d73-708c8aea8498_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cfada8db-af7b-4bf9-9d73-708c8aea8498_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "alt": "skintightening1"
+            },
+            {
               "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/451221a8-b4f4-4485-9d88-cf66dc4c6c33_Skin%20Tightening%20%282%29.png",
               "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/451221a8-b4f4-4485-9d88-cf66dc4c6c33_Skin%20Tightening%20%282%29.png",
               "alt": "skintightening1"
@@ -2432,6 +2437,11 @@
           "callButton": "Call us to get a Quote",
           "callLink": "tel:+1 951-777-8566",
           "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/396d4745-4c0e-4290-9b8d-c05fa87f57d0_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/396d4745-4c0e-4290-9b8d-c05fa87f57d0_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "alt": "moleremoval1"
+            },
             {
               "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ddf01fca-37c6-47b4-9baf-71b54e551bfb_Mole%20%26%20Skin%20Tags%20Removal.png",
               "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ddf01fca-37c6-47b4-9baf-71b54e551bfb_Mole%20%26%20Skin%20Tags%20Removal.png",
@@ -2625,6 +2635,11 @@
           },
           "slider": [
             {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cfada8db-af7b-4bf9-9d73-708c8aea8498_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cfada8db-af7b-4bf9-9d73-708c8aea8498_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "alt": "skintightening1"
+            },
+            {
               "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/451221a8-b4f4-4485-9d88-cf66dc4c6c33_Skin%20Tightening%20%282%29.png",
               "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/451221a8-b4f4-4485-9d88-cf66dc4c6c33_Skin%20Tightening%20%282%29.png",
               "alt": "skintightening1"
@@ -2802,6 +2817,11 @@
           "callButton": "Call us to get a Quote",
           "callLink": "tel:+1 951-777-8566",
           "slider": [
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/396d4745-4c0e-4290-9b8d-c05fa87f57d0_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/396d4745-4c0e-4290-9b8d-c05fa87f57d0_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "alt": "moleremoval1"
+            },
             {
               "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ddf01fca-37c6-47b4-9baf-71b54e551bfb_Mole%20%26%20Skin%20Tags%20Removal.png",
               "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ddf01fca-37c6-47b4-9baf-71b54e551bfb_Mole%20%26%20Skin%20Tags%20Removal.png",
@@ -8986,48 +9006,63 @@
           "callLink": "tel:+1 951-777-8566",
           "slider": [
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7d110cc5-f6a5-4dec-9293-31313d2c7789_Microblading%20%26%20shading%20%282%29.jpg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7d110cc5-f6a5-4dec-9293-31313d2c7789_Microblading%20%26%20shading%20%282%29.jpg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f90ecb44-21ee-4c53-9c97-c7f4d1939d96_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f90ecb44-21ee-4c53-9c97-c7f4d1939d96_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading1"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5344a7bb-d2f2-432f-8973-a0edce107d53_Microblading%20%26%20shading%20%283%29.jpg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5344a7bb-d2f2-432f-8973-a0edce107d53_Microblading%20%26%20shading%20%283%29.jpg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f0969dca-65d8-4291-b209-d97d20eb242c_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f0969dca-65d8-4291-b209-d97d20eb242c_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "alt": "microblading1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/95c6b201-0c37-4f98-af92-4d073a35cbac_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/95c6b201-0c37-4f98-af92-4d073a35cbac_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "alt": "microblading1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5de427ad-52a4-478c-91e0-0abc650d7b4e_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5de427ad-52a4-478c-91e0-0abc650d7b4e_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "alt": "microblading1"
+            },
+            {
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/de082c92-7d42-4841-8132-467a1cd79532_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/de082c92-7d42-4841-8132-467a1cd79532_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading2"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed358613-d4f0-40ce-8f94-2762f952e443_Microblading%20%26%20shading.jpg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed358613-d4f0-40ce-8f94-2762f952e443_Microblading%20%26%20shading.jpg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/03106dce-1587-4f33-9255-2fdd716df5c4_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/03106dce-1587-4f33-9255-2fdd716df5c4_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading3"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/894d63cb-8783-4ebb-ad21-ea73d7311a25_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/894d63cb-8783-4ebb-ad21-ea73d7311a25_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5a7caa8e-6c6a-4652-bfd1-20bcf9848650_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5a7caa8e-6c6a-4652-bfd1-20bcf9848650_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading4"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/247d76cc-b432-4f5b-a7a7-26f8871fb3d9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/247d76cc-b432-4f5b-a7a7-26f8871fb3d9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3fad5505-5ed6-4fc5-9d10-5cf25fa122c0_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3fad5505-5ed6-4fc5-9d10-5cf25fa122c0_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading5"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e4d52745-3d20-44ff-a11b-4985a436db1b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e4d52745-3d20-44ff-a11b-4985a436db1b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8338a600-af03-40a6-9953-d9a9b84fa30f_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8338a600-af03-40a6-9953-d9a9b84fa30f_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading6"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/89faf008-f50d-4081-a84d-a1e5c4ef2a12_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/89faf008-f50d-4081-a84d-a1e5c4ef2a12_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/984df5db-1a07-458e-a36c-9e14e96f13c7_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/984df5db-1a07-458e-a36c-9e14e96f13c7_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading7"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/963675d6-26b3-4498-848d-ba3b20dab543_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/963675d6-26b3-4498-848d-ba3b20dab543_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6103df0b-1daf-4c57-920a-46aefb1878b5_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6103df0b-1daf-4c57-920a-46aefb1878b5_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading8"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/25c36376-5720-4c2c-a8af-d10c7c2d249f_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/25c36376-5720-4c2c-a8af-d10c7c2d249f_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/51d17742-5557-4b77-8d07-f0d7df683d97_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/51d17742-5557-4b77-8d07-f0d7df683d97_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading9"
             }
           ]
@@ -9489,63 +9524,63 @@
           "callLink": "tel:+1 951-777-8566",
           "slider": [
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/feb792e5-c6e2-49ed-b29d-909e62665363_microblading1.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/feb792e5-c6e2-49ed-b29d-909e62665363_microblading1.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f90ecb44-21ee-4c53-9c97-c7f4d1939d96_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f90ecb44-21ee-4c53-9c97-c7f4d1939d96_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading1"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c2f7d460-f8f4-48cc-832e-f7e419391d56_microblading2.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c2f7d460-f8f4-48cc-832e-f7e419391d56_microblading2.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f0969dca-65d8-4291-b209-d97d20eb242c_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f0969dca-65d8-4291-b209-d97d20eb242c_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading1"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4fdc10d6-5192-4279-a739-9b022866196e_microblading3.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4fdc10d6-5192-4279-a739-9b022866196e_microblading3.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/95c6b201-0c37-4f98-af92-4d073a35cbac_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/95c6b201-0c37-4f98-af92-4d073a35cbac_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading1"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7d110cc5-f6a5-4dec-9293-31313d2c7789_Microblading%20%26%20shading%20%282%29.jpg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7d110cc5-f6a5-4dec-9293-31313d2c7789_Microblading%20%26%20shading%20%282%29.jpg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5de427ad-52a4-478c-91e0-0abc650d7b4e_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5de427ad-52a4-478c-91e0-0abc650d7b4e_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading1"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5344a7bb-d2f2-432f-8973-a0edce107d53_Microblading%20%26%20shading%20%283%29.jpg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5344a7bb-d2f2-432f-8973-a0edce107d53_Microblading%20%26%20shading%20%283%29.jpg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/de082c92-7d42-4841-8132-467a1cd79532_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/de082c92-7d42-4841-8132-467a1cd79532_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading2"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed358613-d4f0-40ce-8f94-2762f952e443_Microblading%20%26%20shading.jpg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed358613-d4f0-40ce-8f94-2762f952e443_Microblading%20%26%20shading.jpg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/03106dce-1587-4f33-9255-2fdd716df5c4_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/03106dce-1587-4f33-9255-2fdd716df5c4_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading3"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/894d63cb-8783-4ebb-ad21-ea73d7311a25_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/894d63cb-8783-4ebb-ad21-ea73d7311a25_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5a7caa8e-6c6a-4652-bfd1-20bcf9848650_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5a7caa8e-6c6a-4652-bfd1-20bcf9848650_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading4"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/247d76cc-b432-4f5b-a7a7-26f8871fb3d9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/247d76cc-b432-4f5b-a7a7-26f8871fb3d9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3fad5505-5ed6-4fc5-9d10-5cf25fa122c0_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3fad5505-5ed6-4fc5-9d10-5cf25fa122c0_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading5"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e4d52745-3d20-44ff-a11b-4985a436db1b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e4d52745-3d20-44ff-a11b-4985a436db1b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8338a600-af03-40a6-9953-d9a9b84fa30f_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8338a600-af03-40a6-9953-d9a9b84fa30f_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading6"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/89faf008-f50d-4081-a84d-a1e5c4ef2a12_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/89faf008-f50d-4081-a84d-a1e5c4ef2a12_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/984df5db-1a07-458e-a36c-9e14e96f13c7_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/984df5db-1a07-458e-a36c-9e14e96f13c7_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading7"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/963675d6-26b3-4498-848d-ba3b20dab543_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/963675d6-26b3-4498-848d-ba3b20dab543_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6103df0b-1daf-4c57-920a-46aefb1878b5_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6103df0b-1daf-4c57-920a-46aefb1878b5_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading8"
             },
             {
-              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/25c36376-5720-4c2c-a8af-d10c7c2d249f_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/25c36376-5720-4c2c-a8af-d10c7c2d249f_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
+              "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/51d17742-5557-4b77-8d07-f0d7df683d97_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+              "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/51d17742-5557-4b77-8d07-f0d7df683d97_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
               "alt": "microblading9"
             }
           ]
@@ -13224,18 +13259,18 @@
           "name": "Microblading",
           "bgImg": "",
           "galImg": [
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/feb792e5-c6e2-49ed-b29d-909e62665363_microblading1.jpeg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c2f7d460-f8f4-48cc-832e-f7e419391d56_microblading2.jpeg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4fdc10d6-5192-4279-a739-9b022866196e_microblading3.jpeg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7d110cc5-f6a5-4dec-9293-31313d2c7789_Microblading%20%26%20shading%20%282%29.jpg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5344a7bb-d2f2-432f-8973-a0edce107d53_Microblading%20%26%20shading%20%283%29.jpg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed358613-d4f0-40ce-8f94-2762f952e443_Microblading%20%26%20shading.jpg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/894d63cb-8783-4ebb-ad21-ea73d7311a25_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/247d76cc-b432-4f5b-a7a7-26f8871fb3d9_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e4d52745-3d20-44ff-a11b-4985a436db1b_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/89faf008-f50d-4081-a84d-a1e5c4ef2a12_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/963675d6-26b3-4498-848d-ba3b20dab543_WhatsApp%20Image%202024-10-08%20at%2018.jpeg",
-            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/25c36376-5720-4c2c-a8af-d10c7c2d249f_WhatsApp%20Image%202024-10-08%20at%2018.jpeg"
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f90ecb44-21ee-4c53-9c97-c7f4d1939d96_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f0969dca-65d8-4291-b209-d97d20eb242c_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/95c6b201-0c37-4f98-af92-4d073a35cbac_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5de427ad-52a4-478c-91e0-0abc650d7b4e_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/de082c92-7d42-4841-8132-467a1cd79532_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/03106dce-1587-4f33-9255-2fdd716df5c4_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5a7caa8e-6c6a-4652-bfd1-20bcf9848650_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3fad5505-5ed6-4fc5-9d10-5cf25fa122c0_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8338a600-af03-40a6-9953-d9a9b84fa30f_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/984df5db-1a07-458e-a36c-9e14e96f13c7_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6103df0b-1daf-4c57-920a-46aefb1878b5_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/51d17742-5557-4b77-8d07-f0d7df683d97_WhatsApp%20Image%202026-04-30%20at%2005.jpeg"
           ],
           "galVideos": [
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b5602527-06a9-4621-aa4c-99c3454c3580_WhatsApp%20Video%202024-04-12%20at%208.mp4",
@@ -13456,6 +13491,7 @@
           "name": "Skin Tightening",
           "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/451221a8-b4f4-4485-9d88-cf66dc4c6c33_Skin%20Tightening%20%282%29.png",
           "galImg": [
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cfada8db-af7b-4bf9-9d73-708c8aea8498_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/451221a8-b4f4-4485-9d88-cf66dc4c6c33_Skin%20Tightening%20%282%29.png",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/143a1b73-2936-4c05-a2c5-f767f4cc8013_Lip%20Liner%20%282%29.jpg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96210287-9b13-4175-97d3-8f3bacb90c0f_Lip%20Liner%20%283%29.jpg",
@@ -13480,6 +13516,7 @@
           "name": "Mole & Skin Tags Removal",
           "bgImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0ef71d75-d684-46a1-bee6-fe648c160dc7_e74a7aa5-3ab5-4ebf-9d4a-289d9729810c_1a89b9b7-8560-47ae-a95b-54dbc51710ab_0656e1af-69ad-408a-b6fd-d4bd0652e5ce_image-20240415-100549%20%282%29%20%281%29.png",
           "galImg": [
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/396d4745-4c0e-4290-9b8d-c05fa87f57d0_WhatsApp%20Image%202026-04-30%20at%2005.jpeg",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ddf01fca-37c6-47b4-9baf-71b54e551bfb_Mole%20%26%20Skin%20Tags%20Removal.png",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/bd4b7cbb-cc61-4324-9947-cdaa47254f4c_Mole%20%26%20Skin%20Tags%20Removal%20%282%29.png",
             "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1bf3fdc3-68d2-4930-bb5d-2db930f0e3b1_WhatsApp%20Image%202024-10-09%20at%2009.jpeg",
